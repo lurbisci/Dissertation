@@ -1,0 +1,12 @@
+\contentsline {chapter}{Curriculum Vitae}{viii}{Doc-Start}
+\contentsline {chapter}{Abstract}{xii}{Doc-Start}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {chapter}{\numberline {2}Tangled is the web we weave}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Introduction}{3}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Origin and conceptualization of transfer efficiency}{3}{subsection.2.1.1}
+\contentsline {chapter}{\numberline {3}Chapter 2 Title}{41}{chapter.3}
+\contentsline {section}{\numberline {3.1}Section Title}{41}{section.3.1}
+\contentsline {chapter}{\numberline {4}Chapter 3 Title}{42}{chapter.4}
+\contentsline {section}{\numberline {4.1}Section Title}{42}{section.4.1}
+\contentsline {chapter}{\numberline {A}Appendix Title }{43}{appendix.A}
+\contentsline {section}{\numberline {A.1}Section Title}{43}{section.A.1}
