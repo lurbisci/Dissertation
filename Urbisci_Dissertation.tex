@@ -25,6 +25,7 @@
 \usepackage{booktabs}
 \usepackage{float}
 \usepackage{multirow}
+\usepackage{rotating}
 
 
 %---New Definitions and Commands------------------------------------------------------
@@ -573,7 +574,7 @@ We based the distributional assumptions for Case 1 of the transfer efficiencies 
 
 \vspace{5mm}
 
-In Case 1 for $f(\lambda_2)$, $f(\lambda_3)$, and $f(\lambda_4)$, the values of $c_3=5.75$ years, $c_4=6$ years, and $c_5=11.95$ years were calculated by taking the median of the maximum expected lifespan data at each trophic level $h$. When lifespans ($\lambda_h$ for $h \in \{2, 3, 4\}$) are treated as random variables (non-constant), we chose approximate distributions based on goodness-of-fit tests \cite{fitdistrplus} (Fig. \ref{distassump}). Details of the SARIMA model and the steps taken to estimate the parameters in the Lognormal and Beta distributions in Table \ref{assumcases} are in Appendix \label{appendix:b}.
+In Case 1 for $f(\lambda_2)$, $f(\lambda_3)$, and $f(\lambda_4)$, the values of $c_3=5.75$ years, $c_4=6$ years, and $c_5=11.95$ years were calculated by taking the median of the maximum expected lifespan data at each trophic level $h$. When lifespans ($\lambda_h$ for $h \in \{2, 3, 4\}$) are treated as random variables (non-constant), we chose approximate distributions based on goodness-of-fit tests \cite{fitdistrplus} (Fig. \ref{distassump}). Details of the SARIMA model and the steps taken to estimate the parameters in the Lognormal and Beta distributions in Table \ref{assumcases} are in Appendix \ref{appendix:b}.
    
 \begin{table}[H]
 \centering
@@ -655,7 +656,7 @@ We combine distributional assumptions on the components of Eq. (\ref{joint}) cor
 \end{table}
 
 \subsection*{Simulation Details}
-We were able to find equations for the distribution of $\gamma_h$ for $h \in \{2, 3, 4\}$ based on the transformation of parameters in Eq. (\ref{joint}) for Scenarios NTl and nTl. For details see Appendix \label{appendix:b}. Given the current distributional assumptions placed on NPP ($f(\nu)$), transfer efficiencies ($f(\tau_h)$), and lifespans ($f(\lambda_h)$ for $h \in \{2, 3, 4\}$), we used simulations for the other six scenarios. Scenario NTL is a deterministic equation and therefore does not need simulation. We ran one million simulations for the other scenarios. 
+We were able to find equations for the distribution of $\gamma_h$ for $h \in \{2, 3, 4\}$ based on the transformation of parameters in Eq. (\ref{joint}) for Scenarios NTl and nTl. For details see Appendix \ref{appendix:b}. Given the current distributional assumptions placed on NPP ($f(\nu)$), transfer efficiencies ($f(\tau_h)$), and lifespans ($f(\lambda_h)$ for $h \in \{2, 3, 4\}$), we used simulations for the other six scenarios. Scenario NTL is a deterministic equation and therefore does not need simulation. We ran one million simulations for the other scenarios. 
 
 \vspace{5mm}
 
@@ -780,7 +781,7 @@ We selected the optimal number of number of nodes using cross validation. The be
 \end{figure}
 
 \section{Fitting approximate distributions}
-In the Monte Carlo simulations, we randomly drew from an approximate distribution that was fitted to the marine transfer efficiency data. In order to determine an approximate distribution for the marine transfer efficiency data, we ran goodness-of-fit tests. We started off with a skewness-kurtosis plot (Figure \ref{cf_te}) to initially decide which distributions to consider (i.e., Beta and Gamma) \cite{fitdistrplus}. Then we fitted individual distributions to the data using maximum likelihood estimation and compared density plots of the fitted distributions to the histogram of the empirical distribution, a cumulative distribution (CDF) plot of both the empirical distribution and the fitted distributions, Q-Q plots, and P-P plots (Figure \ref{gof_te}). Lastly, we used both AIC and BIC criterion to choose the most approximate distribution (Table \ref{te_aic}). While the Gamma distribution was a reasonable choice. We preferred the Beta distribution because, like percentages, it is defined within the range [0, 1]. Therefore, we concluded that a $Beta(\alpha = 1.90, \beta = 13.36$) distribution was the most appropriate approximate distribution. 
+In the Monte Carlo simulations, we randomly drew from an approximate distribution that was fitted to the marine transfer efficiency data. In order to determine an approximate distribution for the marine transfer efficiency data, we ran goodness-of-fit tests. We started off with a skewness-kurtosis plot (Figure \ref{cf_te_a1}) to initially decide which distributions to consider (i.e., Beta and Gamma) \cite{fitdistrplus}. Then we fitted individual distributions to the data using maximum likelihood estimation and compared density plots of the fitted distributions to the histogram of the empirical distribution, a cumulative distribution (CDF) plot of both the empirical distribution and the fitted distributions, Q-Q plots, and P-P plots (Figure \ref{gof_te_a1}). Lastly, we used both AIC and BIC criterion to choose the most approximate distribution (Table \ref{te_aic_a1}). While the Gamma distribution was a reasonable choice. We preferred the Beta distribution because, like percentages, it is defined within the range [0, 1]. Therefore, we concluded that a $Beta(\alpha = 1.90, \beta = 13.36$) distribution was the most appropriate approximate distribution. 
 
 \begin{table}[H]
 \centering
@@ -793,21 +794,21 @@ In the Monte Carlo simulations, we randomly drew from an approximate distributio
    Bayesian Information Criterion (BIC) & -348.96 &  -363.99  \\
    \hline
 \end{tabular} 
-\label{te_aic}
+\label{te_aic_a1}
 \end{table}
 
 \begin{figure}[H]
      \centering
        \includegraphics[width=.8\textwidth]{fig/cullen_frey_te}
     \caption{Visualizes all potential continuous distributions against the marine transfer data and bootstrapped data. The figure shows it potentially follows a Beta and Gamma distribution. Plot created using R v.3.4.3 \cite{Rcite} fitdistrplus package v.$1.0-9$ \cite{fitdistrplus}. }
-    \label{cf_te}
+    \label{cf_te_a1}
 \end{figure}
 
 \begin{figure}[H]
      \centering
        \includegraphics[width=.8\textwidth]{fig/gof_te}
     \caption{Density plots of the fitted distributions to the histogram of the empirical distribution using the marine transfer efficiency data, a CDF plot of both the empirical distribution and the fitted distributions (for the Beta and Gamma choices), Q-Q plots, and P-P plots. Plot created using R v.3.4.3 \cite{Rcite} fitdistrplus package v.$1.0-9$ \cite{fitdistrplus}. }
-    \label{gof_te}
+    \label{gof_te_a1}
 \end{figure}
 
 \section{SeaWiFS}
@@ -893,9 +894,370 @@ In Eq. \ref{sarima}, $X_t$ is the total NPP estimated across the MHI in 8-day ti
 \label{sarima_parameters}
 \end{table}
 
+\subsubsection{Simulation Setting}
+While in Case 1 ($f^1(\nu)$) $\nu$ is treated as a fixed constant, in Case 2 ($f^2(\nu)$) $\nu$ is a random variable. In order to determine an approximate distribution for $\nu$, we ran goodness-of-fit tests on the SeaWiFS NPP data. We started off with a skewness-kurtosis plot (Fig. \ref{SeaWiFSgof}) to initially decide which distributions to consider (i.e., Lognormal, Weibull, and Gamma) \cite{fitdistrplus}. Then we fitted individual distributions to the data using maximum likelihood estimation and compared density plots of the fitted distributions to the histogram of the empirical distribution, a cumulative distribution (CDF) plot of both the empirical distribution and the fitted distributions, Q-Q plots, and P-P plots (Fig. \ref{SeaWiFSgof2}). Lastly, we used both AIC and BIC criterion to choose the most approximate distribution (Table \ref{seawifs_aic}). From there, we concluded that the Lognormal distribution was the most appropriate approximate distribution. The Lognormal distribution has two parameters $\mu$ and $\sigma^2$ and is defined within the range for $\nu > 0$. The probability distribution function (PDF) and equations for the mean and variance of a Lognormal distribution can be found in Table \ref{distributions}.
+
+\begin{table}[H]
+\centering
+\caption{Goodness-of-fit criteria for SeaWiFS NPP data}
+\begin{tabular}{r|c|c|c}
+  \hline \small
+ Goodness-of-fit criteria & Lognormal & Weibell & Gamma \\ 
+   \hline
+   Akaike's Information Criterion (AIC) & 15997.97 & 16192.32 & 16007.49 \\   
+   Bayesian Information Criterion (BIC) & 16006.23 & 16200.58 & 16015.75 \\
+   \hline
+\end{tabular} 
+\label{seawifs_aic}
+\end{table}
+
+\begin{figure}[H]
+     \centering
+       \includegraphics[width=.7\textwidth]{fig/Scen2gof}
+    \caption{Visualizes all potential continuous distributions against the SeaWiFS data and bootstrapped data. The figure shows it potentially follows a Gamma, Weibull, and Lognormal distribution. It also appears Beta could be a reasonable choice, but the SeaWiFS data is not constricted between 0 and 1. Therefore Beta is ruled out as a potential distribution. Plot created using R v.3.4.3 \cite{Rcite} fitdistrplus package v.$1.0-9$ \cite{fitdistrplus}. }
+    \label{SeaWiFSgof}
+\end{figure}
+
+\begin{figure}[H]
+     \centering
+       \includegraphics[width=.7\textwidth]{fig/Scen2gof2}
+    \caption{Density plots of the fitted distributions to the histogram of the empirical distribution, a CDF plot of both the empirical distribution and the fitted distributions (Gamma, Weibull, and Lognormal), Q-Q plots, and P-P plots. Plot created using R v.3.4.3 \cite{Rcite} fitdistrplus package v.$1.0-9$ \cite{fitdistrplus}. }
+    \label{SeaWiFSgof2}
+\end{figure}
+
+\subsection{Transfer Efficiency}
+We utilized data gathered from a literature review on transfer efficiencies to fit approximate distributions for Case 2 and 3 of the transfer efficiencies ($\tau_h$). The data includes articles that mentioned both food web and transfer efficiency and then selected from these studies those that included data whether model-based or empirical. Case 2 used all of the marine data (i.e., both model-based and empirical) to fit a distribution. The resulting distributional assumption was placed on transfer efficiencies ($\tau_h$) for all trophic levels $h \in \{2, 3, 4\}$. Case 3 subsetted the marine transfer efficiency data by trophic level $h$ in order to place distinct distributional assumptions on transfer efficiencies at each trophic level. In order to determine approximate distributions for each of the cases, we ran goodness-of-fit tests. We started off with skewness-kurtosis plots (Fig. \ref{cf_te_a2}, \ref{cf_te2}, \ref{cf_te3}, and \ref{cf_te4}) to initially decide which distributions to consider (i.e., Beta and Gamma) \cite{fitdistrplus}. Then we fitted individual distributions to the data using maximum likelihood estimation and compared density plots of the fitted distributions to the histogram of the empirical distribution, a cumulative distribution (CDF) plot of both the empirical distribution and the fitted distributions, Q-Q plots, and P-P plots (Fig. \ref{gof_te_a2}, \ref{gof_te2}, \ref{gof_te3}, and \ref{gof_te4}). Lastly, we used both AIC and BIC criterion to choose the most approximate distribution (Table \ref{te_aic_a2}, \ref{te2_aic}, \ref{te3_aic}, and \ref{te4_aic}). While the Gamma distribution was a reasonable choice, we preferred the Beta distribution, because the transfer efficiency is a percentage and the Beta distribution is defined within the range [0, 1]. Therefore, we concluded that for both Case 2 and 3 the Beta distribution was the most appropriate approximate distribution. Each data set used in Case 2 and 3 have distinct values for the shape parameters $\alpha$ and $\beta$. The probability distribution function (PDF) and equations for the mean and variance of a Beta distribution can be found in Table \ref{distributions}.
+
+\begin{table}[H]
+\centering
+\caption{Goodness-of-fit criteria for transfer efficiency data}
+\begin{tabular}{r|c|c}
+  \hline \small
+ Goodness-of-fit criteria & Beta  & Gamma \\ 
+   \hline
+   Akaike's Information Criterion (AIC) & -354.94 & -369.97 \\   
+   Bayesian Information Criterion (BIC) & -348.96 &  -363.99  \\
+   \hline
+\end{tabular} 
+\label{te_aic_a2}
+\end{table}
+
+\begin{figure}[H]
+     \centering
+       \includegraphics[width=.8\textwidth]{fig/cullen_frey_te}
+    \caption{Visualizes all potential continuous distributions against the marine transfer data (Case 2) and bootstrapped data. The figure shows it potentially follows a Beta and Gamma distribution. Plot created using R v.3.4.3 \cite{Rcite} fitdistrplus package v.$1.0-9$ \cite{fitdistrplus}. }
+    \label{cf_te_a2}
+\end{figure}
+
+\begin{figure}[H]
+     \centering
+       \includegraphics[width=.8\textwidth]{fig/gof_te}
+    \caption{Density plots of the fitted distributions to the histogram of the empirical distribution using the marine transfer efficiency data (Case 2), a CDF plot of both the empirical distribution and the fitted distributions (Beta and Gamma), Q-Q plots, and P-P plots. Plot created using R v.3.4.3 \cite{Rcite} fitdistrplus package v.$1.0-9$ \cite{fitdistrplus}. }
+    \label{gof_te_a2}
+\end{figure}
+
+\begin{table}[H]
+\centering
+\caption{Goodness-of-fit criteria for transfer efficiency data at trophic level 2}
+\begin{tabular}{r|c|c}
+  \hline \small
+ Goodness-of-fit criteria & Beta  & Gamma \\ 
+   \hline
+   Akaike's Information Criterion (AIC) & -39.22 & -44.05 \\   
+   Bayesian Information Criterion (BIC) & -36.48 &  -41.32  \\
+   \hline
+\end{tabular} 
+\label{te2_aic}
+\end{table}
+
+\begin{figure}[H]
+     \centering
+       \includegraphics[width=.8\textwidth]{fig/cullen_frey_te2}
+    \caption{Visualizes all potential continuous distributions against the marine transfer data for trophic level 2 (Case 3) and bootstrapped data. The figure shows it potentially follows a Beta distribution. Plot created using R v.3.4.3 \cite{Rcite} fitdistrplus package v.$1.0-9$ \cite{fitdistrplus}. }
+    \label{cf_te2}
+\end{figure}
+
+\begin{figure}[H]
+     \centering
+       \includegraphics[width=.8\textwidth]{fig/gof_te2}
+    \caption{Density plots of the fitted distributions to the histogram of the empirical distribution using the marine transfer efficiency data for trophic level 2 (Case 3), a CDF plot of both the empirical distribution and the fitted distributions (Beta and Gamma), Q-Q plots, and P-P plots. Plot created using R v.3.4.3 \cite{Rcite} fitdistrplus package v.$1.0-9$ \cite{fitdistrplus}. }
+    \label{gof_te2}
+\end{figure}
+
+\begin{table}[H]
+\centering
+\caption{Goodness-of-fit criteria for transfer efficiency data at trophic level 3}
+\begin{tabular}{r|c|c}
+  \hline \small
+ Goodness-of-fit criteria & Beta  & Gamma \\ 
+   \hline
+   Akaike's Information Criterion (AIC) & -25.73 & -25.90 \\   
+   Bayesian Information Criterion (BIC) & -24.94 &  -25.11  \\
+   \hline
+\end{tabular} 
+\label{te3_aic}
+\end{table}
+
+\begin{figure}[H]
+     \centering
+       \includegraphics[width=.8\textwidth]{fig/cullen_frey_te3}
+    \caption{Visualizes all potential continuous distributions against the marine transfer data for trophic level 3 (Case 3) and bootstrapped data. The figure shows it potentially follows a Beta distribution. Plot created using R v.3.4.3 \cite{Rcite} fitdistrplus package v.$1.0-9$ \cite{fitdistrplus}. }
+    \label{cf_te3}
+\end{figure}
+
+\begin{figure}[H]
+     \centering
+       \includegraphics[width=.8\textwidth]{fig/gof_te3}
+    \caption{Density plots of the fitted distributions to the histogram of the empirical distribution using the marine transfer efficiency data for trophic level 3 (Case 3), a CDF plot of both the empirical distribution and the fitted distributions (Beta and Gamma), Q-Q plots, and P-P plots. Plot created using R v.3.4.3 \cite{Rcite} fitdistrplus package v.$1.0-9$ \cite{fitdistrplus}. }
+    \label{gof_te3}
+\end{figure}
+
+\begin{table}[H]
+\centering
+\caption{Goodness-of-fit criteria for transfer efficiency data at trophic level 4}
+\begin{tabular}{r|c|c}
+  \hline \small
+ Goodness-of-fit criteria & Beta  & Gamma \\ 
+   \hline
+   Akaike's Information Criterion (AIC) & -9.54 & -10.32 \\   
+   Bayesian Information Criterion (BIC) & -9.73 &  -10.51  \\
+   \hline
+\end{tabular} 
+\label{te4_aic}
+\end{table}
+
+\begin{figure}[H]
+     \centering
+       \includegraphics[width=.8\textwidth]{fig/cullen_frey_te4}
+    \caption{Visualizes all potential continuous distributions against the marine transfer data for trophic level 4 (Case 3) and bootstrapped data. The figure shows it potentially follows a Beta distribution. Plot created using R v.3.4.3 \cite{Rcite} fitdistrplus package v.$1.0-9$ \cite{fitdistrplus}. }
+    \label{cf_te4}
+\end{figure}
+
+\begin{figure}[H]
+     \centering
+       \includegraphics[width=.8\textwidth]{fig/gof_te4}
+    \caption{Density plots of the fitted distributions to the histogram of the empirical distribution using the marine transfer efficiency data for trophic level 4 (Case 3), a CDF plot of both the empirical distribution and the fitted distributions (Beta and Gamma), Q-Q plots, and P-P plots. Plot created using R v.3.4.3 \cite{Rcite} fitdistrplus package v.$1.0-9$ \cite{fitdistrplus}. }
+    \label{gof_te4}
+\end{figure}
+
+\subsection{FishBase}
+\subsubsection{Trophic Level}
+Estimated trophic levels (rational numbers) were calculated from the FishBase database (\url{http://www.fishbase.org/}) for each species and truncated to cluster species into integer-valued trophic levels. Truncated trophic levels range in the MHI from $h=1,\dots,4$ with $h=1$ representing phytoplankton, $h=2$ primary consumers, $h=3$ secondary consumers, and $h=4$ tertiary consumers. If the rational number was greater than or equal to 4, then the organism was put into trophic level 4, if it was less than 4 and greater than or equal to 3 it was put into trophic level 3, and if it was less than 3 it was put into trophic level 2. The number of species found at each trophic level were not equal.
+
+\subsubsection{Maximum Expected Lifespan}
+The maximum expected lifespan $\lambda_h$ for species at trophic level $h = 2, 3, 4$ was treated as a random value in Case 2. We ran goodness-of-fit tests for each level of $h$ to find an approximate distribution. We started off with a skewness-kurtosis plot (Fig. \ref{cf_l2}, \ref{cf_l3}, and \ref{cf_l4}) to initially decide which distributions to consider (i.e., Lognormal, Weibull, and Gamma) \cite{fitdistrplus}. Then we fitted individual distributions to the data using maximum likelihood estimation and compared density plots of the fitted distributions to the histogram of the empirical distribution, a cumulative distribution (CDF) plot of both the empirical distribution and the fitted distributions, Q-Q plots, and P-P plots (Fig. \ref{gof_l2}, \ref{gof_l3}, and \ref{gof_l4}). Lastly, we used AIC and BIC criterion to choose the most approximate distribution (Table \ref{l2_aic}, \ref{l3_aic}, and \ref{l4_aic}). We found for all trophic levels the most appropriate approximate distribution was a Lognormal distribution, where each trophic level has distinct values for $\mu$ and $\sigma^2$. 
+
+\begin{table}[H]
+\centering
+\caption{Goodness-of-fit criteria for maximum expected lifespan data at trophic level 2}
+\begin{tabular}{r|c|c|c}
+  \hline \small
+ Goodness-of-fit criteria & Lognormal & Weibell & Gamma \\ 
+   \hline
+   Akaike's Information Criterion (AIC) & 558.43 & 580.58 & 571.93 \\   
+   Bayesian Information Criterion (BIC) & 563.55 & 585.71 & 577.06 \\
+   \hline
+\end{tabular} 
+\label{l2_aic}
+\end{table}
+
+\begin{figure}[H]
+     \centering
+       \includegraphics[width=.8\textwidth]{fig/cullen_frey_l2}
+    \caption{Visualizes all potential continuous distributions against the maximum expected lifespan data for trophic level 2 and bootstrapped data. The figure shows it potentially follows a Gamma, Weibull, and Lognormal distribution. Plot created using R v.3.4.3 \cite{Rcite} fitdistrplus package v.$1.0-9$ \cite{fitdistrplus}. }
+    \label{cf_l2}
+\end{figure}
+
+\begin{figure}[H]
+     \centering
+       \includegraphics[width=.8\textwidth]{fig/gof_l2}
+    \caption{Density plots of the fitted distributions to the histogram of the empirical distribution using the maximum expected lifespan data for trophic level 2, a CDF plot of both the empirical distribution and the fitted distributions (Gamma, Weibull, and Lognormal), Q-Q plots, and P-P plots. Plot created using R v.3.4.3 \cite{Rcite} fitdistrplus package v.$1.0-9$ \cite{fitdistrplus}. }
+    \label{gof_l2}
+\end{figure}
+
+\begin{table}[H]
+\centering
+\caption{Goodness-of-fit criteria for maximum expected lifespan data at trophic level 3}
+\begin{tabular}{r|c|c|c}
+  \hline \small
+ Goodness-of-fit criteria & Lognormal & Weibell & Gamma \\ 
+   \hline
+   Akaike's Information Criterion (AIC) & 1980.06 & 2030.41 & 2011.78 \\   
+   Bayesian Information Criterion (BIC) & 1987.66 & 2038.01 & 2019.38 \\
+   \hline
+\end{tabular} 
+\label{l3_aic}
+\end{table}
+
+\begin{figure}[H]
+     \centering
+       \includegraphics[width=.8\textwidth]{fig/cullen_frey_l3}
+    \caption{Visualizes all potential continuous distributions against the maximum expected lifespan data for trophic level 3 and bootstrapped data. The figure shows it potentially follows a Gamma, Weibull, and Lognormal distribution. Plot created using R v.3.4.3 \cite{Rcite} fitdistrplus package v.$1.0-9$ \cite{fitdistrplus}. }
+    \label{cf_l3}
+\end{figure}
+
+\begin{figure}[H]
+     \centering
+       \includegraphics[width=.8\textwidth]{fig/gof_l3}
+    \caption{Density plots of the fitted distributions to the histogram of the empirical distribution using the maximum expected lifespan data for trophic level 3, a CDF plot of both the empirical distribution and the fitted distributions (Gamma, Weibull, and Lognormal), Q-Q plots, and P-P plots. Plot created using R v.3.4.3 \cite{Rcite} fitdistrplus package v.$1.0-9$ \cite{fitdistrplus}. }
+    \label{gof_l3}
+\end{figure}
+
+\begin{table}[H]
+\centering
+\caption{Goodness-of-fit criteria for maximum expected lifespan data at trophic level 4}
+\begin{tabular}{r|c|c|c}
+  \hline \small
+ Goodness-of-fit criteria & Lognormal & Weibell & Gamma \\ 
+   \hline
+   Akaike's Information Criterion (AIC) & 1411.29 & 1426.64 & 1419.63 \\   
+   Bayesian Information Criterion (BIC) & 1417.78 & 1433.14 & 1426.12 \\
+   \hline
+\end{tabular} 
+\label{l4_aic}
+\end{table}
+
+\begin{figure}[H]
+     \centering
+       \includegraphics[width=.8\textwidth]{fig/cullen_frey_l4}
+    \caption{Visualizes all potential continuous distributions against the maximum expected lifespan data for trophic level 4 and bootstrapped data. The figure shows it potentially follows a Gamma, Weibull, and Lognormal distribution. Plot created using R v.3.4.3 \cite{Rcite} fitdistrplus package v.$1.0-9$ \cite{fitdistrplus}. }
+    \label{cf_l4}
+\end{figure}
+
+\begin{figure}[H]
+     \centering
+       \includegraphics[width=.8\textwidth]{fig/gof_l4}
+    \caption{Density plots of the fitted distributions to the histogram of the empirical distribution using the maximum expected lifespan data for trophic level 4, a CDF plot of both the empirical distribution and the fitted distributions (Gamma, Weibull, and Lognormal), Q-Q plots, and P-P plots. Plot created using R v.3.4.3 \cite{Rcite} fitdistrplus package v.$1.0-9$ \cite{fitdistrplus}. }
+    \label{gof_l4}
+\end{figure}
 
 
+\section{Marginal Distributions}
+When attempting to solve for the equations for the distributions of $\gamma_h$, we started off with the simplest stochastic scenario and progressed toward more complex cases.  
+ 
+\subsection{Deriving Equations for Scenario NTl}
+In Scenario NTl, both $\nu$ and $\tau_h$ are treated as fixed constants. We let $\lambda_h \sim Lognormal(\mu_{\lambda_h}, \sigma^2_{\lambda_h} )$ for $h \in \{2, 3, 4\}$ where $\mu_{\lambda_h}$ and $\sigma^2_{\lambda_h}$ are known constants. 
 
+\vspace{5mm}
+
+Beginning with the top layer in the hierarchical model (i.e., trophic level 2). We write  Eq. (1) from the main paper under Scenario NTl's assumptions where $c_{\nu9\tau_2}=\nu*9*\tau_2$.
+
+\begin{equation*}
+\gamma_2 = \nu * 9 * \tau_2 *\lambda_2  = c_{\nu9\tau_2} *\lambda_2 
+\end{equation*}
+
+From here, we are interested in determining the distribution of $c*\lambda_h$ assuming $c>0$. Since we let $\lambda_h \sim Lognormal(\mu_{\lambda_h}, \sigma^2_{\lambda_h})$, we can take the log to obtain $log(\lambda_h) \sim N(\mu_{\lambda_h}, \sigma^2_{\lambda_h})$. Therefore, $\gamma_h = c*\lambda_h$ can be transformed into $log(\gamma_h) = log(c*\lambda_h) = log(c) + log(\lambda_h)$. Using Jacobian transformations, we find that $log(\gamma_h) \sim N(\mu_{\lambda_h} + log(c), \sigma^2_{\lambda_h})$. Finally using the same logic as earlier, we conclude that $\gamma_h \sim Lognormal(\mu_{\lambda_h} + log(c), \sigma^2_{\lambda_h})$.
+
+\vspace{5mm}
+
+Therefore in Scenario NTl, trophic level biomass ($\gamma_h$) at each trophic level $h$ follows the following distributions:
+
+\begin{equation}
+\begin{split}
+\gamma_2 & \sim Lognormal(\mu_{\lambda_2} + log(c'), \sigma^2_{\lambda_2}) \hspace{5mm} \text{where} \hspace{5mm} c' = \nu*9*\tau_2\\
+\gamma_3 & \sim Lognormal(\mu_{\lambda_3} + log(c''), \sigma^2_{\lambda_3}) \hspace{5mm} \text{where} \hspace{5mm} c'' = \nu*9*\tau_2*\tau_3 \\
+\gamma_4 & \sim Lognormal(\mu_{\lambda_4} + log(c'''), \sigma^2_{\lambda_4}) \hspace{5mm} \text{where} \hspace{5mm} c''' = \nu*9*\tau_2*\tau_3*\tau_4 \\
+\end{split}
+\end{equation}
+
+\subsection{Deriving Equations for Scenario nTl}
+In Scenario nTl, $\tau_h$ is treated as a fixed constant, and we treat $\nu \sim Lognormal(\mu_\nu, \sigma^2_\nu)$ and $\lambda_h \sim Lognormal(\mu_{\lambda_h}, \sigma^2_{\lambda_h} )$ for $h \in \{2, 3, 4\}$ where we assume the parameters for both $\nu$ and $\lambda_h$ are known constants. 
+
+\vspace{5mm}
+
+Beginning with the top layer in the hierarchical model (i.e., trophic level 2), we write Eq. (1) from the main paper under Scenario nTl's assumptions where $c_{9\tau_2}=9*\tau_2$.
+
+\begin{equation*}
+\gamma_2 = \nu * 9 * \tau_2 *\lambda_2  = \nu * c_{9\tau_2} *\lambda_2 
+\end{equation*}
+
+We want to determine the distribution when two random variables that follow distinct Lognormal distributions are multiplied together. If we let $\lambda_h' = ln(\lambda_h) \sim N(\mu_{\lambda_h}, \sigma^2_{\lambda_h})$ and $\nu' = ln(\nu) \sim N(\mu_\nu, \sigma^2_\nu)$, then using properties of Normal distributions we obtain that $Y' = \lambda_h' + \nu' \sim N(\mu_{\lambda_h} + \mu_\nu, \sigma^2_{\lambda_h} + \sigma^2_\nu)$. Remembering that $Y' = ln(\lambda_h) + ln(\nu)$, we can then raise it to the exponent fo find that $e^{Y'} = e^{ln(\lambda_h*\nu)} = \lambda_h*\nu$. We then find that $e^{Y'} \sim Lognormal(\mu_{\lambda_h} + \mu_\nu, \sigma^2_{\lambda_h} + \sigma^2_\nu)$. Using the theory outline in Scenario NTl pertaining constants ($c>0$) and Lognormal distributions, we conclude that $c*\lambda_h*\nu \sim Lognormal(\mu_{\lambda_h} + \mu_\nu + log(c),  \sigma^2_{\lambda_h} + \sigma^2_\nu)$.
+
+\vspace{5mm}
+
+Therefore in Scenario nTl, trophic level biomass ($\gamma_h$) at each trophic level $h$ follows the following distributions:
+
+\begin{equation}
+\begin{split}
+\gamma_2 & \sim Lognormal \left( \mu_\nu + \mu_{\lambda_2} + log(c'), \sigma^2_\nu+\sigma^2_{\lambda_2} \right) \hspace{5mm} \text{where} \hspace{5mm} c' = 9*\tau_2 \\
+\gamma_3 & \sim Lognormal \left( \mu_\nu + \mu_{\lambda_3} + log(c''), \sigma^2_\nu+\sigma^2_{\lambda_3} \right) \hspace{5mm} \text{where} \hspace{5mm} c'' = 9*\tau_2*\tau_3 \\
+\gamma_4 & \sim Lognormal \left( \mu_\nu + \mu_{\lambda_4} + log(c'''), \sigma^2_\nu+\sigma^2_{\lambda_4} \right) \hspace{5mm} \text{where} \hspace{5mm} c''' = 9*\tau_2*\tau_3*\tau_4 \\
+\end{split}
+\end{equation}
+
+\subsection{Attempting to Derive Equations for Scenario \textit{NtL}}
+In Scenario \textit{NtL}, $\nu$ and $\lambda_h$ for $h \in \{2, 3, 4\}$ are treated as fixed constants. We let $\tau_h \sim Beta(\alpha_h, \beta_h)$ for $h \in \{2, 3, 4\}$ and assume $\alpha_h$ and $\beta_h$ are known constants for $\tau_h$.
+
+\vspace{5mm}
+
+Beginning with the top layer in the hierarchical model (i.e., trophic level 2), we write Eq. (1) from the main paper under Scenario \textit{NtL}'s assumptions where $c_{9\nu\lambda_2}=9*\nu\lambda_2$.
+
+\begin{equation*}
+\gamma_2 = \nu * 9 * \tau_2 *\lambda_2 = c_{\nu9\lambda_2}*\tau_2 
+\end{equation*}
+
+While we are interested in determining the distribution of $c*\tau_2$ assuming $c>0$,  no theorems exist that prove the beta distribution has the scaling property. In addition, at higher trophic levels we will be multiplying multiple independent Beta distributions. Therefore given the lack of extant research on the topic, we decided simulation was a reasonable option. 
+
+\subsection{Attempting to Derive Equations for Scenario \textit{Ntl}}
+In Scenario \textit{Ntl}, $\nu$ is treated as a fixed constant. We treat $\tau_h \sim Beta(\alpha_h, \beta_h)$ and $\lambda_h \sim Lognormal(\mu_{\lambda_h}, \sigma^2_{\lambda_h} )$ for $h \in \{2, 3, 4\}$. We assume $\mu_{\lambda_h}$ and $\sigma^2_{\lambda_h} $ are known constants for $\lambda_h$ and $\alpha_h$ and $\beta_h$ are known constants for $\tau_h$.
+
+\vspace{5mm}
+
+Beginning with the top layer in the hierarchical model (i.e., trophic level 2), we write Eq. (1) from the main paper under Scenario \textit{Ntl}'s assumptions where $c_{9\nu}=9*\nu$.
+
+\begin{equation*}
+\gamma_2 = \nu * 9 * \tau_2 *\lambda_2 = c_{\nu9}*\tau_2*\lambda_2 
+\end{equation*}
+
+While our goal was to determine the exact distribution of the product of two random variables that follow a Beta and a Lognormal distribution, extant research (e.g., \citealt{casella2002statistical, rohatgi2015introduction}) on the topic provides no clear path forward. The closest match were two papers on the distribution of the product of a Beta, Gamma, and mean zero Normal \cite{springer1970distribution, gaunt2018products}. 
+
+\vspace{5mm}
+
+\citealt{gaunt2018products} extends Stein's method to products of independent Beta, Gamma, generalized Gamma and mean zero Normal random variables. Gaunt defined a characteristic function outlined in Corollory 3.3 for the Product Beta, Product Gamma, and Product Normal where $W \sim N(0, \sigma^2)$. This Corollory derived from \citealt{gaunt2018products} state that a characteristic function can be found for the Product Beta, Product Gamma, and Product central Normal. However, we believe this proof is going to break down when moving from a symmetric to a non-symmetric distribution. 
+Providing additional complexity, in Scenario \textit{Ntl} and the in the remaining scenarios, Lognormal distributions are used (as opposed to Normal distributions). 
+
+\begin{figure}[H]
+     \centering
+       \includegraphics[width=1\textwidth]{fig/Stein}
+\end{figure}
+
+ 
+\section{Table of Distributions}
+
+\begin{sidewaystable}
+\caption{Table of Distributions}
+\begin{tabular}{l|l|l}
+  \hline \small
+ Distribution & PDF & Mean \& Variances \\ 
+   \hline
+   Lognormal & \(\displaystyle f(\nu;\mu,\sigma^2) = \frac{1}{\sqrt{2\pi}\sigma \nu}exp\left( -\frac{(log(\nu)-\mu)^2}{2\sigma^2} \right) \hspace{2mm} \text{for} \hspace{2mm} \nu > 0 \) & \(\displaystyle E[\nu] = e^{\mu + \frac{\sigma^2}{2}} \) \\
+      & &  \(\displaystyle Var[\nu] =  e^{2\mu + \sigma^2}(e^{\sigma^2} - 1) \) \\
+   \hline
+   Beta & \(\displaystyle f(\tau_{h};\alpha,\beta) = \frac{1}{B(\alpha, \beta)} \tau_{h}^{\alpha -1} (1-\tau_{h})^{\beta -1}  \hspace{2mm} 0 \leq \tau_{h} \leq 1   \) &  \(\displaystyle E[\tau_{h}] = \frac{\alpha}{\alpha + \beta} \) \\
+	   & &  \(\displaystyle Var[{\tau_{h}}] = \frac{\alpha\beta}{(\alpha + \beta)^2(\alpha + \beta + 1)} \) \\
+   \hline
+\end{tabular} 
+\label{distributions}
+\end{sidewaystable}
+
+\newpage
+
+\section{R packages and versions}
+To promote reproducibility, we include a list of all R packages and versions used in this analysis.
+
+\begin{itemize}
+\item astsa package v.1.8 \cite{astsa}
+\item data.table package v.$1.10.4-3$  \cite{datatable}
+\item ExtDist package v.$0.6-3$ \cite{extdist}
+\item fitdistrplus package v.$1.0-9$ \cite{fitdistrplus}
+\item forecast package v8.2 \cite{forecast1, forecast2} 
+\item ggplot2 package v.2.2.1 \cite{ggplot}
+\item gridExtra package v.2.3 \cite{gridextra}
+\item gtable package v.0.2.0 \cite{gtable}
+\item logspline package v.2.1.9 \cite{logspline}
+\item R v.3.4.3 \cite{Rcite} 
+\item reshape package v.0.8.7 \cite{reshape}
+\end{itemize}
 
 
 \chapter{Appendix for Chapter 4:}{\label{appendix:c}}

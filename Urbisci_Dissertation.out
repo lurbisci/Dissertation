@@ -15,4 +15,7 @@
 \BOOKMARK [1][-]{section.A.3}{SeaWiFS}{appendix.A}% 15
 \BOOKMARK [1][-]{section.A.4}{R packages and versions}{appendix.A}% 16
 \BOOKMARK [0][-]{appendix.B}{Appendix for Chapter 3: Untangling uncertainty in food web models}{}% 17
-\BOOKMARK [0][-]{appendix.C}{Appendix for Chapter 4:}{}% 18
+\BOOKMARK [1][-]{section.B.1}{Marginal Distributions}{appendix.B}% 18
+\BOOKMARK [1][-]{section.B.2}{Table of Distributions}{appendix.B}% 19
+\BOOKMARK [1][-]{section.B.3}{R packages and versions}{appendix.B}% 20
+\BOOKMARK [0][-]{appendix.C}{Appendix for Chapter 4:}{}% 21

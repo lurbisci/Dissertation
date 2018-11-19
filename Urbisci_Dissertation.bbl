@@ -54,6 +54,11 @@ Byron, C., Link, J., Costa-Pierce, B., and Bengtson, D. (2011).
   using mass-balance modeling: {Narragansett} {Bay}, {Rhode} {Island}.
 \newblock {\em Ecological Modelling}, 222(10):1743--1755.
 
+\bibitem[Casella and Berger, 2002]{casella2002statistical}
+Casella, G. and Berger, R.~L. (2002).
+\newblock {\em Statistical inference}, volume~2.
+\newblock Duxbury Pacific Grove, CA.
+
 \bibitem[Cashion et~al., 2016]{cashion2016review}
 Cashion, T., Hornborg, S., Ziegler, F., Hognes, E.~S., and Tyedmers, P. (2016).
 \newblock Review and advancement of the marine biotic resource use metric in
@@ -103,6 +108,11 @@ Delignette-Muller, M.~L. and Dutang, C. (2015).
 \newblock {fitdistrplus}: An {R} package for fitting distributions.
 \newblock {\em Journal of Statistical Software}, 64(4):1--34.
 
+\bibitem[Dowle and Srinivasan, 2017]{datatable}
+Dowle, M. and Srinivasan, A. (2017).
+\newblock {\em data.table: Extension of `data.frame`}.
+\newblock R package version 1.10.4-3.
+
 \bibitem[Farmer et~al., 2016]{farmer2016stock}
 Farmer, N.~A., Malinowski, R.~P., McGovern, M.~F., and Rubec, P.~J. (2016).
 \newblock Stock complexes for fisheries management in the {G}ulf of {M}exico.
@@ -132,6 +142,13 @@ Garc{\'\i}a-Comas, C., Sastri, A.~R., Ye, L., Chang, C.-Y., Lin, F.-S., Su,
 \newblock Prey size diversity hinders biomass trophic transfer and predator
   size diversity promotes it in planktonic communities.
 \newblock {\em Proc. R. Soc. B}, 283(1824):20152129.
+
+\bibitem[Gaunt et~al., 2018]{gaunt2018products}
+Gaunt, R.~E. et~al. (2018).
+\newblock Products of normal, beta and gamma random variables: Stein operators
+  and distributional theory.
+\newblock {\em Brazilian Journal of Probability and Statistics},
+  32(2):437--466.
 
 \bibitem[Hairston, 1993]{hairston1993causeeffect}
 Hairston, N.~G. (1993).
@@ -204,6 +221,11 @@ Karlsson, J., Lymer, D., Vrede, K., and Jansson, M. (2007).
   carbon to two zooplankton groups: an enclosure experiment in an oligotrophic
   lake.
 \newblock {\em Aquatic Sciences; Basel}, 69(1):108--114.
+
+\bibitem[Kooperberg, 2016]{logspline}
+Kooperberg, C. (2016).
+\newblock {\em logspline: Logspline Density Estimation Routines}.
+\newblock R package version 2.1.9.
 
 \bibitem[Lalli and Parsons, 1997]{lalli1997biological}
 Lalli, C. and Parsons, T.~R. (1997).
@@ -320,6 +342,11 @@ Ripley, B. (2016).
 \newblock {\em Avaliable at https://CRAN. R-project. org/package= tree.
   Accessed August}, 3:2017.
 
+\bibitem[Rohatgi and Saleh, 2015]{rohatgi2015introduction}
+Rohatgi, V.~K. and Saleh, A. M.~E. (2015).
+\newblock {\em An introduction to probability and statistics}.
+\newblock John Wiley \& Sons.
+
 \bibitem[Rosland et~al., 2009]{rosland2009applying}
 Rosland, R., Strand, {\O}., Alunno-Bruscia, M., Bacher, C., and Strohmeier, T.
   (2009).
@@ -404,6 +431,12 @@ Sommer, U. (1998).
   efficiency of {Brachionus} plicatilis with a mixed diet.
 \newblock {\em Limnology and Oceanography}, 43(6):1393--1396.
 
+\bibitem[Springer and Thompson, 1970]{springer1970distribution}
+Springer, M. and Thompson, W. (1970).
+\newblock The distribution of products of beta, gamma and gaussian random
+  variables.
+\newblock {\em SIAM Journal on Applied Mathematics}, 18(4):721--737.
+
 \bibitem[Srisunont and Babel, 2016]{srisunont2016estimating}
 Srisunont, C. and Babel, S. (2016).
 \newblock Estimating the carrying capacity of green mussel cultivation by using
@@ -474,14 +507,30 @@ Watson, R., Zeller, D., and Pauly, D. (2014).
 \newblock Primary productivity demands of global fishing fleets.
 \newblock {\em Fish and Fisheries}, 15(2):231--241.
 
+\bibitem[Wickham, 2007]{reshape}
+Wickham, H. (2007).
+\newblock Reshaping data with the reshape package.
+\newblock {\em Journal of Statistical Software}, 21(12).
+
 \bibitem[Wickham, 2009]{ggplot}
 Wickham, H. (2009).
 \newblock {\em ggplot2: Elegant Graphics for Data Analysis}.
 \newblock Springer-Verlag New York.
 
+\bibitem[Wickham, 2016]{gtable}
+Wickham, H. (2016).
+\newblock {\em gtable: Arrange 'Grobs' in Tables}.
+\newblock R package version 0.2.0.
+
 \bibitem[Wickham et~al., 2015]{wickham2015dplyr}
 Wickham, H., Francois, R., Henry, L., and M{\"u}ller, K. (2015).
 \newblock dplyr: A grammar of data manipulation.
 \newblock {\em R package version 0.4}, 3.
+
+\bibitem[Wu et~al., 2015]{extdist}
+Wu, H., Godfrey, A. J.~R., Govindaraju, K., and Pirikahu, S. (2015).
+\newblock {\em ExtDist: Extending the Range of Functions for Probability
+  Distributions}.
+\newblock R package version 0.6-3.
 
 \end{thebibliography}

@@ -6,45 +6,45 @@ Database file #1: dissertation.bib
 Warning--I didn't find a database entry for "gregg2003ocean"
 Warning--I didn't find a database entry for "walther2002ecological"
 Warning--I didn't find a database entry for "san2006latitudinal"
-You've used 82 entries,
+You've used 91 entries,
             1935 wiz_defined-function locations,
-            968 strings with 19310 characters,
-and the built_in function-call counts, 33847 in all, are:
-= -- 3313
-> -- 1503
-< -- 49
-+ -- 530
-- -- 512
-* -- 3042
-:= -- 5932
-add.period$ -- 244
-call.type$ -- 82
-change.case$ -- 649
-chr.to.int$ -- 82
-cite$ -- 82
-duplicate$ -- 1144
-empty$ -- 2288
-format.name$ -- 631
-if$ -- 6465
+            1008 strings with 20440 characters,
+and the built_in function-call counts, 36770 in all, are:
+= -- 3594
+> -- 1612
+< -- 58
++ -- 568
+- -- 546
+* -- 3272
+:= -- 6456
+add.period$ -- 271
+call.type$ -- 91
+change.case$ -- 704
+chr.to.int$ -- 91
+cite$ -- 91
+duplicate$ -- 1265
+empty$ -- 2495
+format.name$ -- 683
+if$ -- 7022
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 79
-newline$ -- 410
-num.names$ -- 248
-pop$ -- 514
+missing$ -- 86
+newline$ -- 455
+num.names$ -- 275
+pop$ -- 566
 preamble$ -- 1
-purify$ -- 662
+purify$ -- 723
 quote$ -- 0
-skip$ -- 872
+skip$ -- 971
 stack$ -- 0
-substring$ -- 2597
-swap$ -- 101
-text.length$ -- 4
+substring$ -- 2759
+swap$ -- 115
+text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 476
+type$ -- 526
 warning$ -- 0
-while$ -- 286
+while$ -- 308
 width$ -- 0
-write$ -- 1048
+write$ -- 1160
 (There were 3 warnings)

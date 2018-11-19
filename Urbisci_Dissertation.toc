@@ -29,4 +29,16 @@
 \contentsline {chapter}{\numberline {B}Appendix for Chapter 3: Untangling uncertainty in food web models}{68}{appendix.B}
 \contentsline {subsection}{\numberline {B.0.1}SeaWiFS}{68}{subsection.B.0.1}
 \contentsline {subsubsection}{Time Series Analysis}{68}{section*.18}
-\contentsline {chapter}{\numberline {C}Appendix for Chapter 4:}{73}{appendix.C}
+\contentsline {subsubsection}{Simulation Setting}{72}{section*.19}
+\contentsline {subsection}{\numberline {B.0.2}Transfer Efficiency}{75}{subsection.B.0.2}
+\contentsline {subsection}{\numberline {B.0.3}FishBase}{84}{subsection.B.0.3}
+\contentsline {subsubsection}{Trophic Level}{84}{section*.20}
+\contentsline {subsubsection}{Maximum Expected Lifespan}{85}{section*.21}
+\contentsline {section}{\numberline {B.1}Marginal Distributions}{91}{section.B.1}
+\contentsline {subsection}{\numberline {B.1.1}Deriving Equations for Scenario NTl}{91}{subsection.B.1.1}
+\contentsline {subsection}{\numberline {B.1.2}Deriving Equations for Scenario nTl}{92}{subsection.B.1.2}
+\contentsline {subsection}{\numberline {B.1.3}Attempting to Derive Equations for Scenario \textit {NtL}}{93}{subsection.B.1.3}
+\contentsline {subsection}{\numberline {B.1.4}Attempting to Derive Equations for Scenario \textit {Ntl}}{94}{subsection.B.1.4}
+\contentsline {section}{\numberline {B.2}Table of Distributions}{95}{section.B.2}
+\contentsline {section}{\numberline {B.3}R packages and versions}{97}{section.B.3}
+\contentsline {chapter}{\numberline {C}Appendix for Chapter 4:}{98}{appendix.C}
