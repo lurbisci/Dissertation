@@ -24,28 +24,29 @@
 \usepackage{longtable}
 \usepackage{booktabs}
 \usepackage{float}
+\usepackage{multirow}
 
 
 %---New Definitions and Commands------------------------------------------------------
-\def\p{\partial}
-\def\im{\mrm{im}}
-\def\Tr{\mrm{Tr}}
-\def\Z{\mbb{Z}}
-\def\R{\mbb{R}}
-\def\C{\mbb{C}}
-\def\half{\frac{1}{2}}
-\def\filler{\phantom{fillerfillerfiller}}
-\newcommand{\be}{\begin{equation}}
-\newcommand{\ee}{\end{equation}}
-\newcommand{\mbb}[1]{\mathbb{#1}}
-\newcommand{\mrm}[1]{\mathrm{#1}}
-\newcommand{\mcal}[1]{\mathcal{#1}}
-\newcommand{\mbf}[1]{\mathbf{#1}}
-\newcommand{\ph}[1]{\phantom{#1}}
-\newcommand{\udten}[3]{#1^{#2}_{\ph{#2}#3}}
-\newcommand{\duten}[3]{#1^{\ph{#2}#3}_{#2}}
-\newcommand{\pd}[2]{\frac{\p#1}{\p#2}}
-\newcommand{\D}[2]{\frac{d#1}{d#2}}
+%\def\p{\partial}
+%\def\im{\mrm{im}}
+%\def\Tr{\mrm{Tr}}
+%\def\Z{\mbb{Z}}
+%\def\R{\mbb{R}}
+%\def\C{\mbb{C}}
+%\def\half{\frac{1}{2}}
+%\def\filler{\phantom{fillerfillerfiller}}
+%\newcommand{\be}{\begin{equation}}
+%\newcommand{\ee}{\end{equation}}
+%\newcommand{\mbb}[1]{\mathbb{#1}}
+%\newcommand{\mrm}[1]{\mathrm{#1}}
+%\newcommand{\mcal}[1]{\mathcal{#1}}
+%\newcommand{\mbf}[1]{\mathbf{#1}}
+%\newcommand{\ph}[1]{\phantom{#1}}
+%\newcommand{\udten}[3]{#1^{#2}_{\ph{#2}#3}}
+%\newcommand{\duten}[3]{#1^{\ph{#2}#3}_{#2}}
+%\newcommand{\pd}[2]{\frac{\p#1}{\p#2}}
+%\newcommand{\D}[2]{\frac{d#1}{d#2}}
 
 %---Set Margins ------------------------------------------------------
 \setlength\oddsidemargin{0.25 in} \setlength\evensidemargin{0.25 in} \setlength\textwidth{6.25 in} \setlength\textheight{8.50 in}
@@ -66,6 +67,7 @@
 	\input{tex/abstract}
 	\tableofcontents
 \end{frontmatter}
+
 
 \begin{mainmatter}
 
@@ -99,15 +101,15 @@
 
 %=== Introduction ============================================
 \chapter{Introduction}
-Fisheries modeling take the complexity of a single heterogeneous stock with different sizes, ages, growth rates, movement patterns, reproductive abilities, behaviors in response to fishing gear, and risks of natural mortality and simplify these diverse dynamics into a cohesive model. These stock assessment models look at data such as the number of fish caught, total biomass over a certain range, catch per unit area, and mean size (weight or length) of fish harvested and attempt to predict how these attributes will respond to fishing over time. Depending on the available data and level of complexity desired, we can model open ocean ecosystems using several different approaches. Most models focus on an individual stock and fall under the category of a single-species model. The simplest single-species models look only at abundance and are referred to as biomass dynamic or production models. These models can be extended in three ways. They can include age-structure, the dynamics of fleets, spatial structure, and interactions with other species and the environment. The models that include species interactions and environmental fluctuations are a special class of models referred to as ecosystem-based models.
+Fisheries modeling take the complexity of a single heterogeneous stock  and simplify these diverse dynamics into a cohesive model. These stock assessment models look at data and attempt to predict how these attributes will respond to fishing over time. Depending on the available data and level of complexity desired, we can model open ocean ecosystems using several different approaches. Most models focus on an individual stock and fall under the category of a single-species model. The simplest single-species models look only at abundance and are referred to as biomass dynamic or production models. However if sufficient data is unavailable to model the individual species dynamics, a common workaround is to cluster the targeted species in a fishery into a complex and model their dynamics in one production model. Doing this though, comes with a set of assumptions that when invalidated can have drastic consequences on the sustainability of some or all of the targeted species.
 
 \vspace{5mm}
 
-A multitude of ecosystem-based models have been developed within the past three decades to address the need to incorporate ecosystem-based science into fisheries management. These models help inform decision-makers about the effects of fishing mortality and the indirect trophic implications of fishing in changing ecological environments. There are various types of ecosystem-based models: whole ecosystem and dynamic system models, minimum realistic models (restrict a model to those species most likely to have important interactions with the species of interest), individual-based models (follow an individual through their life cycle), and bioenergetics models (use bioenergetics and allometric reasoning) \cite{plaganyi2004critical,collie2014ecosystem}. All of these classes of models aim to simulate the environment by including species interactions and environmental fluctuations. 
+A multitude of ecosystem-based models have been developed within the past three decades to address the need to incorporate ecosystem-based science into fisheries management. These models help inform decision-makers about the effects of fishing mortality and the indirect trophic implications of fishing in changing ecological environments. There are various types of ecosystem-based models. All of these classes of models aim to simulate the environment by including species interactions and environmental fluctuations. 
 
 \vspace{5mm}
 
-Instead of attempting to explain all the ecological processes in one model, a new possible approach is to move away from focusing on small-scale details and look at the ecosystem in a broader context. We can combine ecosystem-knowledge to improve upon single-species models. For instance by applying ecological theory such as food web dynamics, we can develop a more feasible approach to estimate the unfished biomass and carrying capacity. By taking the amount of net primary production that enters into the system, we can use the principle behind energy transfer in food webs to approximate the amount of biomass at each trophic level. By taking a bottom-up approach, we can ensure that our estimates of unfished biomass are feasible, because we account for how much energy goes into the system. We can additionally include sensitivity analysis in our model to account for the natural variation in the environment.
+Instead of attempting to explain all the ecological processes in one model, a new approach that is outlined in this dissertation is to move away from focusing on small-scale details and look at the ecosystem in a broader context. We can combine ecosystem-knowledge to improve upon single-species models. For instance by applying ecological theory such as food web dynamics, we can develop a more feasible approach to estimate the unfished biomass and carrying capacity. By taking the amount of net primary production that enters into the system, we can use the principle behind energy transfer in food webs to approximate the amount of biomass at each trophic level. By taking a bottom-up approach, we can ensure that our estimates of unfished biomass are feasible, because we account for how much energy goes into the system. We can additionally include sensitivity analysis in our model to account for the natural variation in the environment.
 
 %\begin{section}{Permissions and Attributions}
 %\begin{enumerate}
@@ -120,10 +122,11 @@ Instead of attempting to explain all the ecological processes in one model, a ne
 %=== Chapter 1 ============================================
 \chapter{Tangled is the web we weave}
 %---  Section -------------------------
+
 \section{Introduction}
 One of the crucial, and at times, most puzzling concepts in food web dynamics research is the transfer efficiency-?the movement of production between trophic levels. This paper addresses two aspects of transfer efficiency: first, we seek to provide clarity and untangle the web of confusion surrounding the conceptualization of transfer efficiency. Second, we address the often-cited claim that transfer efficiency is a constant 10\%. We analyze extant research to show that transfer efficiency varies substantially across systems, trophic levels, and taxa. 
 
-\subsection{Origin and conceptualization of transfer efficiency}
+\subsection{Origin and Conceptualization of Transfer Efficiency}
 The definition of transfer efficiency has been somewhat muddled since its inception. We refer to transfer efficiency as the fraction of production passing from one trophic level to the next \cite{slobodkin1959energetics}. At times it has also been referred to as trophic (transfer) efficiency \cite{chapman1998ecology}. This term is often confused with other non-equivalent efficiencies such as ecological efficiency, assimilation efficiency, and consumption efficiency \cite{iverson1990control, hairston1993causeeffect}. However, each of these efficiencies addresses distinct ecological questions and thus require different data for their calculations. \citet{slobodkin1959energetics} theorized a food chain efficiency metric and defined it as the ratio of the number of organisms removed from the targeted population to the food consumed by the targeted population \cite{slobodkin1960ecological,slobodkin1962energy}. Removal includes both natural mortality and human harvesting. He subsequently renamed the concept ``ecological efficiency" in his 1962 and 1972 papers \cite{slobodkin1962energy, slobodkin1972inconstancy}. The energy budget requires a balance between inputs and outputs. When energy is ingested, some of that energy is lost to respiration and excretion. Then, the remaining energy that is assimilated is divided amongst basal maintenance, growth, and reproduction. Assimilation efficiency is defined as the percentage of energy ingested at trophic level $n$ that is assimilated at trophic level $n$ \cite{hairston1993causeeffect}. The consumption efficiency measures the number of organisms from the prey population that is consumed by its predators and is defined as the percentage of net production at trophic level $n$ that is consumed by trophic level $n + 1$ \cite{hairston1993causeeffect}. In an attempt to make the differences clearer, we provide a simple cartoon of a food web (Figure \ref{foodweb}) that visualizes the definitions of four of the commonly used efficiencies. 
 
 \vspace{5mm}
@@ -139,11 +142,11 @@ Availability of data differs between ecosystems. It is difficult in aquatic syst
 
 The confusion around the definition is not the only complication with transfer efficiency--the values themselves have been disputed over the years and remain a point of contention. It is surprising that some scholars treat transfer efficiency as a fixed constant (i.e., 10\%) for all trophic levels in light of the fact that other scholars have found that physiological, and potentially behavioral, characteristics influence transfer efficiency \cite{may1983ecology, pauly1995primary, ware2000aquatic, cury2005trophodynamic, libralato2008novel, chassot2010global, trebilco2013ecosystem, watson2014primary}.
 
-\subsection*{Physiological and behavioral characteristics of transfer efficiency in freshwater and marine ecosystems}
+\subsection{Physiological and Behavioral Characteristics of Transfer Efficiency in Freshwater and Marine Ecosystems}
 Multiple factors have been shown to affect transfer efficiency in both freshwater and marine ecosystems. In freshwater systems, the sources of variability in transfer efficiencies include the body of water, season, trophic level, and species composition \cite{lindeman1942trophic, gaedke1994seasonal, rybarczyk2003analysis, karlsson2007differences}.
 In marine systems, transfer efficiency varies by ecological system, geographic location, trophic level, metabolic strategy, and species composition \cite{may1983ecology, persson2007food, libralato2008novel, barnes2010global}.
 
-\subsubsection*{Ecological system within freshwater and marine ecosystems}
+\subsubsection{Ecological System Within Freshwater and Marine Ecosystems}
 Transfer efficiency has been found to be specific to the geographical region. Multiple marine studies found distinct transfer efficiencies between upwelling, temperate and tropical ecosystems (i.e., 5\% upwelling, 10\% temperate, and 14\% tropical) \cite{libralato2008novel, coll2008ecosystem, chassot2010global}. Even within a single ecosystem,
 \citet{baird2004energy} found that each community within an intertidal ecosystem had unique transfer efficiency values. Distinct transfer efficiency values have also been found to occur not only between lakes and within trophic levels in freshwater ecosystems \cite{lindeman1942trophic}, but also in bays and estuaries as well \cite{rybarczyk2003analysis}.
 
@@ -151,21 +154,21 @@ Transfer efficiency has been found to be specific to the geographical region. Mu
 
 Additionally, research has found that the amount of sunlight a region receives affects transfer efficiency. \citet{sanmartin2006latitudinal} suggest that transfer efficiency from phytoplankton to zooplankton in marine ecosystems decreases as latitude increases due to the decrease in sunlight. \citet{gaedke1994seasonal} found seasonal variation in transfer efficiency between the first and second trophic level in lakes, with transfer efficiency rising in the summer and fall and decreasing in the winter and spring. The seasonal variation in transfer efficiency can be attributed to the decrease in phytoplankton abundance in winter due to limited sunlight. As daylight increases in early spring, there is a gradual increase in phytoplankton blooms--culminating in the maximum phytoplankton production in summer (i.e., peak hours of sunlight).  As the days become shorter in fall and the hours of sunlight decreases, there is a decrease in the amount of phytoplankton. There is a time lag corresponding to the change in sunlight in the spring and fall seasons. Therefore, the amount of sunlight indirectly influences transfer efficiency between the first and second trophic level by directly impacting the phytoplankton abundance. 
 
-\subsubsection*{Trophic level}
+\subsubsection{Trophic Level}
 Size spectrum studies report that transfer efficiency decreases with body size, and by association, trophic level \cite{barnes2010global}. Therefore, the size ratio of prey to predators (e.g., phytoplankton to zooplankton) impacts transfer efficiency and trophic structure 
 \cite{havens1998size, garciacomas2016prey}.
 
-\subsubsection*{Metabolic strategy}
+\subsubsection{Metabolic Strategy}
 Furthermore, \citet{may1983ecology} found ectotherms are more efficient than endotherms in transferring energy from trophic level $n$ to trophic level $n+1$, with energy transfer efficiencies around 20-50\% for invertebrate ectotherms, around 10\% for vertebrate ectotherms and less than 2\% for endotherms. This discrepancy in transfer efficiency is due to the metabolic efficiency: ectotherms rely on environmental heat sources and therefore have a lower metabolic cost in comparison to endotherms. Much of the metabolic energy in endotherms goes to the production of heat. Therefore, transfer of energy in the higher trophic levels where endotherms are prominent is less than the lower trophic levels were ectotherms make up more of the composition in marine ecosystems \cite{mcgarvey2018two}.
 
-\subsubsection*{Species composition}
+\subsubsection{Species Composition}
 Consuming nutritionally imbalanced food has been shown to lead to large respiratory losses, which negatively affect transfer efficiency \cite{persson2007food}. \citet{karlsson2007differences} and \citet{vonelert2003absence} found that the species composition of prey, in particular different species of zooplankton crustaceans and the absence of long-chain polyunsaturated fatty acid in cyanobacteria, influence transfer efficiency. In addition, the presence of jellyfish blooms has been found to reduce the transfer of energy to higher trophic levels \cite{condon2011jellyfish}.
 
 \vspace{5mm}
 
 \citet{trussell2006fear} and \citet{schmitz2008individuals} found that the risk of predation modifies prey conversion efficiencies and biomass production, which could therefore influence trophic structure and energy transfer. While these results refer specifically to assimilation and consumption efficiencies, it is plausible that this behavior influences transfer efficiencies as well. While the specific factors  previously discussed influence transfer efficiency individually, these components interact in the natural environment. Because of this interaction, researchers must consider the impacts of the synergistic effects of these factors on the variability of the transfer efficiency and in turn how to account for them in the modeling process.  
 
-\subsection*{The 10\% transfer efficiency}
+\subsection{The 10\% Transfer Efficiency}
 Although the studies above highlight that a number of factors can greatly affect trophic efficiencies, we still see broad use of the assumption of a constant value of 10\%. To explore how (un)reasonable this assumption might be in different contexts, we synthesize the pattern of variation that has been observed in empirical studies that measured transfer efficiencies. Our goal is to provide guidance for what is reasonable to assume and what is necessary to measure.
 
 \vspace{5mm}
@@ -185,14 +188,14 @@ In Figure \ref{flowchart}, we present a flowchart showing the muddled origin of 
     \label{flowchart}
 \end{figure}
 
-\section*{Methods}
+\section{Methods}
 To explore the empirical distributions of transfer efficiencies, we collected  articles that mentioned both food web and transfer efficiency. We then selected from these studies those that included relevant data, whether model-based or empirical. While we initially hoped to include terrestrial as well as freshwater and marine studies, we found nearly all of the terrestrial studies were on the consumption and assimilation efficiency, not the transfer efficiency. Therefore, we broke our analysis into two sections: freshwater and marine and ignored terrestrial. We primarily applied exploratory data analysis techniques such as summary statistics to distinguish patterns between the systems. 
 
 \vspace{5mm}
 
 If the sample size was sufficient large, we also used decision tree analysis (i.e., regression trees with pruning, bagging, and random forests) and Monte Carlo simulations (See Table \ref{datafresh} and \ref{datamar}). Decision tree analysis was employed to determine which factors had the largest impact on transfer efficiency. Using an approach similar to \cite{libralato2008novel}, we clustered the marine ecosystems into the following regions: temperate shelves and seas, tropical shelves and seas, lagoons, upwelling ecosystems, and open oceans. Although we also clustered the freshwater ecosystems into lakes, springs, and ponds, the sample size of the freshwater transfer efficiency data was too small to run regression tree analysis. We used regression trees with pruning, bagging, and random forests on the marine transfer efficiency data set and used relative importance plots to determine which factors accounted for the largest sources of variation and were most useful in predicting transfer efficiency. In the discussion, we used Monte Carlo simulations to aid in the conversation.
 
-\subsection*{Freshwater}
+\subsection{Freshwater}
 Many of the preliminary studies on transfer efficiency occurred in freshwater systems. All of the early studies were empirical (i.e., data used to calculate the transfer efficiency were collected either through laboratory experiments or from the field), but over time studies shifted to being increasingly model-based (i.e., data used to calculate the transfer efficiency were generated as the product of computer models). We found a total of 11 systems with transfer efficiency data (Table \ref{datafresh}). Only the empirical studies reported transfer efficiency values for multiple trophic levels. The model-based studies reported the system-wide average. Most of the transfer efficiency data is empirically based. 
 
 \vspace{5mm}
@@ -237,7 +240,7 @@ The distributions of the freshwater transfer efficiencies are given in Figure \r
     \end{longtable}
 % \end{landscape}
 
-\subsection*{Marine}
+\subsection{Marine}
 Marine studies on transfer efficiency did not commence until decades after the start of freshwater studies. The popularity of marine transfer efficiency research has increased rapidly in the past 20 years and has overall now exceeded the number of freshwater studies. A total of 115 sites have transfer efficiency data (Table \ref{datamar}). In contrast to the freshwater studies, most marine transfer efficiency data ($n=134$) come from model-based studies rather than empirical experiments ($n=13$). Most marine studies report the average value for an entire system ($n=94$). In studies that focused on individual transfer efficiencies between specific trophic levels, most focused on the transfer efficiency between phytoplankton (trophic level 1) and zooplankton (trophic level 2).
 
 \vspace{5mm}
@@ -423,7 +426,7 @@ We combined results across both marine and freshwater systems to examine differe
 % \end{landscape}
 
 
-\section*{Discussion}
+\section{Discussion}
 Overall, these studies show similarities between the two systems. The results give visual evidence that although the average transfer efficiency does not differ greatly from 10\%, there is substantial variation in transfer efficiency in both systems (Figure \ref{dens_te}). Additionally our study was able to identify that trophic level and the general geographic location of the ecosystem impacts the variability of the transfer efficiency. Some of this large variation seems to have predictable patterns, but the potential sources of this variation can only be explored for the larger sample sizes from marine systems. Thus in the absence of data, the distributions generated in the current study are good starting points to model the variation in transfer efficiency. 
 
 \vspace{5mm}
@@ -438,10 +441,10 @@ We encountered two main difficulties in this study due to the different naming c
 
 Despite the aforementioned limitations, we are able to demonstrate the 10\% value is problematic given the substantial variation that exists in the transfer efficiency. Even though the average and median values that emerge from the synthesis are not dramatically different from 10\%--which may suggest that an assumption of 10\% would be reasonable--by continuing to use a 10\% transfer efficiency researchers are eschewing the large variation and predictable patterns within this variation, which will impact a food web model?s ability to provide realistic results. From here on, we explore implications of applying a fixed 10\% transfer efficiency in ecology, fisheries, and aquaculture.
 
-\subsection*{Applications in ecology}
+\subsection{Applications in Ecology}
 When it comes to ecology, the transfer efficiency is used to understand food web dynamics and how various species interact and influence one another. Most commonly, it is used in size spectrum studies that explore predator-prey relationships \cite{barnes2010global}. In general though, the more detailed and species-specific assimilation efficiency is used more frequently in such analyses. Since many issues within ecology and conservation biology focus on individual species patterns, it is valuable to be able to calculate species-specific efficiencies. The transfer efficiency is perhaps too broad of a metric for many questions. While using a 10\% transfer efficiency value can have drastic underrepresentation and lead to severely mismanaged systems, given the preference for the assimilation efficiency the implications of a 10\% transfer efficiency most likely has not been directly measured in many cases in ecology. Previous research has shown distinct transfer efficiencies between trophic levels and for terrestrial (i.e., temperate forests, deciduous forests, and grasslands) and freshwater (i.e., lakes) systems \cite{hairston1993causeeffect}. Even though the assimilation and consumption efficiencies are different measures, there is comparable variation in them as there is in the transfer efficiency data, and therefore the implications of applying fixed values for these efficiencies could be the same as those for the transfer efficiency.
 
-\subsection*{Applications in fisheries}
+\subsection{Applications in Fisheries}
 In fisheries, transfer efficiency is mostly used to determine the impact of fishing on a population. It can be used to estimate various metrics, such as biomass and the primary production required (PPR) given fisheries catch. Primary production required estimates the amount of net primary production needed to replace the biomass removed by fisheries landings. The idea is that primary production is a major limiting factor of fisheries catch. If biomass or the primary production required is incorrectly estimated, we risk the potential of under- or overfishing. 
 
 \vspace{5mm}
@@ -456,7 +459,7 @@ $PPR_t$ is the primary production required in year $t$ to produce the observed c
 
 \vspace{5mm}
 
-To explore the impact of ignoring variability in transfer efficiencies, we used the data we gathered on marine transfer efficiencies to test for sensitivities to transfer efficiency variability. We fit an approximate distribution to the marine transfer efficiency data using goodness-of-fit criterion so that we could randomly sample a value from the observed distribution instead of using a fixed 10\% value in the above equation (See supporting information for details). This approach allowed us to incorporate variability in the transfer efficiency. While the time span of the Sea Around Us catch data ran for over 60 years, we explored the distribution at 20 year intervals to get a sample of the changes in transfer efficiency. We constructed Monte Carlo simulations and ran 10,000 simulations for the years 1950, 1970, 1990, and 2010. Although it is difficult to compare our results directly to \citet{watson2014primary}, since their results are broken up by continental fishing fleets, we found that when transfer efficiency is allowed to vary, the projected PPR varies dramatically. Although the majority of the time the PPR is a sustainable fraction of the total production of the California Current, on average 47.18\% of the time (i.e., 46.93\% in 1950, 47.21\% in 1970, 47.35\% in 1990, and 47.22\% in 2010) the simulations suggest annual landings could exceed total primary production (Figure \ref{ppr}). Therefore, the application of a 10\% transfer efficiency in fisheries management has a high chance of leading to unsustainable fishing practices. 
+To explore the impact of ignoring variability in transfer efficiencies, we used the data we gathered on marine transfer efficiencies to test for sensitivities to transfer efficiency variability. We fit an approximate distribution to the marine transfer efficiency data using goodness-of-fit criterion so that we could randomly sample a value from the observed distribution instead of using a fixed 10\% value in the above equation (See Appendix \ref{appendix:a} for details). This approach allowed us to incorporate variability in the transfer efficiency. While the time span of the Sea Around Us catch data ran for over 60 years, we explored the distribution at 20 year intervals to get a sample of the changes in transfer efficiency. We constructed Monte Carlo simulations and ran 10,000 simulations for the years 1950, 1970, 1990, and 2010. Although it is difficult to compare our results directly to \citet{watson2014primary}, since their results are broken up by continental fishing fleets, we found that when transfer efficiency is allowed to vary, the projected PPR varies dramatically. Although the majority of the time the PPR is a sustainable fraction of the total production of the California Current, on average 47.18\% of the time (i.e., 46.93\% in 1950, 47.21\% in 1970, 47.35\% in 1990, and 47.22\% in 2010) the simulations suggest annual landings could exceed total primary production (Figure \ref{ppr}). Therefore, the application of a 10\% transfer efficiency in fisheries management has a high chance of leading to unsustainable fishing practices. 
 
 \begin{figure}[H]
      \centering
@@ -465,14 +468,14 @@ To explore the impact of ignoring variability in transfer efficiencies, we used 
     \label{ppr}
 \end{figure}
 
-\subsection*{Applications in aquaculture}
+\subsection{Applications in Aquaculture}
 Aquaculture already cultivates hundreds of different marine and freshwater species. The relevance of transfer efficiencies to production decisions depends on whether the species requires additional feed or not. Non-fed aquaculture includes either primary producers or primary consumers that are not provided additional feeds by the aquaculturist. Fed aquaculture, on the other hand, involves consumer species that are typically fed compound feeds designed to meet their specific nutritional requirements. Consumption of autotrophs, usually phytoplankton by filter feeders, is studied extensively in non-fed aquaculture to track carrying capacity of ecosystems with added aquaculture \cite{banas2007tidal}. These carrying capacities are estimated using assimilation efficiencies of a specific target species \cite{rosland2009applying, irisarri2013absorption, srisunont2016estimating} or as broader estimates of transfer efficiencies \cite{simenstad1995influence, sommer1998algal, byron2011calculating, han2017evaluating}.
 
 \vspace{5mm}
 
 More and more fed species are given specialized compound feeds rather than whole organisms in order to increase efficiency and sustainability of feed resources. To assess the sustainability of feeds, the field has begun to track transfer efficiencies by dissecting the feed into its compositional parts and estimating the efficiencies for each of the components using the method devised by \citet{pauly1995primary}. While a 10\% transfer efficiency was initially employed to estimate the primary production requirements or biotic resource use in environmentally-based aquaculture assessments (e.g., \citealt{papatryphon2004environmental, pelletier2007feeding, pelletier2009not}), more recent studies have incorporated species-specific efficiencies in their analyses to better understand the environmental tradeoffs between different feed compositions \cite{cashion2016review}. Additionally, \citet{cashion2016review} found that the use of a 10\% transfer efficiency has led to an underestimation of the impacts of salmon aquaculture on natural marine biomass resources. Actual impacts are likely three times greater. As with the case for wild fisheries, ignoring the variability in transfer efficiencies can have negative impacts on the conservation of limited resources and management of human activities.
 
-\section*{Concluding remarks}
+\section{Concluding Remarks}
 Our results raise the question why the use of an assumed transfer efficiency value of 10\% is still so prevalent despite widespread evidence of substantial variability and examples of where the consequences of ignoring such variability have been documented? One issue is clearly convenience. The overall mean of observed values is not dramatically different from the assumed 10\% value. Nonetheless, given the scope of observed variation and uncertainty, using a 10\% value for the sake of arithmetic convenience carries large risks. Our study is not the first to raise this point, but synthesizing the full scope of evidence around the levels of variability and its potential consequences for decisions will hopefully highlight the costs of ignoring variability in this key ecosystem parameter. 
 
 \vspace{5mm}
@@ -488,16 +491,263 @@ Finally, one other issue is that the studies that have addressed the variability
 In the absence of specific data for a broader array of systems, instead of using a fixed 10\% constant, we suggest using simulations or Bayesian models drawing on these synthetic distributions, which are great tools for incorporating variation and uncertainty. This approach would take us a long ways towards creating more valid food web models, and as such, improve our understanding on how food web dynamics impact community structure. 
 
 
-
-
 %=== Chapter 2  ============================================
-\chapter{Chapter 2 Title}
+\chapter{Untangling uncertainty in food web models}
 %---  Introduction -------------------------
-\begin{section}{Section Title}
 
-add..
+\section*{Introduction}
+Many managed fisheries constitute data-limited cases \cite{farmer2016stock} where there is insufficient information to evaluate population health and the sustainability of fishing practices with a full stock assessment. One common approach to overcome data limitations has been to aggregate multiple species together into stock complexes and create a single aggregate population dynamic model for the group \cite{cope2011approach}. Typically, similar species, or the species that are targeted together by the same fleets, are aggregated into a common model. However, this approach is based on strong assumptions which can compromise the validity or interpretability of the model results. 
 
-\end{section}
+\vspace{5mm}
+
+Perhaps the largest limitation to using a species complex model is that clustering species leads to a loss of information at the individual-species level. This is especially true when aggregated complexes are assessed using simple biomass dynamics models. In those cases the aggregated species are assumed to share life history traits (e.g., carrying capacity, expected lifespan, growth rates, reproductive rates, etc.), geographical ranges, and vulnerabilities. Ignoring the potential differences in vulnerabilities and sensitivities to fishing pressure is a serious concern when modeling species together as a complex and can lead to inaccurate and unsustainable predictions of biomass for some or all the stocks. Catch levels set to maximize one species could drive a ``weaker stock" to  unsustainably low levels \cite{hastings2017marine}.
+
+\vspace{5mm}
+
+Traditional single-species assessment modeling estimates the impacts of fishing using fisheries-related data such as catch, composition of the catch, and indices of abundance. These single-species models often lack the capability to incorporate broader-scale ecosystem information. Food web models, which are a type of ecosystem-based model, are capable of providing estimates of quantities such as carrying capacity, tropic level abundance, and transfer rates that are conceptually similar to concepts of single-species assessment modeling of carrying capacity, abundance, and intrinsic rates of increase. Incorporating ecosystem concepts into single-species assessments may offer a way forward for data-limited situations as well as provide a pathway from single-species to ecosystem-based management.
+
+\vspace{5mm}
+
+A problem in incorporating ecological concepts into statistical models of applied fisheries assessments is the quantification of uncertainty. Fisheries models are increasingly using state-space modeling approaches and with that comes an array of possibilities. Measures of the confidence in model results are important in setting management decisions. Most existing food web models are deterministic (do not take into account variation). A way of incorporating uncertainty in models is through simulation. We developed an approach using trophic pyramid food webs combined with Monte Carlo simulations to simulate values of trophic level biomass under different ecological assumptions. By considering uncertainty under different scenarios, we are able to quantify parameter and model output uncertainties in a way that has not previously been done in existing ecosystem models. 
+
+\vspace{5mm}
+
+Applying this technique on a data-limited fishery gives insight into the rigor of information we can expect to obtain when ecological concepts are incorporated into fisheries models and from there, how this information can be applied in fisheries assessments. The past few assessments of the main Hawaiian Islands Deep7 Bottomfish Complex groundfish fishery used an aggregate surplus production model for the complex. However there is a concern that life history traits may differ amongst the targeted species, which could ultimately affect the vulnerability to fishing pressure \cite{brodziak2011stock, langseth2018stock}. We used the main Hawaiian Islands (MHI) as the setting for our simulations to not only gain insight on the fishery and region, but to also minimize assumptions in our model construction, particularly those related to the movement of migratory species and larval dispersal. We needed to select a marine ecosystem that was as close to a naturally closed system as possible. Hawaii does not lie directly in the path of any current system, and the local wind and current patterns create a system of cyclonic eddies. Due to these properties, prior studies concluded that there is an oceanic barrier to larval dispersal \cite{lobel1986transport, vermeij1987dispersal, hourigan1987mid}. Therefore, we considered the MHI a naturally enclosed marine ecosystem due to the containment of larval drift.
+
+
+\section*{Methods}
+\subsection*{Base Equation}
+Both \citet{lalli1997biological} and \citet{libralato2008novel} outlined that production at each trophic level ($h$) can be estimated from net primary production  (NPP, denoted $\nu$) multiplied by the trophic transfer efficiencies ($\tau_h$). In line with extant research on this topic (see \citealt{cury2005trophodynamic, libralato2008novel, chassot2010global, trebilco2013ecosystem, watson2014primary}) we define the transfer efficiency ($\tau_h$) as the fraction of production passing from trophic level $h-1$ to $h$, where $h$ is the higher trophic level in the food web. In many cases net primary production is represented in metric tons C/year and is multiplied by 9 to convert from organic carbon (metric tons C) to wet weight (metric tons) \cite{strathmann1967estimating, pauly1995primary, chassot2010global}. We include the lifespan term $\lambda_h$ to convert from the weight of individuals produced in a year to the overall standing stock in Eq. (\ref{base}) as we are interested in solving for trophic level biomass ($\gamma_h$) instead of production. See Table \ref{description} for defined variables and parameters definitions within Eq. (\ref{base}).
+
+\begin{equation} \label{base}
+\gamma_h = \nu * 9 * \left( \prod_{j=2}^{h} \tau_j \right) \lambda_h \hspace{5mm} \text{for} \hspace{5mm} h \in \{2, 3, 4\}
+\end{equation}
+
+\begin{table}[H]
+\centering
+\caption{Definition of notation in Eq. (\ref{base}) and scientific units used}
+\begin{tabular}{l|l|l}
+  \hline \small
+ Terms & Description & Units  \\ 
+   \hline
+   $h$ & Trophic level in MHI, where $h = 2,3,4$  & \\
+   $\gamma_h$ &  Trophic level biomass at trophic level $h$ & metric tons  \\
+   $\nu$ & NPP & metric tons C/year \\
+   9 & Carbon to wet weight conversion ratio & metric tons/metric tons C \\
+   $\tau_{h}$ & Transfer efficiency between trophic level $h-1$ and $h$ &   \\  
+   $\lambda_h$ & Lifespan of a species found at trophic level $h$ & years \\
+   \hline
+\end{tabular} 
+\label{description}
+\end{table}
+
+\subsection*{Data}
+We built Eq. (\ref{base}) for our case study of the MHI using the following data sources: We used the 8-day time series Sea-viewing Wide Field-of-view Sensor (SeaWiFS) chlorophyll \textit{a} data from 1997 to 2010 that was transformed using the \textit{Eppley-}Vertically Generalized Production Model (VGPM) to estimate NPP from chlorophyll \textit{a} from the Ocean Productivity group at Oregon State University (\url{http://www.science.oregonstate.edu/ocean.productivity/}) (Fig. \ref{SeaWiFSmhi}) \cite{behrenfeld1997photosynthetic}. Estimated trophic levels (rational numbers) were calculated from the FishBase database (\url{http://www.fishbase.org/}) of \citet{fishbase} for each species and truncated to assign species into integer-valued trophic levels. Truncated trophic levels range in the MHI from $h=1,\dots,4$ with $h=1$ representing phytoplankton, $h=2$ primary consumers, $h=3$ secondary consumers, and $h=4$ tertiary consumers. In this ecosystem, the maximum trophic level is 4. However, this value can vary in other ecosystems depending on the species composition. The \citet{fishbase} FishBase data set was also used to estimate the lifespan ($\lambda_h$) across all species at trophic level $h$. In this database \citet{fishbase} defines the term lifespan as ``the maximum expected age, on average, for a species, cohort, stock, or a population in the absence of fishing. Smaller than maximum age although may be used in this sense."
+
+\begin{figure}[H]
+     \centering
+       \includegraphics[width=.7\textwidth]{fig/SeaWiFSmhi}
+    \caption{A single 8-day time frame of the SeaWiFS \textit{Eppley-}VGPM NPP data in January 1998 for the main Hawaiian Islands EEZ. The color scale shows the amount of estimated NPP in total gigatons of Carbon per year per pixel. The pixel size of the SeaWiFS data set is 9 by 9 km. Image created by Erik Fields (Earth Research Institute, ERI).}
+    \label{SeaWiFSmhi}
+\end{figure}
+
+\subsection*{Assumptions and General Model}
+\subsubsection*{Assumptions in Model}
+In Eq. (\ref{joint}), we present the decomposition of the joint distribution for the general ecological model. Here we assume that the random variables NPP $(\nu)$, transfer efficiencies $(\tau_2, \tau_3,$ and $\tau_4)$, and lifespans $(\lambda_2, \lambda_3,$ and $\lambda_4)$ are independent. This assumption is ecologically reasonable, because the amount of energy going into the system does not depend upon the transfer of energy or an organism's lifespan. Additionally, we assume that the distribution of transfer efficiency at trophic level $h$, ($\tau_h$), is independent of transfer efficiency at the previous trophic level ($\tau_{h-1}$). Throughout this paper, we therefore assume the joint distribution for $\nu, \tau_2, \tau_3, \tau_4, \lambda_2, \lambda_3,$ and $\lambda_4$ can be broken down as:
+
+\begin{equation} \label{joint}
+f(\nu, \tau_2, \tau_3, \tau_4, \lambda_2, \lambda_3, \lambda_4) =  f(\nu)f(\tau_2)f(\lambda_2)f(\tau_3)f(\lambda_3)f(\tau_4)f(\lambda_4)  
+\end{equation}
+
+Since the trophic level biomass, $\gamma_h$, for trophic levels $h \in \{ 2,3,4\}$ in Eq. (\ref{base}) is a deterministic function of the random variables from Eq. (\ref{joint}), given the distributional assumptions detailed both above and in Table \ref{assumcases}, it is possible  in some cases to find the distribution of $\gamma_h$ for $h \in \{2, 3, 4\}$. Our assumptions in Eq. (\ref{joint}) implies that we are assuming if trophic level $h_x$ does not equal to trophic level $h_y$, the lifespan ($\lambda_{h_{x}}$) is independent of trophic level biomass ($\gamma_{h_{y}}$) for $h_x, h_y \in \{2, 3, 4\}$.
+
+\subsubsection*{Random Distributions on Random Variables}
+Variation in ecosystem-based models is a contested area of research in fisheries science. Many studies use a default 10\% transfer efficiency for $\tau_h$ for each $h \in \{2, 3, 4\}$ (i.e., $\tau_h = 0.10 \hspace{2mm} \forall \hspace{2mm} h \in \{2, 3, 4\}$), thereby assuming this is constant across all trophic levels \cite{lindeman1942trophic, slobodkin1962energy, may1976theoretical, pauly1995primary}. However, other researchers have estimated that the true transfer efficiency may be higher than 10\% \cite{schaefer1965potential, ryther1969photosynthesis,sheldon1977structure, baumann1995comment}, may vary depending on the size and type of ecosystem \cite{libralato2008novel, heymans2011ecopath}, and decrease with increasing trophic levels \cite{may1983ecology, barnes2010global}. As the current study is applied to a data-limited case, we are unsure of the values of NPP ($\nu$), transfer efficiency $(\tau_h)$, and lifespans ($\lambda_h$) for $h \in \{2, 3, 4\}$ in the model. Therefore, we choose to study sensitivities of biomass ($\gamma_h$) to each of the three components.
+
+\subsubsection*{Distributional Assumptions}
+Several distributional and conditional assumptions we placed on the distributions of the random variables NPP ($\nu$), transfer efficiencies $(\tau_h)$, and lifespans ($\lambda_h$) for $h \in \{2, 3, 4\}$ are described in Table \ref{assumcases} and visualized in Fig. \ref{distassump} as special cases of our general model Eq. (\ref{joint}). In Case 1 of $f(\nu)$, a value of $c_1 = 87339861.7$ metric tons C/ year was estimated by fitting a time series seasonal autoregressive integrated moving average model (SARIMA model) to the SeaWiFS data using R v.3.4.3 \cite{Rcite} forecast package v8.2 and function auto.arima() \cite{forecast1, forecast2}. Case 2 of $f(\nu)$ was approximated based on goodness-of-fit tests fitted to the SeaWiFS data \cite{fitdistrplus} (Fig. \ref{distassump}). 
+
+\vspace{5mm}
+
+We based the distributional assumptions for Case 1 of the transfer efficiencies $\tau_h$ for $h \in \{2, 3, 4\}$ from \citet{pauly1995primary}. We used \citet{pauly1995primary} average transfer efficiency value of 0.1013 for $c_2$ in our study. We utilized data gathered from a meta analysis on marine transfer efficiencies to fit approximate distributions based on goodness-of-fit tests \cite{fitdistrplus} for Case 2 and 3 of the transfer efficiencies $\tau_h$ (Fig. \ref{distassump}). Case 2 has the transfer efficiency ($\tau_h$) come from the same distribution for all $h \in \{2, 3, 4\}$, while Case 3 places distinct distributions on each transfer efficiency.
+
+\vspace{5mm}
+
+In Case 1 for $f(\lambda_2)$, $f(\lambda_3)$, and $f(\lambda_4)$, the values of $c_3=5.75$ years, $c_4=6$ years, and $c_5=11.95$ years were calculated by taking the median of the maximum expected lifespan data at each trophic level $h$. When lifespans ($\lambda_h$ for $h \in \{2, 3, 4\}$) are treated as random variables (non-constant), we chose approximate distributions based on goodness-of-fit tests \cite{fitdistrplus} (Fig. \ref{distassump}). Details of the SARIMA model and the steps taken to estimate the parameters in the Lognormal and Beta distributions in Table \ref{assumcases} are in Appendix \label{appendix:b}.
+   
+\begin{table}[H]
+\centering
+\caption{Distributional assumption cases are special cases for the components of the joint distribution (i.e., Eq. (\ref{joint})). We treat $c_1$, $c_2$, $c_3$, $c_4$, and $c_5$ as constants.  Lack of subscripts means the parameter has the same value across all distributions.}
+\begin{tabular}{|c|c|c|c|}
+  \hline 
+ 	& Case 1 & Case 2 & Case 3  \\ 
+   \hline
+   \multirow{2}{*}{$f(\nu)$} 	& 1 if $\nu = c_1$ & 
+   \multicolumn{2}{c|}{ \multirow{2}{*}{$Lognormal(\mu_\nu, \sigma_\nu^2)$ }} \\
+   				& 0 else 			 & 	\multicolumn{2}{c|}{ } \\
+   \hline   
+   \multirow{2}{*}{$f(\tau_2)$} & 1 if $\tau_2 = c_2$ & \multirow{2}{*}{$Beta(\alpha, \beta)$} & \multirow{2}{*}{$Beta(\alpha_{\tau_2}, \beta_{\tau_2})$}  \\
+         			& 0 else &  &  \\
+   \hline   
+   \multirow{2}{*}{$f(\tau_3)$}  & 1 if $\tau_3 = c_2$ & \multirow{2}{*}{$Beta(\alpha, \beta)$} & \multirow{2}{*}{$Beta(\alpha_{\tau_3}, \beta_{\tau_3})$}  \\
+            			& 0 else & &  \\
+   \hline  
+   \multirow{2}{*}{$f(\tau_4)$} & 1 if $\tau_4 = c_2$ &  \multirow{2}{*}{$Beta(\alpha, \beta)$} & \multirow{2}{*}{$Beta(\alpha_{\tau_4}, \beta_{\tau_4})$}  \\
+               			& 0 else & &  \\
+   \hline      	
+    \multirow{2}{*}{$f(\lambda_2)$} & 1 if $\lambda_2 = c_3$ & \multicolumn{2}{c|}{\multirow{2}{*}{$Lognormal(\mu_{\lambda_2}, \sigma_{\lambda_2}^2)$}} \\
+    	& 0 else	& 	\multicolumn{2}{c|}{ }  \\
+   \hline      	
+    \multirow{2}{*}{$f(\lambda_3)$} & 1 if $\lambda_3 = c_4$ & \multicolumn{2}{c|}{\multirow{2}{*}{$Lognormal(\mu_{\lambda_3}, \sigma_{\lambda_3}^2)$}} \\
+    	& 0 else	& 	\multicolumn{2}{c|}{ }  \\
+   \hline      	
+    \multirow{2}{*}{$f(\lambda_4)$} & 1 if $\lambda_4 = c_5$ & \multicolumn{2}{c|}{\multirow{2}{*}{$Lognormal(\mu_{\lambda_4}, \sigma_{\lambda_4}^2)$}} \\
+    	& 0 else	& 	\multicolumn{2}{c|}{ }  \\    	
+   \hline
+\end{tabular} 
+\label{assumcases}
+\end{table}
+
+\begin{figure}[H]
+     \centering
+       \includegraphics[width=.9\textwidth]{fig/distassump}
+    \caption{Probability distributions for the distributional assumption cases described in Table \ref{assumcases} where NPP ($\nu$), transfer efficiencies ($\tau_h$ for $h \in \{2, 3, 4\}$), and lifespans ($\lambda_h$ for $h \in \{2, 3, 4\}$) are not fixed values. Plot created using R v.3.4.3 \cite{Rcite} ggplot2 package v.2.2.1 \cite{ggplot}. }
+    \label{distassump}
+\end{figure}
+
+\subsection*{Simulation Scenarios}
+We combine distributional assumptions on the components of Eq. (\ref{joint}) corresponding to NPP $f(\nu)$, transfer efficiencies $f(\tau_h)$, and lifespans $f(\lambda_h)$ for $h \in \{2, 3, 4\}$ from Table \ref{assumcases} to create different scenarios that represent various ecological assumptions (See Table \ref{scenariosids} for the explanation of scenario code names and Table \ref{scenarios} for description of scenarios). In Table \ref{scenarios}, we interpret each cell as the $i^{th}$ distributional case outlined in Table \ref{assumcases} for the $x^{th}$ variable. For example, we would interpret $f^1(\nu)$ as the distributional assumption under the column Case 1 for $f(\nu)$ in Table \ref{assumcases}. The transfer efficiencies ($\tau_2, \tau_3, \tau_4$) and maximum expected lifespans ($\lambda_2, \lambda_3, \lambda_4$) are independent of each other in all cases. We construct different scenarios to not only incorporate uncertainty in the NPP (denoted by superscript ``2" in Table \ref{assumcases}, $f^2(\nu)$) and lifespans ($f^2(\lambda_h)$ for $h \in \{2, 3, 4\}$), but also to encompass contrasting values for the transfer efficiency. The three areas focused on in this manuscript are: constant transfer efficiencies ($f^1(\tau_h)$ for $h \in \{2, 3, 4\}$), non-constant but independent transfer efficiencies ($f^2(\tau_h)$ for $h \in \{2, 3, 4\}$), and the constriction on transfer efficiencies distributions at successive trophic levels ($f^3(\tau_h)$ for $h \in \{2, 3, 4\}$). Scenario NTL (i.e., fixed NPP ($\nu$), fixed transfer efficiencies ($\tau_h$), and fixed lifespans ($\lambda_h$)) is a simplistic model intended to be used as a comparison to other relatively similar simple equations \cite{pauly1995primary, cury2005trophodynamic, chassot2010global, watson2014primary}. 
+
+\begin{table}[H]
+\centering
+\caption{Key of the scenario code names used to identify the various ecological and distributional assumptions.}
+\begin{tabular}{|c|cc|cc|cc|}
+  \hline Types of Transfer Efficiency & \multicolumn{2}{c|}{NPP ($\nu$)} & \multicolumn{2}{c|}{Transfer efficiency ($\tau_h$)}  &  \multicolumn{2}{c|}{Lifespan ($\lambda_h$)}  \\ 
+  Variation & Fixed & Random & Fixed & Random & Fixed & Random  \\
+    \hline
+  Fixed 10\% & N & n & T &   & L & l \\
+  Allowed to vary & \textit{N} & \textit{n} & & \textit{t} & \textit{L} & \textit{l} \\
+  Decreases as move up food web & \textbf{N} & \textbf{n} & & \textbf{t} & \textbf{L} & \textbf{l} \\
+  \hline
+\end{tabular} 
+\label{scenariosids}
+\end{table}
+
+\begin{table}[H]
+\centering
+\caption{Scenarios are combinations of the distributional assumption cases described in Table \ref{assumcases}, where $f^i(x)$ indicates the $i^{th}$ distributional assumption for the variable $x$. Table \ref{scenariosids} defines the code names for the scenarios. }
+\begin{tabular}{|c|c|c|c|c|c|}
+  \hline \small
+   Scenarios & $f(\nu)$ & $f(\tau_2)$ & $f(\tau_3)$ & $f(\tau_4)$ & $f(\lambda_h)$  \\ 
+  \hline
+  NTL & $f^1(\nu)$ & $f^1(\tau_2)$ & $f^1(\tau_3)$ & $f^1(\tau_4)$ & $f^1(\lambda_h)$ \\
+  NTl & $f^1(\nu)$ & $f^1(\tau_2)$ & $f^1(\tau_3)$ & $f^1(\tau_4)$ & $f^2(\lambda_h)$ \\
+  nTl & $f^2(\nu)$ & $f^1(\tau_2)$ & $f^1(\tau_3)$ & $f^1(\tau_4)$ & $f^2(\lambda_h)$ \\   
+  \textit{NtL} & $f^1(\nu)$ & $f^2(\tau_2)$ & $f^2(\tau_3)$ & $f^2(\tau_4)$ & $f^1(\lambda_h)$ \\
+  \textit{Ntl} & $f^1(\nu)$ & $f^2(\tau_2)$ & $f^2(\tau_3)$ & $f^2(\tau_4)$ & $f^2(\lambda_h)$ \\ 
+  \textit{ntl} & $f^2(\nu)$ & $f^2(\tau_2)$ & $f^2(\tau_3)$ & $f^2(\tau_4)$ & $f^2(\lambda_h)$ \\
+  \textbf{NtL} & $f^1(\nu)$ & $f^3(\tau_2)$ & $f^3(\tau_3)$ & $f^3(\tau_4)$ & $f^1(\lambda_h)$ \\
+  \textbf{Ntl} & $f^1(\nu)$ & $f^3(\tau_2)$ & $f^3(\tau_3)$ & $f^3(\tau_4)$ & $f^2(\lambda_h)$ \\
+  \textbf{ntl} & $f^2(\nu)$ & $f^3(\tau_2)$ & $f^3(\tau_3)$ & $f^3(\tau_4)$ & $f^2(\lambda_h)$ \\
+  \hline
+\end{tabular} 
+\label{scenarios}
+\end{table}
+
+\subsection*{Simulation Details}
+We were able to find equations for the distribution of $\gamma_h$ for $h \in \{2, 3, 4\}$ based on the transformation of parameters in Eq. (\ref{joint}) for Scenarios NTl and nTl. For details see Appendix \label{appendix:b}. Given the current distributional assumptions placed on NPP ($f(\nu)$), transfer efficiencies ($f(\tau_h)$), and lifespans ($f(\lambda_h)$ for $h \in \{2, 3, 4\}$), we used simulations for the other six scenarios. Scenario NTL is a deterministic equation and therefore does not need simulation. We ran one million simulations for the other scenarios. 
+
+\vspace{5mm}
+
+In order to support simulation as a reasonable option, we examine the densities of Scenario NTl and nTl where we were able to derive the distributions of $\gamma_h$ and compare them to a version where we instead used simulations. We find that the analytical densities of the derived distributions and simulations are visually very similar to each other (Fig. \ref{scen1and4distsim}). 
+
+\begin{figure}[H]
+     \centering
+       \includegraphics[width=\textwidth]{fig/scen4and7distsim}
+    \caption{Comparison of the densities plots where we used simulations (blue) to the analytically derived probability distributions of $\gamma_h$ (pink line) in Scenarios NTl and nTl at each trophic level. We limited the upper bound of the x-axis to improve visualization. Plot created using R v.3.4.3 \cite{Rcite} ggplot2 package v.2.2.1 \cite{ggplot}. }
+    \label{scen1and4distsim}
+\end{figure}
+
+
+\section*{Results}
+At the primary consumer level ($h=2$), all scenarios exhibit skewed distributions of trophic level biomass ($\gamma_2$) (Fig. \ref{beta2estimated}). The peaks and tails of the biomass distributions are distinct amongst the scenarios with Scenarios \textbf{Ntl} and \textbf{ntl} having the fattest tails. When the transfer efficiency is treated as a random variable in Scenarios \textit{NtL}, \textit{Ntl}, \textit{ntl}, \textbf{NtL}, \textbf{Ntl}, and \textbf{ntl}, both the dispersion and interquartile ranges increase. Out of all of the scenarios, Scenarios NTl, nTl, \textit{NtL}, and \textbf{NtL} have the smallest coefficients of variation (CV) while Scenarios \textbf{Ntl} and \textbf{ntl} have the largest CV (Table \ref{cv}). The medians of the scenarios that represent the constricting distribution of transfer efficiencies as we move up the food web (i.e., \textbf{NtL}, \textbf{Ntl}, and \textbf{ntl}) are slightly higher than Scenario NTL's trophic level biomass estimate (Fig. \ref{beta2estimated}).   
+
+\begin{figure}[H]
+     \centering
+       \includegraphics[width=1\textwidth]{fig/biomass2_hist_box_v3.png}
+    \caption{Histogram and box plots of the trophic level 2 biomass ($\gamma_2$, metric tons) for all scenarios except Scenario NTL. Both plots have a vertical gray line representing the estimated trophic level biomass from Scenario NTL. Scenarios NTl and nTl show independent draws from analytical distributions, while the remaining scenarios show draws from simulations. In the histograms, we limited the upper bound of the x-axis to improve visualization. In the box plots, we addressed the skewness by plotting the log of the trophic level 2 biomass. The median of each distribution is denoted as a solid vertical black line inside each box. Plot created using R v.3.4.3 \cite{Rcite} ggplot2 package v.2.2.1 \cite{ggplot}. }
+    \label{beta2estimated}
+\end{figure}
+
+% latex table generated in R 3.4.3 by xtable 1.8-2 package
+% Fri Sep 28 15:23:56 2018
+\begin{table}[ht]
+\centering
+\caption{Coefficient of variation for each trophic level biomass and scenario combination. Scenario 1 is not included because it is a deterministic equation.}
+\begin{tabular}{cccc}
+  \hline
+ & Trophic level 2 & Trophic level 3 & Trophic level 4 \\ 
+  \hline
+  Scenario NTl & 0.79 & 1.00 & 0.97 \\ 
+  Scenario nTl & 0.80 & 1.01 & 0.98 \\ 
+  Scenario \textit{NtL} & 0.66 & 1.02 & 1.38 \\ 
+  Scenario \textit{Ntl} & 1.15 & 1.77 & 2.16 \\ 
+  Scenario \textit{ntl} & 1.16 & 1.77 & 2.17 \\ 
+  Scenario \textbf{NtL} & 0.74 & 1.01 & 1.41 \\ 
+  Scenario \textbf{Ntl} & 1.23 & 1.73 & 2.18 \\ 
+  Scenario \textbf{ntl} & 1.24 & 1.76 & 2.20 \\ 
+   \hline
+\end{tabular}
+\label{cv}
+\end{table}
+
+At the secondary consumer level ($h=3$), similar visual and mathematical patterns emerge at trophic level 3 that were found at trophic level 2. The distributions of trophic level biomass ($\gamma_3$) for all scenarios are right-skewed with heavy tails (Fig. \ref{beta3estimated}). The medians of Scenarios \textbf{NtL}, \textbf{Ntl}, and \textbf{ntl} are a bit larger than Scenario NTL's trophic level biomass estimate (Fig. \ref{beta3estimated}). The scenarios where transfer efficiency is a fixed 10\% between successive trophic levels (i.e., Scenarios NTl and nTl) and the scenarios where the maximum expected lifespan is kept as a fixed constant (i.e., Scenarios \textit{NtL} and \textbf{NtL}) have the smallest CVs. This is in contrast to the scenarios that allow the transfer efficiency to vary which have the largest CVs (Table \ref{cv}). In general when the transfer efficiency is treated as a random variable (i.e., Scenarios \textit{NtL}, \textit{Ntl}, \textit{ntl}, \textbf{NtL}, \textbf{Ntl}, and \textbf{ntl}), the variance and interquartile range increases. This is mostly attributed to the fact that these equations have more random values. Nevertheless, at trophic level 3 the dispersion has increased overall for all scenarios in comparison to the dispersion at trophic level 2. 
+
+\begin{figure}[H]
+     \centering
+       \includegraphics[width=1\textwidth]{fig/biomass3_hist_box_v3.png}
+    \caption{Histogram and box plots of the trophic level 3 biomass ($\gamma_3$, metric tons) for except Scenario NTL. Both plots have a vertical gray line representing the estimated trophic level biomass from Scenario NTL. Scenarios NTl and nTl show independent draws from analytical distributions, while the remaining scenarios show draws from simulations. In the histograms, we limited the upper bound of the x-axis to improve visualization. In the box plots, we addressed the skewness by plotting the log of the trophic level 3 biomass. The median of each distribution is denoted as a solid vertical black line inside each box. Plot created using R v.3.4.3 \cite{Rcite} ggplot2 package v.2.2.1 \cite{ggplot}. }
+    \label{beta3estimated}
+\end{figure}
+
+At the tertiary consumer level ($h=4$), most of the same distributional and dispersion patterns emerge at trophic level 4 that were found at the previous two trophic levels. The distributions of trophic level biomass ($\gamma_4$) for all scenarios are right-skewed with heavy tails (Fig. \ref{beta4estimated}). However at trophic level 4, the medians for all scenarios are relatively the same (Fig. \ref{beta4estimated}). Scenarios NTl and nTl, which both treat the transfer efficiency as a fixed 10\% constant, have the smallest interquartile ranges, but they have smaller CVs at trophic level 4 than at trophic level 3 (Table \ref{cv}). For the other scenarios though, the simulations show an increase in the CVs at trophic level 4 in comparison to the CVs at trophic level 3. 
+
+\begin{figure}[H]
+     \centering
+       \includegraphics[width=\textwidth]{fig/biomass4_hist_box_v3.png}
+    \caption{Histogram and box plots of the trophic level 4 biomass ($\gamma_4$, metric tons) for except Scenario NTL. Both plots have a vertical gray line representing the estimated trophic level biomass from Scenario NTL. Scenarios NTl and nTl show independent draws from analytical distributions, while the remaining scenarios show draws from simulations. In the histograms, we limited the upper bound of the x-axis to improve visualization. In the box plots, we addressed the skewness by plotting the log of the trophic level 4 biomass. The median of each distribution is denoted as a solid vertical black line inside each box. Plot created using R v.3.4.3 \cite{Rcite} ggplot2 package v.2.2.1 \cite{ggplot}. }
+    \label{beta4estimated}
+\end{figure}
+
+
+\section*{Discussion}
+Even though we placed different distributional assumptions on each of the scenarios, some common visual and mathematical patterns emerge in Fig. \ref{beta2estimated}, \ref{beta3estimated}, and \ref{beta4estimated} and in Table \ref{cv}. While the medians stayed relatively the same amongst the scenarios, the level of variability differed depending on the distributional assumptions. The simulations demonstrate that we can cluster the scenarios into 3 groups: fixed transfer efficiency (i.e., NTl and nTl), random transfer efficiency (i.e., \textit{NtL}, \textit{Ntl}, and \textit{ntl}), and decreasing transfer efficiency (i.e., \textbf{NtL}, \textbf{Ntl}, and \textbf{ntl}). These communal patterns indicate that the distributional assumptions placed on the transfer efficiency affects the distribution of trophic level biomasses more than the assumptions placed on NPP and maximum expected lifespan. Therefore by ignoring the variability in transfer efficiency, researchers will draw incorrect conclusions about biomass. 
+
+\vspace{5mm} 
+
+The results of the simulations provides direct insight on the MHI, which can in turn be used to inform management on the data-limited MHI Deep7 Bottomfish Complex groundfish fishery. This trophic pyramid food web model, which incorporates variability as an essential feature, now allows fisheries scientists to estimate trophic level biomasses with uncertainty assessment. Fisheries scientists now have a better idea of the biomasses that the MHI ecosystem can support, and they can utilize this information to help ground truth carrying capacity estimates for the groundfish fishery. Since the boxes in Fig. \ref{beta2estimated}, \ref{beta3estimated}, and \ref{beta4estimated} representing the various combinations of ecological assumptions mostly overlap, scientists can essentially choose any of them to estimate trophic level biomass in a data-limited case. However if this were a data-rich situation and fisheries scientists knew the ecological assumptions, they should choose the scenario that is most appropriate for their region.
+ 
+\vspace{5mm} 
+
+The results of the simulations demonstrate the need for incorporating variation in the modeling process, especially in data-limited cases. When we allowed the parameters (i.e., NPP, transfer efficiency, and maximum expected lifespan) in the trophic pyramid food web model to vary, we obtained a large range of potential trophic level biomasses from the simulations. We recommend that scientists use the scenarios that incorporate variation, because otherwise the model could potentially not encapsulate all potential biomass values. There is a higher probability that the true biomass of some species might fall above or below the estimated value if a single point estimate was used instead. Especially in data-limited cases, fisheries scientists should always model variability since little ecological and biological information is known about the system. Doing this can help avoid disastrous situations (e.g., population and fisheries collapse). From there, depending how conservative the fisheries management bodies are, fisheries scientists can advise catch limits where the catch cannot exceed the maximum estimated trophic level biomass or even half of that. If the goal is conservation, such as in places with multiple endangered species, managers can error on side of caution and pick lower bounds.
+
+\vspace{5mm} 
+
+Another reason scientists should want to incorporate variability is that the environment is not static. Even though it might appear on average to be acceptable to use a fixed NPP or transfer efficiency, there is year-to-year variability in everything from the input to the amount of energy that flows. It is well documented and understood that marine primary production changes seasonally and annually. Most notably within the past few decades, research has also examined how climate change has and will impact primary production \cite{gregg2003ocean} and species composition \cite{walther2002ecological}. Research also shows that transfer efficiency varies by ecological system, geographic location, trophic level, and species composition \cite{baird2004energy, barnes2010global, libralato2008novel, san2006latitudinal}. \citet{condon2011jellyfish} even found that the presence of jellyfish blooms, which have been increasing worldwide, have been found to restrict the transfer of energy to higher trophic levels. Therefore, we want models that are adjustable, especially in context of data-limited fisheries. Error bounds give a more realistic picture of what is happening in the system.
+
+\vspace{5mm}
+
+In addition, when summarizing data sets it is common practice to record only the mean and standard deviation of the given dataset. However, this proves problematic for other researchers needing to draw on data from multiple sources as these two summary statistics alone are insufficient to produce robust models. When choosing what to archive and make public, we argue that more information needs to be included in the databases (e.g., approximate distributions and parameter estimates). Knowing the specific distributions increases the accuracy of simulations, leading to more useful models.
+
+\vspace{5mm}
+
+Furthermore, we acknowledge that our NPP uncertainty estimate is underestimated due in part to the incomplete data set gathered by the SeaWiFS satellite. The satellite has missing information due to cloud cover, and the data set gathered has a shorter time series than the original time it was in operation due to parts malfunctioning. As a result, our model does not account for all of the NPP that is produced in the ocean. Additionally, the time series model (i.e., SARIMA) we used was simplistic. 
+In future work on this topic, a more complicated time series approach will be utilized, as well as more specific estimates of NPP by season and by year.
+
+\vspace{5mm}
+
+The results of our simulations gives insight into the rigor of information we obtain when ecological concepts are incorporated into fisheries models and additionally how this information can be applied in fisheries assessments. Estimating trophic level biomass in data-limited scenarios is feasible, and our simulations yield a plausible range of biomass values. The multiple scenarios provide different options for tackling the same problem, and fisheries scientists can choose between them based on their knowledge of the system. The general ecosystem information provided from the results of the trophic pyramid food web model can help ground truth data-limited single-species estimates by giving an estimate of the biomass that the ecosystem can support. We therefore suggest using deterministic food web models results with caution and encourage future development on food web models to improve their usefulness in data-limited scenarios. 
+
 
 %=== Chapter 3  ============================================
 \chapter{Chapter 3 Title}
@@ -513,12 +763,144 @@ add..
 
 \dsp
 
-\chapter{Appendix Title }{\label{appendix:a}}
-\begin{section}{Section Title}
+\chapter{Appendix for Chapter 2: Tangled is the web we weave}{\label{appendix:a}}
 
-Appendicitis
+\section{Decision trees}
+We used regression trees with pruning, bagging, and random forests on the marine data set and trained the classifiers on 75\% of the marine transfer data. We tried different tree-based methods which involve stratifying or segmenting the predictor space (i.e., transfer efficiency) into a number of simple regions. Though the simple tree-building process may produce good predictions on our training data, it is likely to over fit the data, leading to poor test set performance. Thus, a better strategy is to grow a very large tree, and then prune it in order to obtain a subtree. We also tried other tree methods, such as bagging and random forests. These methods grow multiple trees which are then combined to yield a single consensus prediction. Combining a large number of trees can often result in dramatic improvements in prediction accuracy and reduce variance, at the expense of some loss in interpretation. For bagging, we construct regression trees using 1,000 bootstrapped training datasets. Random forest builds on the idea of bagging, but de-correlates the trees, thus leading to more reduction in variance. We build a 1,000 decision trees on bootstrapped training sample, but in the tree building process, each time a split in a tree is considered, a random sample of 2 predictors is chosen as split candidates from the full set of 3 predictors.
 
-\end{section}
+\vspace{5mm}
+
+We selected the optimal number of number of nodes using cross validation. The best subtree with the minimized error had three nodes. The final subtree is visualized in Figure \ref{tree} and illustrates that combinations of specific factors can lead to distinct transfer efficiencies. It shows that trophic level is the most important factor in predicting transfer efficiency and that certain trophic levels have higher and lower transfer efficiencies. It also indicates that different regions in the ocean impact transfer efficiency at the primary consumer level. 
+
+\begin{figure}[H]
+     \centering
+       \includegraphics[width=\textwidth]{fig/tree}
+    \caption{Visualization of regression tree with pruning ending in three terminal nodes. The tree stratifies transfer efficiency into three segments: when the transfer efficiency applies to either secondary, tertiary, and quaternary consumers, when the transfer applies to primary consumers and the region is either a lagoon, open ocean, or tropical shelves and seas, and when the transfer efficiency applies to primary consumers and the region is temperate shelves and seas. Plot created using R v.3.4.3 \cite{Rcite} partykit package v.1.2-2 \cite{hothorn2015partykit}.}
+    \label{tree}
+\end{figure}
+
+\section{Fitting approximate distributions}
+In the Monte Carlo simulations, we randomly drew from an approximate distribution that was fitted to the marine transfer efficiency data. In order to determine an approximate distribution for the marine transfer efficiency data, we ran goodness-of-fit tests. We started off with a skewness-kurtosis plot (Figure \ref{cf_te}) to initially decide which distributions to consider (i.e., Beta and Gamma) \cite{fitdistrplus}. Then we fitted individual distributions to the data using maximum likelihood estimation and compared density plots of the fitted distributions to the histogram of the empirical distribution, a cumulative distribution (CDF) plot of both the empirical distribution and the fitted distributions, Q-Q plots, and P-P plots (Figure \ref{gof_te}). Lastly, we used both AIC and BIC criterion to choose the most approximate distribution (Table \ref{te_aic}). While the Gamma distribution was a reasonable choice. We preferred the Beta distribution because, like percentages, it is defined within the range [0, 1]. Therefore, we concluded that a $Beta(\alpha = 1.90, \beta = 13.36$) distribution was the most appropriate approximate distribution. 
+
+\begin{table}[H]
+\centering
+\caption{Goodness-of-fit criteria for transfer efficiency data}
+\begin{tabular}{r|c|c}
+  \hline \small
+ Goodness-of-fit criteria & Beta  & Gamma \\ 
+   \hline
+   Akaike's Information Criterion (AIC) & -354.94 & -369.97 \\   
+   Bayesian Information Criterion (BIC) & -348.96 &  -363.99  \\
+   \hline
+\end{tabular} 
+\label{te_aic}
+\end{table}
+
+\begin{figure}[H]
+     \centering
+       \includegraphics[width=.8\textwidth]{fig/cullen_frey_te}
+    \caption{Visualizes all potential continuous distributions against the marine transfer data and bootstrapped data. The figure shows it potentially follows a Beta and Gamma distribution. Plot created using R v.3.4.3 \cite{Rcite} fitdistrplus package v.$1.0-9$ \cite{fitdistrplus}. }
+    \label{cf_te}
+\end{figure}
+
+\begin{figure}[H]
+     \centering
+       \includegraphics[width=.8\textwidth]{fig/gof_te}
+    \caption{Density plots of the fitted distributions to the histogram of the empirical distribution using the marine transfer efficiency data, a CDF plot of both the empirical distribution and the fitted distributions (for the Beta and Gamma choices), Q-Q plots, and P-P plots. Plot created using R v.3.4.3 \cite{Rcite} fitdistrplus package v.$1.0-9$ \cite{fitdistrplus}. }
+    \label{gof_te}
+\end{figure}
+
+\section{SeaWiFS}
+We used 8-day time series Sea-viewing Wide Field-of-view Sensor (SeaWiFS) chlorophyll \textit{a} data from 1997 to 2010 that was transformed using the Vertically Generalized Production Model (VGPM) to estimate net primary production (NPP) from chlorophyll \textit{a} \cite{behrenfeld1997photosynthetic}. The SeaWiFS data were originally obtained from the Oregon State Ocean Productivity website (\url{http://www.science.oregonstate.edu/ocean.productivity}). They use a gap filling algorithm to populate missing pixels due to cloud coverage; however if no good data is available, pixels remain empty. We segmented the SeaWiFS data using the boundaries of the California Current and assumed a closed system at equilibrium. The data then were converted from 8 day averages in mg C / $m^2 $/ day per 9 km x 9 km pixel into total metric tons of Carbon per year total across the entire region. Although from 1997 to 2010 SeaWiFS collected data every 8 days per 9 km x 9 km pixel, the time series had gaps due to machine parts malfunctioning. Therefore, the updated data set used for our analysis contained observations only from 1998-2007. From there we fit an ARIMA model to calculate the mean (505210291 tons of C/year) of the time series. 
+
+\section{R packages and versions}
+To promote reproducibility, we include a list of all R packages and versions used in this analysis.
+
+\begin{itemize}
+\item astsa package v.1.8 \cite{astsa}
+\item dplyr package v.0.7.5 \cite{wickham2015dplyr}
+\item fitdistrplus package v.$1.0-9$ \cite{fitdistrplus}
+\item forecast package v8.2 \cite{forecast1, forecast2} 
+\item ggplot2 package v.2.2.1 \cite{ggplot}
+\item gridExtra package v.2.3 \cite{gridextra}
+\item partykit package v.1.2-2 \cite{hothorn2015partykit}
+\item R v.3.4.3 \cite{Rcite} 
+\item randomForest v.4.6-12 \cite{liaw2016classification}
+\item rpart package v.4.1-11 \cite{therneau2015rpart}
+\item tree package v.1.0-37 \cite{ripley2016tree}
+\end{itemize}
+
+
+\chapter{Appendix for Chapter 3: Untangling uncertainty in food web models}{\label{appendix:b}}
+
+\subsection{SeaWiFS}
+\subsubsection{Time Series Analysis}
+To create Case 1 ($f^1(\nu)$) in the trophic pyramid food web model where $\nu$ is a fixed constant, we used 8-day time series Sea-viewing Wide Field-of-view Sensor (SeaWiFS) chlorophyll \textit{a} data from 1997 to 2010 that was transformed using the \textit{Eppley-}Vertically Generalized Production Model (VGPM) to estimate net primary production (NPP) from chlorophyll \textit{a}. The \textit{Eppley-}VGPM estimates were used rather than the VGPM data since temperatures surrounding the main Hawaiian Islands (MHI) are above $20^{\circ}$C \cite{morel1991pigment, antoine1996oceanic, stock2017reconciling}. The SeaWiFS data were originally obtained from the Oregon State Ocean Productivity website (\url{http://www.science.oregonstate.edu/ocean.productivity/}). They use a gap filling algorithm to populate missing pixels due to cloud coverage; however if no good data is available, pixels remain empty. We segmented the SeaWiFS data using the exclusive economic zone (EEZ) boundaries of the MHI and assumed a closed system at equilibrium (Fig. \ref{A2:SeaWiFSmhi}). The data then were converted from 8 day averages in mg C / $m^2$ / day per 9 km x 9 km pixel into total metric tons of Carbon per year total across the entire MHI. Although from 1997 to 2010 SeaWiFS collected data every 8 days  per 9 km x 9 km pixel, the time series had gaps due to machine parts malfunctioning. Therefore, the updated data set used for our analysis contained observations only from 1998-2007. 
+
+\begin{figure}[H]
+     \centering
+       \includegraphics[width=.7\textwidth]{fig/SeaWiFSmhi}
+    \caption{A single 8-day time frame of the SeaWiFS \textit{Eppley-}VGPM NPP data in January 1998 for the main Hawaiian Islands EEZ. The color scale shows the amount of estimated NPP in total gigatons of Carbon per year per pixel. The pixel size of the SeaWiFS data set is 9 by 9 km.}
+    \label{A2:SeaWiFSmhi}
+\end{figure}
+
+Since the SeaWiFS data were collected over time, we started off by verifying that there was a violation of independence and then chose a usable time series model. The NPP data demonstrated a strong annual frequency, a smaller six month frequency, and were non-stationary in the trend and seasonality (See Fig. \ref{SeaWiFSmhi_eda1}  and \ref{A2:SeaWiFSeda3}). This was not surprising since most biological data sets are seasonal and are influenced by the time of year. 
+
+\begin{figure}[H]
+     \centering
+       \includegraphics[width=.7\textwidth]{fig/seawifs_acf}
+    \caption{ACF plot of SeaWiFS data. Plots created using R v.3.4.3 \cite{Rcite} forecast package v8.2 \cite{forecast1, forecast2}.}
+    \label{A2:SeaWiFSeda1}
+\end{figure}
+
+\begin{figure}[H]
+     \centering
+       \includegraphics[width=.7\textwidth]{fig/seawifs_pacf}
+    \caption{PACF plots of SeaWiFS data. Plots created using R v.3.4.3 \cite{Rcite} forecast package v8.2 \cite{forecast1, forecast2}.}
+    \label{A2:SeaWiFSeda2}
+\end{figure}
+
+\begin{figure}[H]
+     \centering
+       \includegraphics[width=.7\textwidth]{fig/seawifs_periodic}
+    \caption{Exploratory time series plots of SeaWiFS data--seasonal and trend components. Plots created using R v.3.4.3 \cite{Rcite} forecast package v8.2 \cite{forecast1, forecast2}.}
+    \label{A2:SeaWiFSeda3}
+\end{figure}
+
+We fitted a seasonal autoregressive integrated moving average model, or \\ SARIMA$(0,0,2)(0,0,2)_{46}$ to the pre-processed SeaWiFS NPP data (i.e., moving average order $q = 2$, seasonal moving average $Q = 2$, and seasonal component $s = 46$ (365 days/8-day time series = 46)).
+
+\begin{equation} \label{sarima}
+X_t = \delta + (1 + \theta_1B + \theta_2B^2)(1 + \Theta_1B^{46} + \Theta_2B^{92})W_t
+\end{equation}
+
+In Eq. \ref{sarima}, $X_t$ is the total NPP estimated across the MHI in 8-day time periods from 1998-2007 where $t \in$ \{1, 460\}, $\delta$ represents the mean of the time series, $\theta_1$ and $\theta_2$ are the moving average parameters, $\Theta_2$ and $\Theta_2$ are the seasonal moving average parameters, and $W_t \stackrel{iid}{\sim} N(0,\sigma_w^2)$. The backshift operator, B, is defined as $ BW_t  = W_{t-1}$, $B^2W_t  = W_{t-2}$, $B^{46}W_t  = W_{t-46}$, and $B^{92}W_t  = W_{t-92}$.  Our model, Eq. \ref{sarima}, was chosen based on information criteria. Parameters were estimated using maximum likelihood estimation \cite{forecast1, forecast2}. The parameter estimates can be found in Table \ref{sarima_parameters}. The estimate of parameter $\delta$ was used for the value of $\nu$ when it was treated as a fixed constant in the hierarchical food web model ($c_1$ in $f^1(\nu)$).
+
+\begin{table}[H]
+\centering
+\caption{Seasonal ARIMA parameter estimates for Eq. \ref{sarima} and their respective standard error calculated using R v.3.4.3 \cite{Rcite} forecast package v8.2 and function auto.arima() \cite{forecast1, forecast2} }
+\begin{tabular}{r|c|c}
+  \hline \small
+ Parameters & Estimates & Standard error \\ 
+   \hline
+   $\delta$ & 87339861.7 & 696375.7 \\   
+   $\theta_1$ & 0.9806 & 0.0413 \\
+   $\theta_2$ & 0.4817 & 0.0359 \\
+   $\Theta_1$ & 0.3379 & 0.0470 \\
+   $\Theta_2$ & 0.3392 & 0.0449 \\
+   $\sigma_w^2$ & 1.494306e+13 & \\
+   \hline
+\end{tabular} 
+\label{sarima_parameters}
+\end{table}
+
+
+
+
+
+
+\chapter{Appendix for Chapter 4:}{\label{appendix:c}}
+
+
 
 
 \end{mainmatter}

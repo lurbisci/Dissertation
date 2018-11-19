@@ -3,9 +3,16 @@
 \BOOKMARK [0][-]{chapter.1}{Introduction}{}% 3
 \BOOKMARK [0][-]{chapter.2}{Tangled is the web we weave}{}% 4
 \BOOKMARK [1][-]{section.2.1}{Introduction}{chapter.2}% 5
-\BOOKMARK [0][-]{chapter.3}{Chapter 2 Title}{}% 6
-\BOOKMARK [1][-]{section.3.1}{Section Title}{chapter.3}% 7
-\BOOKMARK [0][-]{chapter.4}{Chapter 3 Title}{}% 8
-\BOOKMARK [1][-]{section.4.1}{Section Title}{chapter.4}% 9
-\BOOKMARK [0][-]{appendix.A}{Appendix Title }{}% 10
-\BOOKMARK [1][-]{section.A.1}{Section Title}{appendix.A}% 11
+\BOOKMARK [1][-]{section.2.2}{Methods}{chapter.2}% 6
+\BOOKMARK [1][-]{section.2.3}{Discussion}{chapter.2}% 7
+\BOOKMARK [1][-]{section.2.4}{Concluding Remarks}{chapter.2}% 8
+\BOOKMARK [0][-]{chapter.3}{Untangling uncertainty in food web models}{}% 9
+\BOOKMARK [0][-]{chapter.4}{Chapter 3 Title}{}% 10
+\BOOKMARK [1][-]{section.4.1}{Section Title}{chapter.4}% 11
+\BOOKMARK [0][-]{appendix.A}{Appendix for Chapter 2: Tangled is the web we weave}{}% 12
+\BOOKMARK [1][-]{section.A.1}{Decision trees}{appendix.A}% 13
+\BOOKMARK [1][-]{section.A.2}{Fitting approximate distributions}{appendix.A}% 14
+\BOOKMARK [1][-]{section.A.3}{SeaWiFS}{appendix.A}% 15
+\BOOKMARK [1][-]{section.A.4}{R packages and versions}{appendix.A}% 16
+\BOOKMARK [0][-]{appendix.B}{Appendix for Chapter 3: Untangling uncertainty in food web models}{}% 17
+\BOOKMARK [0][-]{appendix.C}{Appendix for Chapter 4:}{}% 18

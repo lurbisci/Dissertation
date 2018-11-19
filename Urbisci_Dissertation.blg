@@ -3,44 +3,48 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Urbisci_Dissertation.aux
 The style file: apalike.bst
 Database file #1: dissertation.bib
-You've used 53 entries,
+Warning--I didn't find a database entry for "gregg2003ocean"
+Warning--I didn't find a database entry for "walther2002ecological"
+Warning--I didn't find a database entry for "san2006latitudinal"
+You've used 82 entries,
             1935 wiz_defined-function locations,
-            806 strings with 14155 characters,
-and the built_in function-call counts, 22537 in all, are:
-= -- 2197
-> -- 1027
-< -- 27
-+ -- 366
-- -- 354
-* -- 2056
-:= -- 3940
-add.period$ -- 157
-call.type$ -- 53
-change.case$ -- 433
-chr.to.int$ -- 53
-cite$ -- 53
-duplicate$ -- 744
-empty$ -- 1517
-format.name$ -- 425
-if$ -- 4293
+            968 strings with 19310 characters,
+and the built_in function-call counts, 33847 in all, are:
+= -- 3313
+> -- 1503
+< -- 49
++ -- 530
+- -- 512
+* -- 3042
+:= -- 5932
+add.period$ -- 244
+call.type$ -- 82
+change.case$ -- 649
+chr.to.int$ -- 82
+cite$ -- 82
+duplicate$ -- 1144
+empty$ -- 2288
+format.name$ -- 631
+if$ -- 6465
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 56
-newline$ -- 266
-num.names$ -- 159
-pop$ -- 349
+missing$ -- 79
+newline$ -- 410
+num.names$ -- 248
+pop$ -- 514
 preamble$ -- 1
-purify$ -- 441
+purify$ -- 662
 quote$ -- 0
-skip$ -- 560
+skip$ -- 872
 stack$ -- 0
-substring$ -- 1770
-swap$ -- 63
-text.length$ -- 1
+substring$ -- 2597
+swap$ -- 101
+text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 306
+type$ -- 476
 warning$ -- 0
-while$ -- 191
+while$ -- 286
 width$ -- 0
-write$ -- 678
+write$ -- 1048
+(There were 3 warnings)

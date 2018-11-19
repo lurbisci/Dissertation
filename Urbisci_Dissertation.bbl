@@ -1,5 +1,16 @@
 \begin{thebibliography}{}
 
+\bibitem[Antoine et~al., 1996]{antoine1996oceanic}
+Antoine, D., Andr{\'e}, J.-M., and Morel, A. (1996).
+\newblock Oceanic primary production 2.
+\newblock {\em Estimation at global scale from satellite (coastal zone color
+  scanner) chlorophyll. Global Biochemical Cycles}, 10(1):57--69.
+
+\bibitem[Auguie, 2017]{gridextra}
+Auguie, B. (2017).
+\newblock {\em gridExtra: Miscellaneous Functions for "Grid" Graphics}.
+\newblock R package version 2.3.
+
 \bibitem[Baird et~al., 2004]{baird2004energy}
 Baird, D., Asmus, H., and Asmus, R. (2004).
 \newblock Energy flow of a boreal intertidal ecosystem, the {Sylt}-{Rømø}
@@ -17,6 +28,25 @@ Barnes, C., Maxwell, D., Reuman, D.~C., and Jennings, S. (2010).
 \newblock Global patterns in predator--prey size relationships reveal size
   dependency of trophic transfer efficiency.
 \newblock {\em Ecology}, 91(1):222--232.
+
+\bibitem[Baumann, 1995]{baumann1995comment}
+Baumann, M. (1995).
+\newblock A comment on transfer efficiencies.
+\newblock {\em Fisheries Oceanography}, 4(3):264--266.
+
+\bibitem[Behrenfeld and Falkowski, 1997]{behrenfeld1997photosynthetic}
+Behrenfeld, M.~J. and Falkowski, P.~G. (1997).
+\newblock Photosynthetic rates derived from satellite-based chlorophyll
+  concentration.
+\newblock {\em Limnology and oceanography}, 42(1):1--20.
+
+\bibitem[Brodziak et~al., 2011]{brodziak2011stock}
+Brodziak, J., Courtney, D., Wagatsuma, L., O'Malley, J., Lee, H.-H., Walsh, W.,
+  Andrews, A., Humphreys, R., and DiNardo, G. (2011).
+\newblock Stock assessment of the main {H}awaiian {I}slands {D}eep 7 bottomfish
+  complex through 2010.
+\newblock Technical Report NOAA Tech. Memo. NOAA-TM-NMFS-PIFSC-29, U.S. Dep.
+  Commer.
 
 \bibitem[Byron et~al., 2011]{byron2011calculating}
 Byron, C., Link, J., Costa-Pierce, B., and Bengtson, D. (2011).
@@ -47,13 +77,6 @@ Coll, M., Libralato, S., Tudela, S., Palomera, I., and Pranovi, F. (2008).
 \newblock Ecosystem overfishing in the ocean.
 \newblock {\em {PLOS} {ONE}}, 3(12):e3881.
 
-\bibitem[Collie et~al., 2014]{collie2014ecosystem}
-Collie, J.~S., Botsford, L.~W., Hastings, A., Kaplan, I.~C., Largier, J.~L.,
-  Livingston, P.~A., Plag{\'a}nyi, {\'E}., Rose, K.~A., Wells, B.~K., and
-  Werner, F.~E. (2014).
-\newblock Ecosystem models for fisheries management: finding the sweet spot.
-\newblock {\em Fish and Fisheries}.
-
 \bibitem[Condon et~al., 2011]{condon2011jellyfish}
 Condon, R.~H., Steinberg, D.~K., Giorgio, P. A.~d., Bouvier, T.~C., Bronk,
   D.~A., Graham, W.~M., and Ducklow, H.~W. (2011).
@@ -61,12 +84,35 @@ Condon, R.~H., Steinberg, D.~K., Giorgio, P. A.~d., Bouvier, T.~C., Bronk,
   carbon in marine systems.
 \newblock {\em {PNAS}}, 108(25):10225--10230.
 
+\bibitem[Cope et~al., 2011]{cope2011approach}
+Cope, J.~M., DeVore, J., Dick, E., Ames, K., Budrick, J., Erickson, D.~L.,
+  Grebel, J., Hanshew, G., Jones, R., Mattes, L., et~al. (2011).
+\newblock An approach to defining stock complexes for {US} {W}est {C}oast
+  groundfishes using vulnerabilities and ecological distributions.
+\newblock {\em North American Journal of Fisheries Management}, 31(4):589--604.
+
 \bibitem[Cury et~al., 2005]{cury2005trophodynamic}
 Cury, P., Shannon, L., Roux, J., Daskalov, G., Jarre, A., Moloney, C., and
   Pauly, D. (2005).
 \newblock Trophodynamic indicators for an ecosystem approach to fisheries.
 \newblock {\em ICES Journal of Marine Science: Journal du Conseil},
   62(3):430--442.
+
+\bibitem[Delignette-Muller and Dutang, 2015]{fitdistrplus}
+Delignette-Muller, M.~L. and Dutang, C. (2015).
+\newblock {fitdistrplus}: An {R} package for fitting distributions.
+\newblock {\em Journal of Statistical Software}, 64(4):1--34.
+
+\bibitem[Farmer et~al., 2016]{farmer2016stock}
+Farmer, N.~A., Malinowski, R.~P., McGovern, M.~F., and Rubec, P.~J. (2016).
+\newblock Stock complexes for fisheries management in the {G}ulf of {M}exico.
+\newblock {\em Marine and coastal fisheries}, 8(1):177--201.
+
+\bibitem[Froese and Pauly, 2017]{fishbase}
+Froese, R. and Pauly, D. (2017).
+\newblock {FishBase. World Wide Web electronic publication.}
+\newblock \url{www.fishbase.org}.
+\newblock Online; accessed 06/2017.
 
 \bibitem[Gaedke and Straile, 1994]{gaedke1994seasonal}
 Gaedke, U. and Straile, D. (1994).
@@ -99,10 +145,44 @@ Han, D., Chen, Y., Zhang, C., Ren, Y., Xue, Y., and Wan, R. (2017).
   semi-closed marine ecosystem.
 \newblock {\em Ecological Modelling}, 359:193--200.
 
+\bibitem[Hastings et~al., 2017]{hastings2017marine}
+Hastings, A., Gaines, S.~D., and Costello, C. (2017).
+\newblock Marine reserves solve an important bycatch problem in fisheries.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  114(34):8927--8934.
+
 \bibitem[Havens, 1998]{havens1998size}
 Havens, K.~E. (1998).
 \newblock Size structure and energetics in a plankton food web.
 \newblock {\em Oikos}, 81(2):346--358.
+
+\bibitem[Heymans et~al., 2011]{heymans2011ecopath}
+Heymans, J., Coll, M., Libralato, S., and Christensen, V. (2011).
+\newblock 9.06 - {E}copath theory, modeling, and application to coastal
+  ecosystems.
+\newblock In Wolanski, E. and McLusky, D., editors, {\em Treatise on Estuarine
+  and Coastal Science}, pages 93 -- 113. Academic Press, Waltham.
+
+\bibitem[Hothorn and Zeileis, 2015]{hothorn2015partykit}
+Hothorn, T. and Zeileis, A. (2015).
+\newblock partykit: A modular toolkit for recursive partytioning in {R}.
+\newblock {\em The Journal of Machine Learning Research}, 16(1):3905--3909.
+
+\bibitem[Hourigan and Reese, 1987]{hourigan1987mid}
+Hourigan, T.~F. and Reese, E.~S. (1987).
+\newblock Mid-ocean isolation and the evolution of {H}awaiian reef fishes.
+\newblock {\em Trends in ecology \& evolution}, 2(7):187--191.
+
+\bibitem[Hyndman, 2017]{forecast1}
+Hyndman, R.~J. (2017).
+\newblock {\em {forecast}: Forecasting functions for time series and linear
+  models}.
+\newblock R package version 8.2.
+
+\bibitem[Hyndman and Khandakar, 2008]{forecast2}
+Hyndman, R.~J. and Khandakar, Y. (2008).
+\newblock Automatic time series forecasting: the forecast package for {R}.
+\newblock {\em Journal of Statistical Software}, 26(3):1--22.
 
 \bibitem[Irisarri et~al., 2013]{irisarri2013absorption}
 Irisarri, J., Fern{\'a}ndez-Reiriz, M.~J., Robinson, S.~M., Cranford, P.~J.,
@@ -125,11 +205,28 @@ Karlsson, J., Lymer, D., Vrede, K., and Jansson, M. (2007).
   lake.
 \newblock {\em Aquatic Sciences; Basel}, 69(1):108--114.
 
+\bibitem[Lalli and Parsons, 1997]{lalli1997biological}
+Lalli, C. and Parsons, T.~R. (1997).
+\newblock {\em Biological Oceanography: An Introduction}.
+\newblock Butterworth-Heinemann.
+
 \bibitem[Lamport, 1994]{lamport1994latex}
 Lamport, L. (1994).
 \newblock {\em {LATEX}: a document preparation system: user's guide and
   reference manual}.
 \newblock Addison-wesley.
+
+\bibitem[Langseth et~al., 2018]{langseth2018stock}
+Langseth, B., Syslo, J., Yau, A., Kapur, M., and Brodziak, J. (2018).
+\newblock Stock assessment for the {M}ain {H}awaiian {I}slands {D}eep 7
+  {B}ottomfish {C}omplex in 2018, with catch projections through 2022.
+\newblock Technical Report NOAA Tech. Memo. NOAA-TM-NMFS-PIFSC-69, U.S. Dep.
+  Commer.
+
+\bibitem[Liaw and Wiener, 2016]{liaw2016classification}
+Liaw, A. and Wiener, M. (2016).
+\newblock Classification and regression by randomforest. r news. 2002; 2 (3):
+  18--22.
 
 \bibitem[Libralato et~al., 2008]{libralato2008novel}
 Libralato, S., Coll, M., Tudela, S., Palomera, I., and Pranovi, F. (2008).
@@ -141,6 +238,18 @@ Libralato, S., Coll, M., Tudela, S., Palomera, I., and Pranovi, F. (2008).
 Lindeman, R.~L. (1942).
 \newblock The trophic-dynamic aspect of ecology.
 \newblock {\em Ecology}, 23(4):399--417.
+
+\bibitem[Lobel and Robinson, 1986]{lobel1986transport}
+Lobel, P. and Robinson, A. (1986).
+\newblock Transport and entrapment of fish larvae by ocean mesoscale eddies and
+  currents in {H}awaiian waters.
+\newblock {\em Deep Sea Research Part A. Oceanographic Research Papers},
+  33(4):483--500.
+
+\bibitem[May, 1976]{may1976theoretical}
+May, R. (1976).
+\newblock {\em Theoretical ecology: principles and applications}.
+\newblock Philadelphia: Saunders.
 
 \bibitem[May and {McLean}, 2007]{may2007theoretical}
 May, R. and {McLean}, A.~R. (2007).
@@ -163,6 +272,13 @@ May, R.~M. (1983).
 {McIntosh}, R.~P. (1986).
 \newblock {\em The Background of Ecology: Concept and Theory}.
 \newblock Cambridge University Press.
+
+\bibitem[Morel and Andr{\'e}, 1991]{morel1991pigment}
+Morel, A. and Andr{\'e}, J.-M. (1991).
+\newblock Pigment distribution and primary production in the western
+  mediterranean as derived and modeled from coastal zone color scanner
+  observations.
+\newblock {\em Journal of Geophysical Research: Oceans}, 96(C7):12685--12698.
 
 \bibitem[Papatryphon et~al., 2004]{papatryphon2004environmental}
 Papatryphon, E., Petit, J., Kaushik, S.~J., and van~der Werf, H.~M. (2004).
@@ -193,16 +309,16 @@ Persson, J., Brett, M.~T., Vrede, T., and Ravet, J.~L. (2007).
   food webs.
 \newblock {\em Oikos}, 116(7):1152--1163.
 
-\bibitem[Plaganyi and Butterworth, 2004]{plaganyi2004critical}
-Plaganyi, E. and Butterworth, D. (2004).
-\newblock A critical look at the potential of ecopath with ecosim to assist in
-  practical fisheries management.
-\newblock {\em African Journal of Marine Science}, 26(1):261--287.
-
 \bibitem[{R Core Team}, 2017]{Rcite}
 {R Core Team} (2017).
 \newblock {\em R: A Language and Environment for Statistical Computing}.
 \newblock R Foundation for Statistical Computing, Vienna, Austria.
+
+\bibitem[Ripley, 2016]{ripley2016tree}
+Ripley, B. (2016).
+\newblock Tree: Classification and regression trees. r package version 1.0-37.
+\newblock {\em Avaliable at https://CRAN. R-project. org/package= tree.
+  Accessed August}, 3:2017.
 
 \bibitem[Rosland et~al., 2009]{rosland2009applying}
 Rosland, R., Strand, {\O}., Alunno-Bruscia, M., Bacher, C., and Strohmeier, T.
@@ -217,12 +333,24 @@ Rybarczyk, H. and Elka{\i}m, B. (2003).
   {Seine} {Estuary} ({Eastern} {Channel}, {Normandy}, {France}.
 \newblock {\em Estuarine, Coastal and Shelf Science}, 58(4):775--791.
 
+\bibitem[Ryther et~al., 1969]{ryther1969photosynthesis}
+Ryther, J.~H. et~al. (1969).
+\newblock Photosynthesis and fish production in the sea. the production of
+  organic matter and its conversion to higher forms of life vary throughout the
+  world ocean.
+\newblock {\em Science (Washington)}, 166:72--76.
+
 \bibitem[San~Martin et~al., 2006]{sanmartin2006latitudinal}
 San~Martin, E., Harris, R.~P., and Irigoien, X. (2006).
 \newblock Latitudinal variation in plankton size spectra in the {Atlantic}
   {Ocean}.
 \newblock {\em Deep Sea Research Part {II}: Topical Studies in Oceanography},
   53(14):1560--1572.
+
+\bibitem[Schaefer, 1965]{schaefer1965potential}
+Schaefer, M.~B. (1965).
+\newblock The potential harvest of the sea.
+\newblock {\em Transactions of the American Fisheries Society}, 94(2):123--128.
 
 \bibitem[Schmitz et~al., 2008]{schmitz2008individuals}
 Schmitz, O.~J., Grabowski, J.~H., Peckarsky, B.~L., Preisser, E.~L., Trussell,
@@ -235,6 +363,12 @@ Schmitz, O.~J., Grabowski, J.~H., Peckarsky, B.~L., Preisser, E.~L., Trussell,
 Semper, C. (1881).
 \newblock {\em Animal Life as Affected by the Natural Conditions of Existence}.
 \newblock D. Appleton.
+
+\bibitem[Sheldon et~al., 1977]{sheldon1977structure}
+Sheldon, R., Sutcliffe~Jr, W., and Paranjape, M. (1977).
+\newblock Structure of pelagic food chain and relationship between plankton and
+  fish production.
+\newblock {\em Journal of the Fisheries Board of Canada}, 34(12):2344--2353.
 
 \bibitem[Simenstad and Fresh, 1995]{simenstad1995influence}
 Simenstad, C.~A. and Fresh, K.~L. (1995).
@@ -276,9 +410,33 @@ Srisunont, C. and Babel, S. (2016).
   net nutrient removal model.
 \newblock {\em Marine pollution bulletin}, 112(1-2):235--243.
 
+\bibitem[Stock et~al., 2017]{stock2017reconciling}
+Stock, C.~A., John, J.~G., Rykaczewski, R.~R., Asch, R.~G., Cheung, W.~W.,
+  Dunne, J.~P., Friedland, K.~D., Lam, V.~W., Sarmiento, J.~L., and Watson,
+  R.~A. (2017).
+\newblock Reconciling fisheries catch and ocean productivity.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  114(8):E1441--E1449.
+
+\bibitem[Stoffer, 2017]{astsa}
+Stoffer, D. (2017).
+\newblock {\em astsa: Applied Statistical Time Series Analysis}.
+\newblock R package version 1.8.
+
+\bibitem[Strathmann, 1967]{strathmann1967estimating}
+Strathmann, R.~R. (1967).
+\newblock Estimating organic carbon content of phytoplankton from cell volume
+  or plasma volume.
+\newblock {\em Limnol Oceanogr}, 12(3):411--418.
+
 \bibitem[Tantau, 2015]{tantau2015tikz}
 Tantau, T. (2015).
 \newblock {\em The {TikZ} and {PGF} Packages}.
+
+\bibitem[Therneau et~al., 2015]{therneau2015rpart}
+Therneau, T., Atkinson, B., and Ripley, B. (2015).
+\newblock rpart: Recursive partitioning and regression trees. r package version
+  4.1--10.
 
 \bibitem[Trebilco et~al., 2013]{trebilco2013ecosystem}
 Trebilco, R., Baum, J.~K., Salomon, A.~K., and Dulvy, N.~K. (2013).
@@ -290,6 +448,12 @@ Trussell, G.~C., Ewanchuk, P.~J., and Matassa, C.~M. (2006).
 \newblock The fear of being eaten reduces energy transfer in a simple food
   chain.
 \newblock {\em Ecology}, 87(12):2979--2984.
+
+\bibitem[Vermeij, 1987]{vermeij1987dispersal}
+Vermeij, G.~J. (1987).
+\newblock The dispersal barrier in the tropical pacific: implications for
+  molluscan speciation and extinction.
+\newblock {\em Evolution}, 41(5):1046--1058.
 
 \bibitem[von Elert et~al., 2003]{vonelert2003absence}
 von Elert, E., Martin-Creuzburg, D., and Le~Coz, J.~R. (2003).
@@ -314,5 +478,10 @@ Watson, R., Zeller, D., and Pauly, D. (2014).
 Wickham, H. (2009).
 \newblock {\em ggplot2: Elegant Graphics for Data Analysis}.
 \newblock Springer-Verlag New York.
+
+\bibitem[Wickham et~al., 2015]{wickham2015dplyr}
+Wickham, H., Francois, R., Henry, L., and M{\"u}ller, K. (2015).
+\newblock dplyr: A grammar of data manipulation.
+\newblock {\em R package version 0.4}, 3.
 
 \end{thebibliography}
