@@ -48,6 +48,17 @@ Brodziak, J., Courtney, D., Wagatsuma, L., O'Malley, J., Lee, H.-H., Walsh, W.,
 \newblock Technical Report NOAA Tech. Memo. NOAA-TM-NMFS-PIFSC-29, U.S. Dep.
   Commer.
 
+\bibitem[Brodziak et~al., 2009]{brodziak2009hawaiian}
+Brodziak, J., Moffitt, R., and DiNardo, G. (2009).
+\newblock Hawaiian bottomfish assessment update for 2008.
+\newblock Technical Report Pacific Islands Fish. Sci. Cent. Admin Rep. H-09-02,
+  Pacific Islands Fish. Sci. Cent., Natl. Mar. Fish. Ser.
+
+\bibitem[Byrd et~al., 1995]{byrd1995limited}
+Byrd, R.~H., Lu, P., Nocedal, J., and Zhu, C. (1995).
+\newblock A limited memory algorithm for bound constrained optimization.
+\newblock {\em SIAM Journal on Scientific Computing}, 16(5):1190--1208.
+
 \bibitem[Byron et~al., 2011]{byron2011calculating}
 Byron, C., Link, J., Costa-Pierce, B., and Bengtson, D. (2011).
 \newblock Calculating ecological carrying capacity of shellfish aquaculture
@@ -103,6 +114,11 @@ Cury, P., Shannon, L., Roux, J., Daskalov, G., Jarre, A., Moloney, C., and
 \newblock {\em ICES Journal of Marine Science: Journal du Conseil},
   62(3):430--442.
 
+\bibitem[Dahl, 2009]{xtable}
+Dahl, D.~B. (2009).
+\newblock xtable: Export tables to latex or html.
+\newblock {\em R package version}, pages 1--5.
+
 \bibitem[Delignette-Muller and Dutang, 2015]{fitdistrplus}
 Delignette-Muller, M.~L. and Dutang, C. (2015).
 \newblock {fitdistrplus}: An {R} package for fitting distributions.
@@ -150,6 +166,11 @@ Gaunt, R.~E. et~al. (2018).
 \newblock {\em Brazilian Journal of Probability and Statistics},
   32(2):437--466.
 
+\bibitem[Givens and Hoeting, 2012]{givens2012computational}
+Givens, G.~H. and Hoeting, J.~A. (2012).
+\newblock {\em Computational statistics}, volume 710.
+\newblock John Wiley \& Sons.
+
 \bibitem[Hairston, 1993]{hairston1993causeeffect}
 Hairston, N.~G. (1993).
 \newblock Cause-effect relationships in energy flow, trophic structure, and
@@ -179,6 +200,12 @@ Heymans, J., Coll, M., Libralato, S., and Christensen, V. (2011).
   ecosystems.
 \newblock In Wolanski, E. and McLusky, D., editors, {\em Treatise on Estuarine
   and Coastal Science}, pages 93 -- 113. Academic Press, Waltham.
+
+\bibitem[Hilborn and Walters, 1992]{hilborn1992quantitative}
+Hilborn, R. and Walters, C. (1992).
+\newblock {\em Quantitative Fisheries Stock Assessment: Choice, Dynamics and
+  Uncertainty}.
+\newblock Springer.
 
 \bibitem[Hothorn and Zeileis, 2015]{hothorn2015partykit}
 Hothorn, T. and Zeileis, A. (2015).
@@ -268,6 +295,10 @@ Lobel, P. and Robinson, A. (1986).
 \newblock {\em Deep Sea Research Part A. Oceanographic Research Papers},
   33(4):483--500.
 
+\bibitem[Martin et~al., 2011]{mcmcpack}
+Martin, A.~D., Quinn, K.~M., and Park, J.~H. (2011).
+\newblock Mcmcpack: Markov chain monte carlo in r.
+
 \bibitem[May, 1976]{may1976theoretical}
 May, R. (1976).
 \newblock {\em Theoretical ecology: principles and applications}.
@@ -282,6 +313,13 @@ May, R. and {McLean}, A.~R. (2007).
 May, R.~M. (1983).
 \newblock Ecology: The structure of food webs.
 \newblock {\em Nature}, 301(5901):566--568.
+
+\bibitem[McAllister and Ianelli, 1997]{mcallister1997bayesian}
+McAllister, M.~K. and Ianelli, J.~N. (1997).
+\newblock Bayesian stock assessment using catch-age data and the
+  sampling-importance resampling algorithm.
+\newblock {\em Canadian Journal of Fisheries and Aquatic Sciences},
+  54(2):284--300.
 
 \bibitem[{McGarvey} et~al., 2018]{mcgarvey2018two}
 {McGarvey}, R., Dowling, N., and Cohen, J.~E. (2018).
@@ -374,6 +412,12 @@ San~Martin, E., Harris, R.~P., and Irigoien, X. (2006).
 \newblock {\em Deep Sea Research Part {II}: Topical Studies in Oceanography},
   53(14):1560--1572.
 
+\bibitem[Schaefer, 1954]{schaefer1954some}
+Schaefer, M.~B. (1954).
+\newblock Some aspects of the dynamics of populations important to the
+  management of the commercial marine fisheries.
+\newblock {\em Inter-American Tropical Tuna Commission Bulletin}, 1(2):23--56.
+
 \bibitem[Schaefer, 1965]{schaefer1965potential}
 Schaefer, M.~B. (1965).
 \newblock The potential harvest of the sea.
@@ -390,6 +434,11 @@ Schmitz, O.~J., Grabowski, J.~H., Peckarsky, B.~L., Preisser, E.~L., Trussell,
 Semper, C. (1881).
 \newblock {\em Animal Life as Affected by the Natural Conditions of Existence}.
 \newblock D. Appleton.
+
+\bibitem[Shanno, 1970]{shanno1970conditioning}
+Shanno, D.~F. (1970).
+\newblock Conditioning of quasi-newton methods for function minimization.
+\newblock {\em Mathematics of computation}, 24(111):647--656.
 
 \bibitem[Sheldon et~al., 1977]{sheldon1977structure}
 Sheldon, R., Sutcliffe~Jr, W., and Paranjape, M. (1977).
@@ -494,6 +543,11 @@ von Elert, E., Martin-Creuzburg, D., and Le~Coz, J.~R. (2003).
   and a freshwater herbivore ({Daphnia galeata}).
 \newblock {\em Proceedings of the Royal Society B: Biological Sciences},
   270(1520):1209--1214.
+
+\bibitem[Walters and Martell, 2004]{walters_fisheries_2004}
+Walters, C.~J. and Martell, S. J.~D. (2004).
+\newblock {\em Fisheries {Ecology} and {Management}}.
+\newblock Princeton University Press.
 
 \bibitem[Ware, 2000]{ware2000aquatic}
 Ware, D.~M. (2000).
