@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  24 NOV 2018 19:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  28 NOV 2018 10:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -434,14 +434,7 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 \rot@float@box=\box60
 \rot@mess@toks=\toks25
 )
-(./Urbisci_Dissertation.aux
-
-LaTeX Warning: Label `base' multiply defined.
-
-
-LaTeX Warning: Label `description' multiply defined.
-
-)
+(./Urbisci_Dissertation.aux)
 \openout1 = `Urbisci_Dissertation.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
@@ -463,7 +456,8 @@ Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box61
 Package hyperref Info: Link coloring OFF on input line 57.
- (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -628,92 +622,82 @@ File: fig/density_eco_method.png Graphic file (type png)
 Package pdftex.def Info: fig/density_eco_method.png  used on input line 208.
 (pdftex.def)             Requested size: 451.6875pt x 250.94179pt.
  [13]
-Underfull \hbox (badness 10000) in paragraph at lines 217--217
-[]|\OT1/cmr/m/n/12 Clustered
+Underfull \hbox (badness 10000) in paragraph at lines 218--218
+[]|\OT1/cmr/m/n/10.95 Clustered
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 217--217
-[]|\OT1/cmr/m/n/12 Trophic
+Underfull \hbox (badness 10000) in paragraph at lines 218--218
+[]|\OT1/cmr/m/n/10.95 Trophic
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 217--218
-[]|\OT1/cmr/m/n/12 Transfer
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 222--222
-[]|\OT1/cmr/m/n/12 primary
+Underfull \hbox (badness 10000) in paragraph at lines 218--219
+[]|\OT1/cmr/m/n/10.95 Transfer
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 223--223
-[]|\OT1/cmr/m/n/12 secondary
+[]|\OT1/cmr/m/n/10.95 primary
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--225
-[]|\OT1/cmr/m/n/12 primary
+Underfull \hbox (badness 10000) in paragraph at lines 224--224
+[]|\OT1/cmr/m/n/10.95 secondary
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 226--226
-[]|\OT1/cmr/m/n/12 secondary
+[]|\OT1/cmr/m/n/10.95 primary
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 227--227
-[]|\OT1/cmr/m/n/12 tertiary
+[]|\OT1/cmr/m/n/10.95 secondary
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 229--229
-[]|\OT1/cmr/m/n/12 primary
+Underfull \hbox (badness 10000) in paragraph at lines 228--228
+[]|\OT1/cmr/m/n/10.95 tertiary
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 230--230
-[]|\OT1/cmr/m/n/12 secondary
+[]|\OT1/cmr/m/n/10.95 primary
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 231--231
-[]|\OT1/cmr/m/n/12 tertiary
+[]|\OT1/cmr/m/n/10.95 secondary
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 232--232
-[]|\OT1/cmr/m/n/12 tertiary
+[]|\OT1/cmr/m/n/10.95 tertiary
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 233--233
-[]|\OT1/cmr/m/n/12 primary
+[]|\OT1/cmr/m/n/10.95 tertiary
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 234--234
-[]|\OT1/cmr/m/n/12 secondary
+[]|\OT1/cmr/m/n/10.95 primary
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 235--235
-[]|\OT1/cmr/m/n/12 tertiary
+[]|\OT1/cmr/m/n/10.95 secondary
  []
 
 
-Overfull \hbox (44.63695pt too wide) in alignment at lines 215--238
- [] [] [] [] [] [] 
+Underfull \hbox (badness 10000) in paragraph at lines 236--236
+[]|\OT1/cmr/m/n/10.95 tertiary
  []
 
 
-Underfull \vbox (badness 10000) detected at line 238
- []
-
-
-Overfull \hbox (44.63695pt too wide) in alignment at lines 238--241
- [] [] [] [] [] [] 
+Underfull \vbox (badness 10000) detected at line 239
  []
 
 [14pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3
@@ -721,263 +705,293 @@ Overfull \hbox (44.63695pt too wide) in alignment at lines 238--241
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.241     \end{longtable}
+l.242     \end{longtable}
                           <./fig/density_eco_method.png>] [15] [16]
 <fig/var_imp_plot.png, id=471, 711.1368pt x 426.6339pt>
 File: fig/var_imp_plot.png Graphic file (type png)
 <use fig/var_imp_plot.png>
-Package pdftex.def Info: fig/var_imp_plot.png  used on input line 257.
+Package pdftex.def Info: fig/var_imp_plot.png  used on input line 259.
 (pdftex.def)             Requested size: 451.6875pt x 270.98111pt.
  [17pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
 4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.263 
+l.265 
        <./fig/var_imp_plot.png>]
 <fig/density_te_by_tl.png, id=488, 433.62pt x 361.35pt>
 File: fig/density_te_by_tl.png Graphic file (type png)
 <use fig/density_te_by_tl.png>
-Package pdftex.def Info: fig/density_te_by_tl.png  used on input line 266.
+Package pdftex.def Info: fig/density_te_by_tl.png  used on input line 268.
 (pdftex.def)             Requested size: 361.35136pt x 301.13896pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 275--275
-[]|\OT1/cmr/m/n/12 Clustered
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 275--275
-[]|\OT1/cmr/m/n/12 Trophic
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 275--276
-[]|\OT1/cmr/m/n/12 Transfer
- []
-
-
-Overfull \hbox (37.19781pt too wide) in alignment at lines 273--277
- [] [] [] [] [] [] 
+Underfull \hbox (badness 10000) in paragraph at lines 278--278
+[]|\OT1/cmr/m/n/10.95 Clustered
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 278--278
-[]|\OT1/cmr/m/n/12 temperate
+[]|\OT1/cmr/m/n/10.95 Trophic
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 278--278
-[]|\OT1/cmr/m/n/12 primary
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 279--279
-[]|\OT1/cmr/m/n/12 temperate
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 279--279
-[]|\OT1/cmr/m/n/12 secondary
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 280--280
-[]|\OT1/cmr/m/n/12 temperate
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 280--280
-[]|\OT1/cmr/m/n/12 tertiary
+Underfull \hbox (badness 10000) in paragraph at lines 278--279
+[]|\OT1/cmr/m/n/10.95 Transfer
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 281--281
-[]|\OT1/cmr/m/n/12 temperate
+[]|\OT1/cmr/m/n/10.95 Akoglu et al.
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 281--281
-[]|\OT1/cmr/m/n/12 quaternary
+[]|\OT1/cmr/m/n/10.95 temperate
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 281--281
+[]|\OT1/cmr/m/n/10.95 primary
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\OT1/cmr/m/n/12 tropical
+[]|\OT1/cmr/m/n/10.95 Akoglu et al.
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\OT1/cmr/m/n/12 primary
+[]|\OT1/cmr/m/n/10.95 temperate
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 282--282
+[]|\OT1/cmr/m/n/10.95 secondary
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 283--283
-[]|\OT1/cmr/m/n/12 tropical
+[]|\OT1/cmr/m/n/10.95 Akoglu et al.
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 283--283
-[]|\OT1/cmr/m/n/12 primary
+[]|\OT1/cmr/m/n/10.95 temperate
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--283
+[]|\OT1/cmr/m/n/10.95 tertiary
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 284--284
-[]|\OT1/cmr/m/n/12 tropical
+[]|\OT1/cmr/m/n/10.95 Akoglu et al.
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 284--284
-[]|\OT1/cmr/m/n/12 primary
+[]|\OT1/cmr/m/n/10.95 temperate
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 284--284
+[]|\OT1/cmr/m/n/10.95 quaternary
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 285--285
-[]|\OT1/cmr/m/n/12 tropical
+[]|\OT1/cmr/m/n/10.95 Anjusha et al.
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 285--285
-[]|\OT1/cmr/m/n/12 primary
+[]|\OT1/cmr/m/n/10.95 tropical
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 285--285
+[]|\OT1/cmr/m/n/10.95 primary
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 286--286
-[]|\OT1/cmr/m/n/12 tropical
+[]|\OT1/cmr/m/n/10.95 Anjusha et al.
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 286--286
-[]|\OT1/cmr/m/n/12 primary
+[]|\OT1/cmr/m/n/10.95 tropical
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 286--286
+[]|\OT1/cmr/m/n/10.95 primary
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 287--287
-[]|\OT1/cmr/m/n/12 tropical
+[]|\OT1/cmr/m/n/10.95 Anjusha et al.
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 287--287
-[]|\OT1/cmr/m/n/12 primary
+[]|\OT1/cmr/m/n/10.95 tropical
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
+[]|\OT1/cmr/m/n/10.95 primary
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 288--288
-[]|\OT1/cmr/m/n/12 tropical
+[]|\OT1/cmr/m/n/10.95 Anjusha et al.
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 288--288
-[]|\OT1/cmr/m/n/12 primary
+[]|\OT1/cmr/m/n/10.95 tropical
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 288--288
+[]|\OT1/cmr/m/n/10.95 primary
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 289--289
-[]|\OT1/cmr/m/n/12 tropical
+[]|\OT1/cmr/m/n/10.95 Anjusha et al.
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 289--289
-[]|\OT1/cmr/m/n/12 primary
+[]|\OT1/cmr/m/n/10.95 tropical
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 289--289
+[]|\OT1/cmr/m/n/10.95 primary
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 290--290
-[]|\OT1/cmr/m/n/12 tropical
+[]|\OT1/cmr/m/n/10.95 Anjusha et al.
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 290--290
-[]|\OT1/cmr/m/n/12 primary
+[]|\OT1/cmr/m/n/10.95 tropical
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 290--290
+[]|\OT1/cmr/m/n/10.95 primary
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 291--291
-[]|\OT1/cmr/m/n/12 tropical
+[]|\OT1/cmr/m/n/10.95 Anjusha et al.
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 291--291
-[]|\OT1/cmr/m/n/12 primary
+[]|\OT1/cmr/m/n/10.95 tropical
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 291--291
+[]|\OT1/cmr/m/n/10.95 primary
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 292--292
-[]|\OT1/cmr/m/n/12 tropical
+[]|\OT1/cmr/m/n/10.95 Anjusha et al.
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 292--292
-[]|\OT1/cmr/m/n/12 primary
+[]|\OT1/cmr/m/n/10.95 tropical
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 292--292
+[]|\OT1/cmr/m/n/10.95 primary
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 293--293
-[]|\OT1/cmr/m/n/12 Sylt-Romo
+[]|\OT1/cmr/m/n/10.95 Anjusha et al.
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 293--293
-[]|\OT1/cmr/m/n/12 temperate
+[]|\OT1/cmr/m/n/10.95 tropical
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 293--293
+[]|\OT1/cmr/m/n/10.95 primary
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 294--294
-[]|\OT1/cmr/m/n/12 Sylt-Romo
+[]|\OT1/cmr/m/n/10.95 Anjusha et al.
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 294--294
-[]|\OT1/cmr/m/n/12 temperate
+[]|\OT1/cmr/m/n/10.95 tropical
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 294--294
+[]|\OT1/cmr/m/n/10.95 primary
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 295--295
-[]|\OT1/cmr/m/n/12 Sylt-Romo
+[]|\OT1/cmr/m/n/10.95 Anjusha et al.
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 295--295
-\OT1/cmr/m/n/12 Bight: dense
+[]|\OT1/cmr/m/n/10.95 tropical
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 295--295
-\OT1/cmr/m/n/12 zostera noltii
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 295--295
-[]|\OT1/cmr/m/n/12 temperate
+[]|\OT1/cmr/m/n/10.95 primary
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 296--296
-[]|\OT1/cmr/m/n/12 Sylt-Romo
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 296--296
-[]|\OT1/cmr/m/n/12 temperate
+[]|\OT1/cmr/m/n/10.95 temperate
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 297--297
-[]|\OT1/cmr/m/n/12 Sylt-Romo
+[]|\OT1/cmr/m/n/10.95 temperate
  []
 
 
-Underfull \hbox (badness 3989) in paragraph at lines 297--297
-\OT1/cmr/m/n/12 Bight: muddy
+Underfull \hbox (badness 10000) in paragraph at lines 298--298
+\OT1/cmr/m/n/10.95 dense zostera
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 297--297
-[]|\OT1/cmr/m/n/12 temperate
+Underfull \hbox (badness 10000) in paragraph at lines 298--298
+[]|\OT1/cmr/m/n/10.95 temperate
  []
 
 
-Overfull \hbox (37.19781pt too wide) in alignment at lines 277--298
- [] [] [] [] [] [] 
+Underfull \hbox (badness 10000) in paragraph at lines 299--299
+[]|\OT1/cmr/m/n/10.95 temperate
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 300--300
+[]|\OT1/cmr/m/n/10.95 temperate
  []
 
 [18pdfTeX warning (ext4): destination with the same identifier (name{figure.2.5
@@ -985,1859 +999,2214 @@ Overfull \hbox (37.19781pt too wide) in alignment at lines 277--298
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.298     B
+l.301     B
            aird et al. 2007   & Sylt-Romo Bight: mussel beds & temperate sea...
  <./fig/density_te_by_tl.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 298--298
-[]|\OT1/cmr/m/n/12 Sylt-Romo
- []
-
-
-Underfull \hbox (badness 5490) in paragraph at lines 298--298
-\OT1/cmr/m/n/12 Bight: mus-sel
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 298--298
-[]|\OT1/cmr/m/n/12 temperate
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 299--299
-[]|\OT1/cmr/m/n/12 Sylt-Romo
- []
-
-
-Underfull \hbox (badness 3701) in paragraph at lines 299--299
-\OT1/cmr/m/n/12 Bight: pelagic
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 299--299
-[]|\OT1/cmr/m/n/12 temperate
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 300--300
-[]|\OT1/cmr/m/n/12 Sylt-Romo
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 300--300
-\OT1/cmr/m/n/12 Bight: sandy
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 300--300
-[]|\OT1/cmr/m/n/12 temperate
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 301--301
-[]|\OT1/cmr/m/n/12 Sylt-Romo
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 301--301
-\OT1/cmr/m/n/12 Bight: sandy
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 301--301
-[]|\OT1/cmr/m/n/12 temperate
+[]|\OT1/cmr/m/n/10.95 temperate
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 302--302
-[]|\OT1/cmr/m/n/12 Sylt-Romo
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 302--302
-\OT1/cmr/m/n/12 Bight: sparse
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 302--302
-\OT1/cmr/m/n/12 zostera noltii
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 302--302
-[]|\OT1/cmr/m/n/12 temperate
- []
-
-
-Underfull \hbox (badness 1178) in paragraph at lines 303--303
-[]|\OT1/cmr/m/n/12 summary of 21
+[]|\OT1/cmr/m/n/10.95 temperate
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 303--303
-[]|\OT1/cmr/m/n/12 average
- []
-
-
-Underfull \hbox (badness 1178) in paragraph at lines 304--304
-[]|\OT1/cmr/m/n/12 summary of 21
+[]|\OT1/cmr/m/n/10.95 temperate
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 304--304
-[]|\OT1/cmr/m/n/12 average
+[]|\OT1/cmr/m/n/10.95 temperate
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 305--305
+\OT1/cmr/m/n/10.95 sparse zostera
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 305--305
+[]|\OT1/cmr/m/n/10.95 temperate
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 306--306
-[]|\OT1/cmr/m/n/12 Southern
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 306--306
-\OT1/cmr/m/n/12 Plateau, New
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 306--306
-[]|\OT1/cmr/m/n/12 temperate
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 306--306
-[]|\OT1/cmr/m/n/12 secondary
+[]|\OT1/cmr/m/n/10.95 average
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 307--307
-[]|\OT1/cmr/m/n/12 temperate
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 308--308
-[]|\OT1/cmr/m/n/12 tropical
+[]|\OT1/cmr/m/n/10.95 average
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 309--309
-[]|\OT1/cmr/m/n/12 upwelling
+[]|\OT1/cmr/m/n/10.95 Bradford-Grieve
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 309--309
+[]|\OT1/cmr/m/n/10.95 temperate
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 309--309
+[]|\OT1/cmr/m/n/10.95 secondary
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 310--310
-[]|\OT1/cmr/m/n/12 Cornejo-Donoso and
+[]|\OT1/cmr/m/n/10.95 Chassot et al.
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 310--310
-[]|\OT1/cmr/m/n/12 temperate
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 310--310
-[]|\OT1/cmr/m/n/12 primary
+[]|\OT1/cmr/m/n/10.95 temperate
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 311--311
-[]|\OT1/cmr/m/n/12 Cornejo-Donoso and
+[]|\OT1/cmr/m/n/10.95 Chassot et al.
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 311--311
-[]|\OT1/cmr/m/n/12 temperate
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 311--311
-[]|\OT1/cmr/m/n/12 secondary
+[]|\OT1/cmr/m/n/10.95 tropical
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 312--312
-[]|\OT1/cmr/m/n/12 Cornejo-Donoso and
+[]|\OT1/cmr/m/n/10.95 Chassot et al.
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 312--312
-[]|\OT1/cmr/m/n/12 temperate
+[]|\OT1/cmr/m/n/10.95 upwelling
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 312--312
-[]|\OT1/cmr/m/n/12 tertiary
+\OT1/cmr/m/n/10.95 ecosys-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 313--313
-[]|\OT1/cmr/m/n/12 Cornejo-Donoso and
+[]|\OT1/cmr/m/n/10.95 Cornejo-Donoso
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 313--313
-[]|\OT1/cmr/m/n/12 temperate
+\OT1/cmr/m/n/10.95 and An-tezana
+ []
+
+
+Underfull \hbox (badness 3179) in paragraph at lines 313--313
+[]|\OT1/cmr/m/n/10.95 Antarctic Penin-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 313--313
-[]|\OT1/cmr/m/n/12 quaternary
+[]|\OT1/cmr/m/n/10.95 temperate
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--313
+[]|\OT1/cmr/m/n/10.95 primary
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 314--314
-[]|\OT1/cmr/m/n/12 temperate
+[]|\OT1/cmr/m/n/10.95 Cornejo-Donoso
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 314--314
-[]|\OT1/cmr/m/n/12 primary
+\OT1/cmr/m/n/10.95 and An-tezana
+ []
+
+
+Underfull \hbox (badness 3179) in paragraph at lines 314--314
+[]|\OT1/cmr/m/n/10.95 Antarctic Penin-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 314--314
+[]|\OT1/cmr/m/n/10.95 temperate
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 314--314
+[]|\OT1/cmr/m/n/10.95 secondary
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 315--315
-[]|\OT1/cmr/m/n/12 tropical
+[]|\OT1/cmr/m/n/10.95 Cornejo-Donoso
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 315--315
+\OT1/cmr/m/n/10.95 and An-tezana
+ []
+
+
+Underfull \hbox (badness 3179) in paragraph at lines 315--315
+[]|\OT1/cmr/m/n/10.95 Antarctic Penin-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 315--315
+[]|\OT1/cmr/m/n/10.95 temperate
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 315--315
+[]|\OT1/cmr/m/n/10.95 tertiary
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 316--316
-[]|\OT1/cmr/m/n/12 Gamito and Erzini
+[]|\OT1/cmr/m/n/10.95 Cornejo-Donoso
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 316--316
-[]|\OT1/cmr/m/n/12 primary
+\OT1/cmr/m/n/10.95 and An-tezana
+ []
+
+
+Underfull \hbox (badness 3179) in paragraph at lines 316--316
+[]|\OT1/cmr/m/n/10.95 Antarctic Penin-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 316--316
+[]|\OT1/cmr/m/n/10.95 temperate
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 316--316
+[]|\OT1/cmr/m/n/10.95 quaternary
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 317--317
-[]|\OT1/cmr/m/n/12 Gamito and Erzini
+[]|\OT1/cmr/m/n/10.95 D'Alelio et al.
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 317--317
-[]|\OT1/cmr/m/n/12 secondary
+[]|\OT1/cmr/m/n/10.95 temperate
  []
 
 
-Overfull \hbox (37.19781pt too wide) in alignment at lines 298--318
- [] [] [] [] [] [] 
+Underfull \hbox (badness 10000) in paragraph at lines 317--317
+[]|\OT1/cmr/m/n/10.95 primary
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 318--318
+[]|\OT1/cmr/m/n/10.95 tropical
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 319--319
+[]|\OT1/cmr/m/n/10.95 Gamito and
+ []
+
+
+Underfull \hbox (badness 1454) in paragraph at lines 319--319
+[]|\OT1/cmr/m/n/10.95 Ria For-mosa la-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 319--319
+[]|\OT1/cmr/m/n/10.95 primary
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 320--320
+[]|\OT1/cmr/m/n/10.95 Gamito and
+ []
+
+
+Underfull \hbox (badness 1454) in paragraph at lines 320--320
+[]|\OT1/cmr/m/n/10.95 Ria For-mosa la-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 320--320
+[]|\OT1/cmr/m/n/10.95 secondary
  []
 
 [19]
-Underfull \hbox (badness 10000) in paragraph at lines 318--318
-[]|\OT1/cmr/m/n/12 Gamito and Erzini
+Underfull \hbox (badness 10000) in paragraph at lines 321--321
+[]|\OT1/cmr/m/n/10.95 Gamito and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 318--318
-[]|\OT1/cmr/m/n/12 tertiary
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 319--319
-[]|\OT1/cmr/m/n/12 Gamito and Erzini
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 319--319
-[]|\OT1/cmr/m/n/12 quaternary
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 320--320
-[]|\OT1/cmr/m/n/12 Gamito and Erzini
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 320--320
-[]|\OT1/cmr/m/n/12 quinary
+Underfull \hbox (badness 1454) in paragraph at lines 321--321
+[]|\OT1/cmr/m/n/10.95 Ria For-mosa la-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 321--321
-[]|\OT1/cmr/m/n/12 temperate
+[]|\OT1/cmr/m/n/10.95 tertiary
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 322--322
-[]|\OT1/cmr/m/n/12 Azores
+[]|\OT1/cmr/m/n/10.95 Gamito and
+ []
+
+
+Underfull \hbox (badness 1454) in paragraph at lines 322--322
+[]|\OT1/cmr/m/n/10.95 Ria For-mosa la-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 322--322
-[]|\OT1/cmr/m/n/12 temperate
+[]|\OT1/cmr/m/n/10.95 quaternary
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 323--323
-[]|\OT1/cmr/m/n/12 tropical
+[]|\OT1/cmr/m/n/10.95 Gamito and
+ []
+
+
+Underfull \hbox (badness 1454) in paragraph at lines 323--323
+[]|\OT1/cmr/m/n/10.95 Ria For-mosa la-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 323--323
+[]|\OT1/cmr/m/n/10.95 quinary
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 324--324
-[]|\OT1/cmr/m/n/12 temperate
+[]|\OT1/cmr/m/n/10.95 Libralto et al.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 324--324
+[]|\OT1/cmr/m/n/10.95 temperate
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 325--325
-[]|\OT1/cmr/m/n/12 tropical
+[]|\OT1/cmr/m/n/10.95 Libralto et al.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 325--325
+[]|\OT1/cmr/m/n/10.95 Azores
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 325--325
+[]|\OT1/cmr/m/n/10.95 temperate
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 326--326
-[]|\OT1/cmr/m/n/12 temperate
+[]|\OT1/cmr/m/n/10.95 Libralto et al.
  []
 
 
-Underfull \hbox (badness 6608) in paragraph at lines 327--327
-[]|\OT1/cmr/m/n/12 Bay of Revel-
+Underfull \hbox (badness 10000) in paragraph at lines 326--326
+[]|\OT1/cmr/m/n/10.95 tropical
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 327--327
-[]|\OT1/cmr/m/n/12 temperate
+[]|\OT1/cmr/m/n/10.95 Libralto et al.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 327--327
+[]|\OT1/cmr/m/n/10.95 temperate
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 328--328
-[]|\OT1/cmr/m/n/12 tropical
+[]|\OT1/cmr/m/n/10.95 Libralto et al.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 328--328
+[]|\OT1/cmr/m/n/10.95 tropical
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 329--329
-[]|\OT1/cmr/m/n/12 Brunei Darus-
+[]|\OT1/cmr/m/n/10.95 Libralto et al.
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 329--329
-[]|\OT1/cmr/m/n/12 tropical
+[]|\OT1/cmr/m/n/10.95 temperate
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 330--330
-[]|\OT1/cmr/m/n/12 California up-
+[]|\OT1/cmr/m/n/10.95 Libralto et al.
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 330--330
-[]|\OT1/cmr/m/n/12 upwelling
+[]|\OT1/cmr/m/n/10.95 temperate
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 331--331
-[]|\OT1/cmr/m/n/12 tropical
+[]|\OT1/cmr/m/n/10.95 Libralto et al.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 331--331
+[]|\OT1/cmr/m/n/10.95 tropical
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 332--332
-[]|\OT1/cmr/m/n/12 temperate
+[]|\OT1/cmr/m/n/10.95 Libralto et al.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 332--332
+[]|\OT1/cmr/m/n/10.95 Brunei Darus-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 332--332
+[]|\OT1/cmr/m/n/10.95 tropical
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 333--333
+[]|\OT1/cmr/m/n/10.95 Libralto et al.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 333--333
+[]|\OT1/cmr/m/n/10.95 California up-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 333--333
+[]|\OT1/cmr/m/n/10.95 upwelling
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 333--333
+\OT1/cmr/m/n/10.95 ecosys-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 334--334
-[]|\OT1/cmr/m/n/12 Central North
+[]|\OT1/cmr/m/n/10.95 Libralto et al.
+ []
+
+
+Underfull \hbox (badness 6493) in paragraph at lines 334--334
+[]|\OT1/cmr/m/n/10.95 Campeche Bank
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 334--334
-[]|\OT1/cmr/m/n/12 temperate
+[]|\OT1/cmr/m/n/10.95 tropical
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 335--335
-[]|\OT1/cmr/m/n/12 temperate
+[]|\OT1/cmr/m/n/10.95 Libralto et al.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 335--335
+[]|\OT1/cmr/m/n/10.95 temperate
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 336--336
-[]|\OT1/cmr/m/n/12 Chiku la-goon,
+[]|\OT1/cmr/m/n/10.95 Libralto et al.
  []
 
 
-Underfull \hbox (badness 1286) in paragraph at lines 337--337
-[]|\OT1/cmr/m/n/12 Coast of West-
+Underfull \hbox (badness 3386) in paragraph at lines 336--336
+[]|\OT1/cmr/m/n/10.95 Celestun la-goon,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 337--337
-[]|\OT1/cmr/m/n/12 tropical
+[]|\OT1/cmr/m/n/10.95 Libralto et al.
  []
 
 
-Overfull \hbox (37.19781pt too wide) in alignment at lines 318--338
- [] [] [] [] [] [] 
+Underfull \hbox (badness 10000) in paragraph at lines 337--337
+[]|\OT1/cmr/m/n/10.95 temperate
  []
 
-[20] [21] [22]
+
 Underfull \hbox (badness 10000) in paragraph at lines 338--338
-[]|\OT1/cmr/m/n/12 Coastal ar-eas
+[]|\OT1/cmr/m/n/10.95 Libralto et al.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 338--338
+[]|\OT1/cmr/m/n/10.95 temperate
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 339--339
-[]|\OT1/cmr/m/n/12 Continental
+[]|\OT1/cmr/m/n/10.95 Libralto et al.
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 339--339
-[]|\OT1/cmr/m/n/12 tropical
- []
-
-
-Underfull \hbox (badness 7522) in paragraph at lines 340--340
-[]|\OT1/cmr/m/n/12 Eastern Bering
+[]|\OT1/cmr/m/n/10.95 Chiku la-goon,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 340--340
-[]|\OT1/cmr/m/n/12 temperate
+[]|\OT1/cmr/m/n/10.95 Libralto et al.
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 340--340
+[]|\OT1/cmr/m/n/10.95 tropical
+ []
+
+[20] [21]
 Underfull \hbox (badness 10000) in paragraph at lines 341--341
-[]|\OT1/cmr/m/n/12 temperate
+[]|\OT1/cmr/m/n/10.95 Libralto et al.
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 342--342
-[]|\OT1/cmr/m/n/12 temperate
+[]|\OT1/cmr/m/n/10.95 Libralto et al.
+ []
+
+
+Underfull \hbox (badness 1117) in paragraph at lines 342--342
+[]|\OT1/cmr/m/n/10.95 Continental shelf
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 342--342
+[]|\OT1/cmr/m/n/10.95 tropical
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 343--343
+[]|\OT1/cmr/m/n/10.95 Libralto et al.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 343--343
+[]|\OT1/cmr/m/n/10.95 Eastern Bering
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 343--343
+[]|\OT1/cmr/m/n/10.95 temperate
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 344--344
-[]|\OT1/cmr/m/n/12 temperate
+[]|\OT1/cmr/m/n/10.95 Libralto et al.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 344--344
+[]|\OT1/cmr/m/n/10.95 Eastern Sco-tian
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 344--344
+[]|\OT1/cmr/m/n/10.95 temperate
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 345--345
-[]|\OT1/cmr/m/n/12 temperate
+[]|\OT1/cmr/m/n/10.95 Libralto et al.
  []
 
 
-Underfull \hbox (badness 8151) in paragraph at lines 346--346
-[]|\OT1/cmr/m/n/12 Floreana rocky
+Underfull \hbox (badness 3039) in paragraph at lines 345--345
+[]|\OT1/cmr/m/n/10.95 Eastern Trop-i-cal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 345--345
+[]|\OT1/cmr/m/n/10.95 temperate
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 346--346
-[]|\OT1/cmr/m/n/12 tropical
+[]|\OT1/cmr/m/n/10.95 Libralto et al.
+ []
+
+
+Underfull \hbox (badness 1917) in paragraph at lines 346--346
+[]|\OT1/cmr/m/n/10.95 Etang de Thau,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 347--347
-[]|\OT1/cmr/m/n/12 temperate
+[]|\OT1/cmr/m/n/10.95 Libralto et al.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 347--347
+[]|\OT1/cmr/m/n/10.95 temperate
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 348--348
-[]|\OT1/cmr/m/n/12 Great Bar-rier
+[]|\OT1/cmr/m/n/10.95 Libralto et al.
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 348--348
-[]|\OT1/cmr/m/n/12 tropical
+[]|\OT1/cmr/m/n/10.95 temperate
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 349--349
-[]|\OT1/cmr/m/n/12 tropical
+[]|\OT1/cmr/m/n/10.95 Libralto et al.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 349--349
+[]|\OT1/cmr/m/n/10.95 Floreana rocky
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 349--349
+[]|\OT1/cmr/m/n/10.95 tropical
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 350--350
-[]|\OT1/cmr/m/n/12 temperate
+[]|\OT1/cmr/m/n/10.95 Libralto et al.
  []
 
 
-Underfull \hbox (badness 1173) in paragraph at lines 351--351
-[]|\OT1/cmr/m/n/12 Gulf of Mex-ico
+Underfull \hbox (badness 10000) in paragraph at lines 350--350
+[]|\OT1/cmr/m/n/10.95 temperate
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 351--351
-[]|\OT1/cmr/m/n/12 tropical
+[]|\OT1/cmr/m/n/10.95 Libralto et al.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 351--351
+[]|\OT1/cmr/m/n/10.95 Great Bar-rier
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 351--351
+[]|\OT1/cmr/m/n/10.95 tropical
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 352--352
-[]|\OT1/cmr/m/n/12 tropical
+[]|\OT1/cmr/m/n/10.95 Libralto et al.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 352--352
+[]|\OT1/cmr/m/n/10.95 tropical
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 353--353
-[]|\OT1/cmr/m/n/12 tropical
+[]|\OT1/cmr/m/n/10.95 Libralto et al.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 353--353
+[]|\OT1/cmr/m/n/10.95 temperate
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 354--354
-[]|\OT1/cmr/m/n/12 Icelandic fish-
+[]|\OT1/cmr/m/n/10.95 Libralto et al.
+ []
+
+
+Underfull \hbox (badness 5756) in paragraph at lines 354--354
+[]|\OT1/cmr/m/n/10.95 Gulf of Mex-ico
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 354--354
-[]|\OT1/cmr/m/n/12 temperate
+[]|\OT1/cmr/m/n/10.95 tropical
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 355--355
-[]|\OT1/cmr/m/n/12 Kuala Treng-
+[]|\OT1/cmr/m/n/10.95 Libralto et al.
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 355--355
-[]|\OT1/cmr/m/n/12 tropical
+[]|\OT1/cmr/m/n/10.95 tropical
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
+[]|\OT1/cmr/m/n/10.95 Libralto et al.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
+[]|\OT1/cmr/m/n/10.95 tropical
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 357--357
-[]|\OT1/cmr/m/n/12 temperate
+[]|\OT1/cmr/m/n/10.95 Libralto et al.
  []
 
 
-Overfull \hbox (37.19781pt too wide) in alignment at lines 338--358
- [] [] [] [] [] [] 
+Underfull \hbox (badness 10000) in paragraph at lines 357--357
+[]|\OT1/cmr/m/n/10.95 temperate
  []
 
-[23] [24]
+
 Underfull \hbox (badness 10000) in paragraph at lines 358--358
-[]|\OT1/cmr/m/n/12 temperate
+[]|\OT1/cmr/m/n/10.95 Libralto et al.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 358--358
+[]|\OT1/cmr/m/n/10.95 tropical
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 359--359
-[]|\OT1/cmr/m/n/12 temperate
+[]|\OT1/cmr/m/n/10.95 Libralto et al.
  []
 
 
-Underfull \hbox (badness 1024) in paragraph at lines 360--360
-[]|\OT1/cmr/m/n/12 North Benguela
+Underfull \hbox (badness 2608) in paragraph at lines 359--359
+[]|\OT1/cmr/m/n/10.95 Laguna de Bay,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 360--360
-[]|\OT1/cmr/m/n/12 upwelling
+[]|\OT1/cmr/m/n/10.95 Libralto et al.
+ []
+
+
+Underfull \hbox (badness 2617) in paragraph at lines 360--360
+[]|\OT1/cmr/m/n/10.95 Lancaster Sound
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 360--360
+[]|\OT1/cmr/m/n/10.95 temperate
+ []
+
+[22] [23]
+Underfull \hbox (badness 10000) in paragraph at lines 361--361
+[]|\OT1/cmr/m/n/10.95 Libralto et al.
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 361--361
-[]|\OT1/cmr/m/n/12 tropical
+[]|\OT1/cmr/m/n/10.95 temperate
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 362--362
-[]|\OT1/cmr/m/n/12 temperate
+[]|\OT1/cmr/m/n/10.95 Libralto et al.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--362
+[]|\OT1/cmr/m/n/10.95 temperate
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 363--363
-[]|\OT1/cmr/m/n/12 temperate
+[]|\OT1/cmr/m/n/10.95 Libralto et al.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 363--363
+[]|\OT1/cmr/m/n/10.95 North Benguela
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 363--363
+[]|\OT1/cmr/m/n/10.95 upwelling
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 363--363
+\OT1/cmr/m/n/10.95 ecosys-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 364--364
-[]|\OT1/cmr/m/n/12 temperate
+[]|\OT1/cmr/m/n/10.95 Libralto et al.
+ []
+
+
+Underfull \hbox (badness 5036) in paragraph at lines 364--364
+[]|\OT1/cmr/m/n/10.95 North Coast of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 364--364
+[]|\OT1/cmr/m/n/10.95 tropical
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 365--365
-[]|\OT1/cmr/m/n/12 Northern-
- []
-
-
-Underfull \hbox (badness 1147) in paragraph at lines 365--365
-\OT1/cmr/m/n/12 central Adri-atic
+[]|\OT1/cmr/m/n/10.95 Libralto et al.
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 365--365
-[]|\OT1/cmr/m/n/12 temperate
- []
-
-
-Underfull \hbox (badness 7704) in paragraph at lines 366--366
-[]|\OT1/cmr/m/n/12 Norwegian and
+[]|\OT1/cmr/m/n/10.95 temperate
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 366--366
-[]|\OT1/cmr/m/n/12 temperate
+[]|\OT1/cmr/m/n/10.95 Libralto et al.
+ []
+
+
+Underfull \hbox (badness 2529) in paragraph at lines 366--366
+[]|\OT1/cmr/m/n/10.95 Northern British
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 366--366
+[]|\OT1/cmr/m/n/10.95 temperate
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 367--367
-[]|\OT1/cmr/m/n/12 upwelling
+[]|\OT1/cmr/m/n/10.95 Libralto et al.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 367--367
+[]|\OT1/cmr/m/n/10.95 temperate
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 368--368
-[]|\OT1/cmr/m/n/12 open
+[]|\OT1/cmr/m/n/10.95 Libralto et al.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 368--368
+[]|\OT1/cmr/m/n/10.95 Northern-central
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 368--368
+[]|\OT1/cmr/m/n/10.95 temperate
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 369--369
+[]|\OT1/cmr/m/n/10.95 Libralto et al.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 369--369
+[]|\OT1/cmr/m/n/10.95 Norwegian and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 369--369
+[]|\OT1/cmr/m/n/10.95 temperate
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 370--370
-[]|\OT1/cmr/m/n/12 upwelling
+[]|\OT1/cmr/m/n/10.95 Libralto et al.
  []
 
 
-Underfull \hbox (badness 6428) in paragraph at lines 371--371
-[]|\OT1/cmr/m/n/12 Prince William
+Underfull \hbox (badness 5105) in paragraph at lines 370--370
+[]|\OT1/cmr/m/n/10.95 NW Africa up-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 370--370
+[]|\OT1/cmr/m/n/10.95 upwelling
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 370--370
+\OT1/cmr/m/n/10.95 ecosys-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 371--371
-[]|\OT1/cmr/m/n/12 temperate
+[]|\OT1/cmr/m/n/10.95 Libralto et al.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 371--371
+[]|\OT1/cmr/m/n/10.95 open
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 372--372
-[]|\OT1/cmr/m/n/12 tropical
+[]|\OT1/cmr/m/n/10.95 Libralto et al.
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 373--373
-[]|\OT1/cmr/m/n/12 tropical
+[]|\OT1/cmr/m/n/10.95 Libralto et al.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 373--373
+[]|\OT1/cmr/m/n/10.95 upwelling
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 373--373
+\OT1/cmr/m/n/10.95 ecosys-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 374--374
-[]|\OT1/cmr/m/n/12 temperate
+[]|\OT1/cmr/m/n/10.95 Libralto et al.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 374--374
+[]|\OT1/cmr/m/n/10.95 Prince William
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 374--374
+[]|\OT1/cmr/m/n/10.95 temperate
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 375--375
-[]|\OT1/cmr/m/n/12 tropical
+[]|\OT1/cmr/m/n/10.95 Libralto et al.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 375--375
+[]|\OT1/cmr/m/n/10.95 tropical
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 376--376
-[]|\OT1/cmr/m/n/12 South Cata-lan
+[]|\OT1/cmr/m/n/10.95 Libralto et al.
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 376--376
-[]|\OT1/cmr/m/n/12 temperate
+[]|\OT1/cmr/m/n/10.95 tropical
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 377--377
-[]|\OT1/cmr/m/n/12 South China
+[]|\OT1/cmr/m/n/10.95 Libralto et al.
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 377--377
-[]|\OT1/cmr/m/n/12 tropical
+[]|\OT1/cmr/m/n/10.95 temperate
  []
 
 
-Overfull \hbox (37.19781pt too wide) in alignment at lines 358--378
- [] [] [] [] [] [] 
- []
-
-[25]
 Underfull \hbox (badness 10000) in paragraph at lines 378--378
-[]|\OT1/cmr/m/n/12 tropical
+[]|\OT1/cmr/m/n/10.95 Libralto et al.
+ []
+
+
+Underfull \hbox (badness 1052) in paragraph at lines 378--378
+[]|\OT1/cmr/m/n/10.95 Shallow ar-eas of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 378--378
+[]|\OT1/cmr/m/n/10.95 tropical
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 379--379
-[]|\OT1/cmr/m/n/12 tropical
+[]|\OT1/cmr/m/n/10.95 Libralto et al.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 379--379
+[]|\OT1/cmr/m/n/10.95 South Cata-lan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 379--379
+[]|\OT1/cmr/m/n/10.95 temperate
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 380--380
-[]|\OT1/cmr/m/n/12 tropical
+[]|\OT1/cmr/m/n/10.95 Libralto et al.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 380--380
+[]|\OT1/cmr/m/n/10.95 South China
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 380--380
+[]|\OT1/cmr/m/n/10.95 tropical
+ []
+
+[24]
+Underfull \hbox (badness 10000) in paragraph at lines 381--381
+[]|\OT1/cmr/m/n/10.95 Libralto et al.
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 381--381
-[]|\OT1/cmr/m/n/12 Temperate
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 381--381
-[]|\OT1/cmr/m/n/12 temperate
+[]|\OT1/cmr/m/n/10.95 tropical
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 382--382
-[]|\OT1/cmr/m/n/12 tropical
+[]|\OT1/cmr/m/n/10.95 Libralto et al.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 382--382
+[]|\OT1/cmr/m/n/10.95 Southwest coast
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 382--382
+[]|\OT1/cmr/m/n/10.95 tropical
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 383--383
-[]|\OT1/cmr/m/n/12 upwelling
+[]|\OT1/cmr/m/n/10.95 Libralto et al.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 383--383
+[]|\OT1/cmr/m/n/10.95 tropical
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 384--384
-[]|\OT1/cmr/m/n/12 Venezuela
+[]|\OT1/cmr/m/n/10.95 Libralto et al.
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 384--384
-\OT1/cmr/m/n/12 north-east-ern
+[]|\OT1/cmr/m/n/10.95 Temperate
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 384--384
-[]|\OT1/cmr/m/n/12 tropical
+[]|\OT1/cmr/m/n/10.95 temperate
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 385--385
+[]|\OT1/cmr/m/n/10.95 Libralto et al.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 385--385
+[]|\OT1/cmr/m/n/10.95 tropical
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 386--386
-[]|\OT1/cmr/m/n/12 Vietnam-China
+[]|\OT1/cmr/m/n/10.95 Libralto et al.
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 386--386
-[]|\OT1/cmr/m/n/12 tropical
+[]|\OT1/cmr/m/n/10.95 upwelling
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 386--386
+\OT1/cmr/m/n/10.95 ecosys-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 387--387
-[]|\OT1/cmr/m/n/12 West Coast
+[]|\OT1/cmr/m/n/10.95 Libralto et al.
+ []
+
+
+Underfull \hbox (badness 1418) in paragraph at lines 387--387
+[]|\OT1/cmr/m/n/10.95 Venezuela north-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 387--387
-\OT1/cmr/m/n/12 of Van-cou-ver
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 387--387
-[]|\OT1/cmr/m/n/12 temperate
+[]|\OT1/cmr/m/n/10.95 tropical
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 388--388
-[]|\OT1/cmr/m/n/12 temperate
+[]|\OT1/cmr/m/n/10.95 Libralto et al.
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 389--389
-[]|\OT1/cmr/m/n/12 temperate
+[]|\OT1/cmr/m/n/10.95 Libralto et al.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 389--389
+[]|\OT1/cmr/m/n/10.95 Vietnam-China
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 389--389
+[]|\OT1/cmr/m/n/10.95 tropical
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 390--390
-[]|\OT1/cmr/m/n/12 Tapong Bay,
+[]|\OT1/cmr/m/n/10.95 Libralto et al.
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 390--390
-\OT1/cmr/m/n/12 south-west-ern
+[]|\OT1/cmr/m/n/10.95 West Coast of
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 390--390
-[]|\OT1/cmr/m/n/12 tropical
+[]|\OT1/cmr/m/n/10.95 temperate
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 391--391
-[]|\OT1/cmr/m/n/12 Nanwan Bay,
+[]|\OT1/cmr/m/n/10.95 Libralto et al.
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 391--391
-[]|\OT1/cmr/m/n/12 tropical
+[]|\OT1/cmr/m/n/10.95 West Green-land
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 391--391
-[]|\OT1/cmr/m/n/12 primary
+[]|\OT1/cmr/m/n/10.95 temperate
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 392--392
-[]|\OT1/cmr/m/n/12 Nanwan Bay,
+[]|\OT1/cmr/m/n/10.95 Libralto et al.
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 392--392
-[]|\OT1/cmr/m/n/12 tropical
+[]|\OT1/cmr/m/n/10.95 West Green-land
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 392--392
-[]|\OT1/cmr/m/n/12 secondary
+[]|\OT1/cmr/m/n/10.95 temperate
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 393--393
-[]|\OT1/cmr/m/n/12 Nanwan Bay,
+[]|\OT1/cmr/m/n/10.95 Tapong Bay,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 393--393
-[]|\OT1/cmr/m/n/12 tropical
+\OT1/cmr/m/n/10.95 south-west-ern
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 393--393
-[]|\OT1/cmr/m/n/12 tertiary
+[]|\OT1/cmr/m/n/10.95 tropical
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 394--394
-[]|\OT1/cmr/m/n/12 Nanwan Bay,
+[]|\OT1/cmr/m/n/10.95 Nanwan Bay,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 394--394
-[]|\OT1/cmr/m/n/12 tropical
+[]|\OT1/cmr/m/n/10.95 tropical
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 394--394
-[]|\OT1/cmr/m/n/12 quaternary
+[]|\OT1/cmr/m/n/10.95 primary
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 395--395
-[]|\OT1/cmr/m/n/12 Manickchand-
+[]|\OT1/cmr/m/n/10.95 Nanwan Bay,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 395--395
-\OT1/cmr/m/n/12 Heileman et al.
- []
-
-
-Underfull \hbox (badness 5548) in paragraph at lines 395--395
-[]|\OT1/cmr/m/n/12 Gulf of Paria,
+[]|\OT1/cmr/m/n/10.95 tropical
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 395--395
-\OT1/cmr/m/n/12 Venezuela and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 395--395
-[]|\OT1/cmr/m/n/12 tropical
- []
-
-
-Underfull \hbox (badness 1365) in paragraph at lines 396--396
-[]|\OT1/cmr/m/n/12 Neira and Aran-cibia
+[]|\OT1/cmr/m/n/10.95 secondary
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 396--396
-[]|\OT1/cmr/m/n/12 upwelling Cen-
+[]|\OT1/cmr/m/n/10.95 Nanwan Bay,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 396--396
-[]|\OT1/cmr/m/n/12 upwelling
+[]|\OT1/cmr/m/n/10.95 tropical
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 396--396
-[]|\OT1/cmr/m/n/12 primary
- []
-
-
-Underfull \hbox (badness 1365) in paragraph at lines 397--397
-[]|\OT1/cmr/m/n/12 Neira and Aran-cibia
+[]|\OT1/cmr/m/n/10.95 tertiary
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 397--397
-[]|\OT1/cmr/m/n/12 upwelling Cen-
+[]|\OT1/cmr/m/n/10.95 Nanwan Bay,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 397--397
-[]|\OT1/cmr/m/n/12 upwelling
+[]|\OT1/cmr/m/n/10.95 tropical
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 397--397
-[]|\OT1/cmr/m/n/12 secondary
- []
-
-
-Overfull \hbox (37.19781pt too wide) in alignment at lines 378--398
- [] [] [] [] [] [] 
- []
-
-[26] [27]
-Underfull \hbox (badness 1365) in paragraph at lines 398--398
-[]|\OT1/cmr/m/n/12 Neira and Aran-cibia
+[]|\OT1/cmr/m/n/10.95 quaternary
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 398--398
-[]|\OT1/cmr/m/n/12 upwelling Cen-
+[]|\OT1/cmr/m/n/10.95 Manickchand-
+ []
+
+
+Underfull \hbox (badness 4168) in paragraph at lines 398--398
+\OT1/cmr/m/n/10.95 Heileman et al.
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 398--398
-[]|\OT1/cmr/m/n/12 upwelling
+[]|\OT1/cmr/m/n/10.95 Gulf of Paria,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 398--398
-[]|\OT1/cmr/m/n/12 tertiary
+\OT1/cmr/m/n/10.95 Venezuela and
  []
 
 
-Underfull \hbox (badness 1365) in paragraph at lines 399--399
-[]|\OT1/cmr/m/n/12 Neira and Aran-cibia
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 399--399
-[]|\OT1/cmr/m/n/12 upwelling Cen-
+Underfull \hbox (badness 10000) in paragraph at lines 398--398
+[]|\OT1/cmr/m/n/10.95 tropical
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 399--399
-[]|\OT1/cmr/m/n/12 upwelling
+[]|\OT1/cmr/m/n/10.95 upwelling
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 399--399
-[]|\OT1/cmr/m/n/12 quaternary
+\OT1/cmr/m/n/10.95 ecosys-
  []
 
 
-Underfull \hbox (badness 1365) in paragraph at lines 400--400
-[]|\OT1/cmr/m/n/12 Neira and Aran-cibia
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 400--400
-[]|\OT1/cmr/m/n/12 upwelling Cen-
+Underfull \hbox (badness 10000) in paragraph at lines 399--399
+[]|\OT1/cmr/m/n/10.95 primary
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 400--400
-[]|\OT1/cmr/m/n/12 upwelling
+[]|\OT1/cmr/m/n/10.95 upwelling
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 400--400
-[]|\OT1/cmr/m/n/12 quinary
+\OT1/cmr/m/n/10.95 ecosys-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 400--400
+[]|\OT1/cmr/m/n/10.95 secondary
+ []
+
+[25] [26]
+Underfull \hbox (badness 10000) in paragraph at lines 401--401
+[]|\OT1/cmr/m/n/10.95 upwelling
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 401--401
-[]|\OT1/cmr/m/n/12 Pauly and Chris-
+\OT1/cmr/m/n/10.95 ecosys-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 401--401
+[]|\OT1/cmr/m/n/10.95 tertiary
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 402--402
-[]|\OT1/cmr/m/n/12 Rybarczyk and
+[]|\OT1/cmr/m/n/10.95 upwelling
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 402--402
-[]|\OT1/cmr/m/n/12 temperate
+\OT1/cmr/m/n/10.95 ecosys-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 402--402
-[]|\OT1/cmr/m/n/12 primary
+[]|\OT1/cmr/m/n/10.95 quaternary
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 403--403
-[]|\OT1/cmr/m/n/12 Rybarczyk and
+[]|\OT1/cmr/m/n/10.95 upwelling
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 403--403
-[]|\OT1/cmr/m/n/12 temperate
+\OT1/cmr/m/n/10.95 ecosys-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 403--403
-[]|\OT1/cmr/m/n/12 primary
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 404--404
-[]|\OT1/cmr/m/n/12 Rybarczyk and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 404--404
-[]|\OT1/cmr/m/n/12 temperate
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 404--404
-[]|\OT1/cmr/m/n/12 primary
+[]|\OT1/cmr/m/n/10.95 quinary
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 405--405
-[]|\OT1/cmr/m/n/12 Rybarczyk and
+[]|\OT1/cmr/m/n/10.95 Rybarczyk and
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 405--405
-[]|\OT1/cmr/m/n/12 Narragansett
+[]|\OT1/cmr/m/n/10.95 temperate
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 405--405
-[]|\OT1/cmr/m/n/12 temperate
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 405--405
-[]|\OT1/cmr/m/n/12 primary
+[]|\OT1/cmr/m/n/10.95 primary
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 406--406
-[]|\OT1/cmr/m/n/12 Rybarczyk and
+[]|\OT1/cmr/m/n/10.95 Rybarczyk and
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 406--406
-[]|\OT1/cmr/m/n/12 temperate
+[]|\OT1/cmr/m/n/10.95 temperate
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 406--406
-[]|\OT1/cmr/m/n/12 primary
+[]|\OT1/cmr/m/n/10.95 primary
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 407--407
-[]|\OT1/cmr/m/n/12 open
+[]|\OT1/cmr/m/n/10.95 Rybarczyk and
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 407--407
-[]|\OT1/cmr/m/n/12 primary
+[]|\OT1/cmr/m/n/10.95 temperate
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 407--407
+[]|\OT1/cmr/m/n/10.95 primary
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 408--408
-[]|\OT1/cmr/m/n/12 temperate
+[]|\OT1/cmr/m/n/10.95 Rybarczyk and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 408--408
+[]|\OT1/cmr/m/n/10.95 temperate
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 408--408
+[]|\OT1/cmr/m/n/10.95 primary
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 409--409
-[]|\OT1/cmr/m/n/12 temperate
+[]|\OT1/cmr/m/n/10.95 Rybarczyk and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 409--409
+[]|\OT1/cmr/m/n/10.95 temperate
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 409--409
+[]|\OT1/cmr/m/n/10.95 primary
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 410--410
-[]|\OT1/cmr/m/n/12 temperate
+[]|\OT1/cmr/m/n/10.95 Sheldon et al.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 410--410
+[]|\OT1/cmr/m/n/10.95 open
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 410--410
+[]|\OT1/cmr/m/n/10.95 primary
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 411--411
+[]|\OT1/cmr/m/n/10.95 temperate
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 412--412
-[]|\OT1/cmr/m/n/12 temperate
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 412--412
-[]|\OT1/cmr/m/n/12 primary
+[]|\OT1/cmr/m/n/10.95 temperate
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 413--413
-[]|\OT1/cmr/m/n/12 temperate
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 413--413
-[]|\OT1/cmr/m/n/12 primary
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 414--414
-[]|\OT1/cmr/m/n/12 temperate
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 414--414
-[]|\OT1/cmr/m/n/12 secondary
+[]|\OT1/cmr/m/n/10.95 temperate
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 415--415
-[]|\OT1/cmr/m/n/12 Mid-Atlantic
+[]|\OT1/cmr/m/n/10.95 temperate
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 415--415
-[]|\OT1/cmr/m/n/12 tropical
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 415--415
-[]|\OT1/cmr/m/n/12 primary
+[]|\OT1/cmr/m/n/10.95 primary
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 416--416
-[]|\OT1/cmr/m/n/12 Mid-Atlantic
+[]|\OT1/cmr/m/n/10.95 temperate
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 416--416
-[]|\OT1/cmr/m/n/12 tropical
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 416--416
-[]|\OT1/cmr/m/n/12 secondary
+[]|\OT1/cmr/m/n/10.95 primary
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 417--417
-[]|\OT1/cmr/m/n/12 Nova Sco-tia
+[]|\OT1/cmr/m/n/10.95 temperate
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 417--417
-[]|\OT1/cmr/m/n/12 temperate
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 417--417
-[]|\OT1/cmr/m/n/12 primary
- []
-
-
-Overfull \hbox (37.19781pt too wide) in alignment at lines 398--418
- [] [] [] [] [] [] 
- []
-
-[28] [29]
-Underfull \hbox (badness 10000) in paragraph at lines 418--418
-[]|\OT1/cmr/m/n/12 Nova Sco-tia
+[]|\OT1/cmr/m/n/10.95 secondary
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 418--418
-[]|\OT1/cmr/m/n/12 temperate
+[]|\OT1/cmr/m/n/10.95 Mid-Atlantic
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 418--418
-[]|\OT1/cmr/m/n/12 secondary
+[]|\OT1/cmr/m/n/10.95 tropical
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 418--418
+[]|\OT1/cmr/m/n/10.95 primary
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 419--419
-[]|\OT1/cmr/m/n/12 temperate
+[]|\OT1/cmr/m/n/10.95 Mid-Atlantic
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 419--419
-[]|\OT1/cmr/m/n/12 primary
+[]|\OT1/cmr/m/n/10.95 tropical
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 419--419
+[]|\OT1/cmr/m/n/10.95 secondary
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 420--420
-[]|\OT1/cmr/m/n/12 temperate
+[]|\OT1/cmr/m/n/10.95 temperate
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 420--420
-[]|\OT1/cmr/m/n/12 secondary
+[]|\OT1/cmr/m/n/10.95 primary
+ []
+
+[27] [28]
+Underfull \hbox (badness 10000) in paragraph at lines 421--421
+[]|\OT1/cmr/m/n/10.95 temperate
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 421--421
-[]|\OT1/cmr/m/n/12 SW Britisth
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 421--421
-[]|\OT1/cmr/m/n/12 temperate
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 421--421
-[]|\OT1/cmr/m/n/12 primary
+[]|\OT1/cmr/m/n/10.95 secondary
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 422--422
-[]|\OT1/cmr/m/n/12 SW Britisth
+[]|\OT1/cmr/m/n/10.95 Oyashio cur-rent
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 422--422
-[]|\OT1/cmr/m/n/12 temperate
+[]|\OT1/cmr/m/n/10.95 temperate
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 422--422
-[]|\OT1/cmr/m/n/12 secondary
+[]|\OT1/cmr/m/n/10.95 primary
  []
 
 
-Overfull \hbox (37.19781pt too wide) in alignment at lines 418--426
- [] [] [] [] [] [] 
+Underfull \hbox (badness 10000) in paragraph at lines 423--423
+[]|\OT1/cmr/m/n/10.95 Oyashio cur-rent
  []
 
-[30] [31] [32] [33] [34] [35] [36]
-<fig/hist_ppr_1950_2010.png, id=611, 569.0058pt x 426.6339pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 423--423
+[]|\OT1/cmr/m/n/10.95 temperate
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 423--423
+[]|\OT1/cmr/m/n/10.95 secondary
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 424--424
+[]|\OT1/cmr/m/n/10.95 SW Britisth
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 424--424
+[]|\OT1/cmr/m/n/10.95 temperate
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 424--424
+[]|\OT1/cmr/m/n/10.95 primary
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 425--425
+[]|\OT1/cmr/m/n/10.95 SW Britisth
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 425--425
+[]|\OT1/cmr/m/n/10.95 temperate
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 425--425
+[]|\OT1/cmr/m/n/10.95 secondary
+ []
+
+[29] [30] [31] [32] [33] [34] [35]
+<fig/hist_ppr_1950_2010.png, id=608, 569.0058pt x 426.6339pt>
 File: fig/hist_ppr_1950_2010.png Graphic file (type png)
 <use fig/hist_ppr_1950_2010.png>
-Package pdftex.def Info: fig/hist_ppr_1950_2010.png  used on input line 467.
+Package pdftex.def Info: fig/hist_ppr_1950_2010.png  used on input line 471.
 (pdftex.def)             Requested size: 361.35136pt x 270.93555pt.
- [37pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
+ [36pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
 6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.474 
-       <./fig/hist_ppr_1950_2010.png>] [38] [39] [40]
+l.478 
+       <./fig/hist_ppr_1950_2010.png>] [37] [38] [39]
 Chapter 3.
-[41
+[40
 
-] [42] [43]
-Overfull \hbox (18.94693pt too wide) in paragraph at lines 530--543
+] [41] [42]
+Overfull \hbox (18.94693pt too wide) in paragraph at lines 534--547
  [][] 
  []
 
-[44pdfTeX warning (ext4): destination with the same identifier (name{table.3.1}
+[43pdfTeX warning (ext4): destination with the same identifier (name{table.3.1}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.547 
+l.551 
       ]
-<fig/SeaWiFSmhi.png, id=766, 560.8453pt x 531.48563pt>
+<fig/SeaWiFSmhi.png, id=760, 560.8453pt x 531.48563pt>
 File: fig/SeaWiFSmhi.png Graphic file (type png)
 <use fig/SeaWiFSmhi.png>
-Package pdftex.def Info: fig/SeaWiFSmhi.png  used on input line 550.
+Package pdftex.def Info: fig/SeaWiFSmhi.png  used on input line 554.
 (pdftex.def)             Requested size: 316.17987pt x 299.62494pt.
- [45] [46pdfTeX warning (ext4): destination with the same identifier (name{figu
+ [44] [45pdfTeX warning (ext4): destination with the same identifier (name{figu
 re.3.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.558 
-       <./fig/SeaWiFSmhi.png>] [47] [48]
-<fig/distassump.png, id=864, 654.2844pt x 569.0058pt>
+l.562 
+       <./fig/SeaWiFSmhi.png>] [46] [47]
+<fig/distassump.png, id=858, 654.2844pt x 569.0058pt>
 File: fig/distassump.png Graphic file (type png)
 <use fig/distassump.png>
-Package pdftex.def Info: fig/distassump.png  used on input line 614.
+Package pdftex.def Info: fig/distassump.png  used on input line 618.
 (pdftex.def)             Requested size: 406.51599pt x 353.52663pt.
- [49pdfTeX warning (ext4): destination with the same identifier (name{table.3.2
+ [48pdfTeX warning (ext4): destination with the same identifier (name{table.3.2
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.618 
-      ] [50pdfTeX warning (ext4): destination with the same identifier (name{fi
+l.622 
+      ] [49pdfTeX warning (ext4): destination with the same identifier (name{fi
 gure.3.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.621 
+l.625 
        <./fig/distassump.png>]
-Overfull \hbox (42.79947pt too wide) in paragraph at lines 625--635
+Overfull \hbox (42.79947pt too wide) in paragraph at lines 629--639
  [][] 
  []
 
-[51pdfTeX warning (ext4): destination with the same identifier (name{table.3.3}
+[50pdfTeX warning (ext4): destination with the same identifier (name{table.3.3}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.660 
+l.664 
       pdfTeX warning (ext4): destination with the same identifier (name{table.3
 .4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.660 
+l.664 
       ]
-<fig/scen4and7distsim.png, id=909, 825.0825pt x 369.7815pt>
+<fig/scen4and7distsim.png, id=903, 825.0825pt x 369.7815pt>
 File: fig/scen4and7distsim.png Graphic file (type png)
 <use fig/scen4and7distsim.png>
-Package pdftex.def Info: fig/scen4and7distsim.png  used on input line 667.
+Package pdftex.def Info: fig/scen4and7distsim.png  used on input line 671.
 (pdftex.def)             Requested size: 451.6875pt x 202.43816pt.
- [52]
-<fig/biomass2_hist_box_v3.png, id=923, 569.0058pt x 284.5029pt>
+ [51]
+<fig/biomass2_hist_box_v3.png, id=917, 569.0058pt x 284.5029pt>
 File: fig/biomass2_hist_box_v3.png Graphic file (type png)
 <use fig/biomass2_hist_box_v3.png>
-Package pdftex.def Info: fig/biomass2_hist_box_v3.png  used on input line 678.
+Package pdftex.def Info: fig/biomass2_hist_box_v3.png  used on input line 682.
 (pdftex.def)             Requested size: 451.6875pt x 225.84445pt.
- [53pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+ [52pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
 3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.682 
-       <./fig/scen4and7distsim.png>] [54pdfTeX warning (ext4): destination with
+l.686 
+       <./fig/scen4and7distsim.png>] [53pdfTeX warning (ext4): destination with
  the same identifier (name{figure.3.4}) has been already used, duplicate ignore
 d
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.706 
+l.710 
       pdfTeX warning (ext4): destination with the same identifier (name{table.3
 .5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.706 
+l.710 
        <./fig/biomass2_hist_box_v3.png>]
-<fig/biomass3_hist_box_v3.png, id=946, 569.0058pt x 284.5029pt>
+<fig/biomass3_hist_box_v3.png, id=939, 569.0058pt x 284.5029pt>
 File: fig/biomass3_hist_box_v3.png Graphic file (type png)
 <use fig/biomass3_hist_box_v3.png>
-Package pdftex.def Info: fig/biomass3_hist_box_v3.png  used on input line 709.
+Package pdftex.def Info: fig/biomass3_hist_box_v3.png  used on input line 713.
 (pdftex.def)             Requested size: 451.6875pt x 225.84445pt.
- [55]
-<fig/biomass4_hist_box_v3.png, id=959, 597.432pt x 284.5029pt>
+ [54]
+<fig/biomass4_hist_box_v3.png, id=953, 597.432pt x 284.5029pt>
 File: fig/biomass4_hist_box_v3.png Graphic file (type png)
 <use fig/biomass4_hist_box_v3.png>
-Package pdftex.def Info: fig/biomass4_hist_box_v3.png  used on input line 718.
+Package pdftex.def Info: fig/biomass4_hist_box_v3.png  used on input line 722.
 (pdftex.def)             Requested size: 451.6875pt x 215.10442pt.
- [56pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+ [55pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
 5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.722 
-       <./fig/biomass3_hist_box_v3.png>] [57pdfTeX warning (ext4): destination 
+l.726 
+       <./fig/biomass3_hist_box_v3.png>] [56pdfTeX warning (ext4): destination 
 with the same identifier (name{figure.3.6}) has been already used, duplicate ig
 nored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.726 
-       <./fig/biomass4_hist_box_v3.png>] [58]
+l.730 
+       <./fig/biomass4_hist_box_v3.png>] [57]
 
-Package natbib Warning: Citation `gregg2003ocean' on page 59 undefined on input
- line 737.
-
-
-Package natbib Warning: Citation `walther2002ecological' on page 59 undefined o
-n input line 737.
+Package natbib Warning: Citation `gregg2003ocean' on page 58 undefined on input
+ line 741.
 
 
-Package natbib Warning: Citation `san2006latitudinal' on page 59 undefined on i
-nput line 737.
+Package natbib Warning: Citation `walther2002ecological' on page 58 undefined o
+n input line 741.
 
-[59] [60]
+
+Package natbib Warning: Citation `san2006latitudinal' on page 58 undefined on i
+nput line 741.
+
+[58] [59]
 Chapter 4.
-[61
+[60
 
 ]
 
-Package natbib Warning: Citation `mcallister1998bayesian' on page 62 undefined 
-on input line 766.
+Package natbib Warning: Citation `mcallister1998bayesian' on page 61 undefined 
+on input line 770.
 
 
-Package natbib Warning: Citation `mcallister1998bayesian' on page 62 undefined 
-on input line 766.
+Package natbib Warning: Citation `mcallister1998bayesian' on page 61 undefined 
+on input line 770.
 
-[62] [63]
-<fig/catch_cpue.png, id=1030, 825.0825pt x 369.7815pt>
+[61] [62]
+<fig/catch_cpue.png, id=1024, 825.0825pt x 369.7815pt>
 File: fig/catch_cpue.png Graphic file (type png)
 <use fig/catch_cpue.png>
-Package pdftex.def Info: fig/catch_cpue.png  used on input line 802.
+Package pdftex.def Info: fig/catch_cpue.png  used on input line 806.
 (pdftex.def)             Requested size: 451.6875pt x 202.43816pt.
- [64pdfTeX warning (ext4): destination with the same identifier (name{table.4.1
+ [63pdfTeX warning (ext4): destination with the same identifier (name{table.4.1
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.806 
-      ] [65pdfTeX warning (ext4): destination with the same identifier (name{fi
+l.810 
+      ] [64pdfTeX warning (ext4): destination with the same identifier (name{fi
 gure.4.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.815 
-       <./fig/catch_cpue.png>] [66pdfTeX warning (ext4): destination with the s
+l.819 
+       <./fig/catch_cpue.png>] [65pdfTeX warning (ext4): destination with the s
 ame identifier (name{table.4.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.843 \end{equation}
+l.847 \end{equation}
                     ]
-Overfull \hbox (30.82706pt too wide) in paragraph at lines 848--858
+Overfull \hbox (30.82706pt too wide) in paragraph at lines 852--862
  [][] 
  []
 
-[67pdfTeX warning (ext4): destination with the same identifier (name{table.4.3}
+[66pdfTeX warning (ext4): destination with the same identifier (name{table.4.3}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.876 
+l.880 
       ]
-Overfull \hbox (22.60129pt too wide) detected at line 885
+Overfull \hbox (22.60129pt too wide) detected at line 889
 []
  []
 
-[68] [69] [70]
-<fig/hist_prior_r.png, id=1138, 650.43pt x 361.35pt>
+[67] [68] [69]
+<fig/hist_prior_r.png, id=1132, 650.43pt x 361.35pt>
 File: fig/hist_prior_r.png Graphic file (type png)
 <use fig/hist_prior_r.png>
-Package pdftex.def Info: fig/hist_prior_r.png  used on input line 931.
+Package pdftex.def Info: fig/hist_prior_r.png  used on input line 935.
 (pdftex.def)             Requested size: 406.51599pt x 225.84871pt.
- [71] [72pdfTeX warning (ext4): destination with the same identifier (name{figu
+ [70] [71pdfTeX warning (ext4): destination with the same identifier (name{figu
 re.4.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.943 
+l.947 
        <./fig/hist_prior_r.png>]
-<fig/hist_prior_K.png, id=1162, 650.43pt x 361.35pt>
+<fig/hist_prior_K.png, id=1156, 650.43pt x 361.35pt>
 File: fig/hist_prior_K.png Graphic file (type png)
 <use fig/hist_prior_K.png>
-Package pdftex.def Info: fig/hist_prior_K.png  used on input line 953.
+Package pdftex.def Info: fig/hist_prior_K.png  used on input line 957.
 (pdftex.def)             Requested size: 406.51599pt x 225.84871pt.
- [73pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+ [72pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.960 
-       <./fig/hist_prior_K.png>] [74]
-Overfull \hbox (18.94693pt too wide) in paragraph at lines 986--999
+l.964 
+       <./fig/hist_prior_K.png>] [73]
+Overfull \hbox (18.94693pt too wide) in paragraph at lines 990--1003
  [][] 
  []
 
-[75pdfTeX warning (ext4): destination with the same identifier (name{table.4.4}
+[74pdfTeX warning (ext4): destination with the same identifier (name{table.4.4}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1002 
-       ] [76]
-<fig/post_constrained_sir.png, id=1229, 825.0825pt x 369.7815pt>
+l.1006 
+       ] [75]
+<fig/post_constrained_sir.png, id=1225, 825.0825pt x 369.7815pt>
 File: fig/post_constrained_sir.png Graphic file (type png)
 <use fig/post_constrained_sir.png>
-Package pdftex.def Info: fig/post_constrained_sir.png  used on input line 1017.
+Package pdftex.def Info: fig/post_constrained_sir.png  used on input line 1021.
 
 (pdftex.def)             Requested size: 451.6875pt x 202.43816pt.
- [77]
-<fig/post_sir.png, id=1240, 825.0825pt x 369.7815pt>
+ [76]
+<fig/post_sir.png, id=1235, 825.0825pt x 369.7815pt>
 File: fig/post_sir.png Graphic file (type png)
 <use fig/post_sir.png>
-Package pdftex.def Info: fig/post_sir.png  used on input line 1024.
+Package pdftex.def Info: fig/post_sir.png  used on input line 1028.
 (pdftex.def)             Requested size: 451.6875pt x 202.43816pt.
-<fig/post_ext.png, id=1245, 825.0825pt x 369.7815pt>
+<fig/post_ext.png, id=1240, 825.0825pt x 369.7815pt>
 File: fig/post_ext.png Graphic file (type png)
 <use fig/post_ext.png>
-Package pdftex.def Info: fig/post_ext.png  used on input line 1031.
+Package pdftex.def Info: fig/post_ext.png  used on input line 1035.
 (pdftex.def)             Requested size: 451.6875pt x 202.43816pt.
- [78pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+ [77pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1035 
+l.1039 
        pdfTeX warning (ext4): destination with the same identifier (name{figure
 .4.5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1035 
-        <./fig/post_constrained_sir.png> <./fig/post_sir.png>] [79pdfTeX warnin
+l.1039 
+        <./fig/post_constrained_sir.png> <./fig/post_sir.png>] [78pdfTeX warnin
 g (ext4): destination with the same identifier (name{figure.4.6}) has been alre
 ady used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1039 
-        <./fig/post_ext.png>] [80] [81]
+l.1043 
+        <./fig/post_ext.png>] [79] [80]
 Appendix A.
-[82
+[81
 
 ]
-<fig/tree.png, id=1280, 739.563pt x 426.6339pt>
+<fig/tree.png, id=1276, 739.563pt x 426.6339pt>
 File: fig/tree.png Graphic file (type png)
 <use fig/tree.png>
-Package pdftex.def Info: fig/tree.png  used on input line 1079.
+Package pdftex.def Info: fig/tree.png  used on input line 1083.
 (pdftex.def)             Requested size: 451.6875pt x 260.57178pt.
- [83] [84pdfTeX warning (ext4): destination with the same identifier (name{figu
+ [82] [83pdfTeX warning (ext4): destination with the same identifier (name{figu
 re.A.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1086 
+l.1090 
         <./fig/tree.png>]
-<fig/cullen_frey_te.png, id=1304, 455.0601pt x 312.9291pt>
+<fig/cullen_frey_te.png, id=1300, 455.0601pt x 312.9291pt>
 File: fig/cullen_frey_te.png Graphic file (type png)
 <use fig/cullen_frey_te.png>
-Package pdftex.def Info: fig/cullen_frey_te.png  used on input line 1103.
+Package pdftex.def Info: fig/cullen_frey_te.png  used on input line 1107.
 (pdftex.def)             Requested size: 361.35136pt x 248.50049pt.
-<fig/gof_te.png, id=1309, 455.0601pt x 312.9291pt>
+<fig/gof_te.png, id=1305, 455.0601pt x 312.9291pt>
 File: fig/gof_te.png Graphic file (type png)
 <use fig/gof_te.png>
-Package pdftex.def Info: fig/gof_te.png  used on input line 1110.
+Package pdftex.def Info: fig/gof_te.png  used on input line 1114.
 (pdftex.def)             Requested size: 361.35136pt x 248.50049pt.
- [85pdfTeX warning (ext4): destination with the same identifier (name{table.A.1
+ [84pdfTeX warning (ext4): destination with the same identifier (name{table.A.1
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1114 
+l.1118 
        pdfTeX warning (ext4): destination with the same identifier (name{figure
 .A.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1114 
-        <./fig/cullen_frey_te.png>] [86pdfTeX warning (ext4): destination with 
+l.1118 
+        <./fig/cullen_frey_te.png>] [85pdfTeX warning (ext4): destination with 
 the same identifier (name{figure.A.3}) has been already used, duplicate ignored
 
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1117 
-        <./fig/gof_te.png>] [87]
+l.1121 
+        <./fig/gof_te.png>] [86]
 Appendix B.
-[88
+[87
 
 ]
 File: fig/SeaWiFSmhi.png Graphic file (type png)
 <use fig/SeaWiFSmhi.png>
-Package pdftex.def Info: fig/SeaWiFSmhi.png  used on input line 1144.
+Package pdftex.def Info: fig/SeaWiFSmhi.png  used on input line 1148.
 (pdftex.def)             Requested size: 316.17987pt x 299.62494pt.
 
 
-LaTeX Warning: Reference `A2:SeaWiFSmhi_eda1' on page 89 undefined on input lin
-e 1149.
+LaTeX Warning: Reference `A2:SeaWiFSmhi_eda1' on page 88 undefined on input lin
+e 1153.
 
-[89pdfTeX warning (ext4): destination with the same identifier (name{figure.B.1
+[88pdfTeX warning (ext4): destination with the same identifier (name{figure.B.1
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1150 
+l.1154 
        ]
-<fig/seawifs_acf.png, id=1390, 440.39531pt x 319.1925pt>
+<fig/seawifs_acf.png, id=1385, 440.39531pt x 319.1925pt>
 File: fig/seawifs_acf.png Graphic file (type png)
 <use fig/seawifs_acf.png>
-Package pdftex.def Info: fig/seawifs_acf.png  used on input line 1153.
+Package pdftex.def Info: fig/seawifs_acf.png  used on input line 1157.
 (pdftex.def)             Requested size: 316.17987pt x 229.17064pt.
-<fig/seawifs_pacf.png, id=1397, 440.39531pt x 319.1925pt>
+<fig/seawifs_pacf.png, id=1392, 440.39531pt x 319.1925pt>
 File: fig/seawifs_pacf.png Graphic file (type png)
 <use fig/seawifs_pacf.png>
-Package pdftex.def Info: fig/seawifs_pacf.png  used on input line 1160.
+Package pdftex.def Info: fig/seawifs_pacf.png  used on input line 1164.
 (pdftex.def)             Requested size: 316.17987pt x 229.17064pt.
- [90pdfTeX warning (ext4): destination with the same identifier (name{figure.B.
+ [89pdfTeX warning (ext4): destination with the same identifier (name{figure.B.
 2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1164 
+l.1168 
         <./fig/seawifs_acf.png>]
-<fig/seawifs_periodic.png, id=1410, 440.39531pt x 319.1925pt>
+<fig/seawifs_periodic.png, id=1406, 440.39531pt x 319.1925pt>
 File: fig/seawifs_periodic.png Graphic file (type png)
 <use fig/seawifs_periodic.png>
-Package pdftex.def Info: fig/seawifs_periodic.png  used on input line 1167.
+Package pdftex.def Info: fig/seawifs_periodic.png  used on input line 1171.
 (pdftex.def)             Requested size: 316.17987pt x 229.17064pt.
- [91pdfTeX warning (ext4): destination with the same identifier (name{figure.B.
+ [90pdfTeX warning (ext4): destination with the same identifier (name{figure.B.
 3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1173 
+l.1177 
        pdfTeX warning (ext4): destination with the same identifier (name{figure
 .B.4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1173 
-        <./fig/seawifs_pacf.png> <./fig/seawifs_periodic.png>] [92pdfTeX warnin
+l.1177 
+        <./fig/seawifs_pacf.png> <./fig/seawifs_periodic.png>] [91pdfTeX warnin
 g (ext4): destination with the same identifier (name{table.B.1}) has been alrea
 dy used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1200 
+l.1204 
        ]
-<fig/Scen2gof.png, id=1453, 503.63156pt x 464.4853pt>
+<fig/Scen2gof.png, id=1449, 503.63156pt x 464.4853pt>
 File: fig/Scen2gof.png Graphic file (type png)
 <use fig/Scen2gof.png>
-Package pdftex.def Info: fig/Scen2gof.png  used on input line 1217.
+Package pdftex.def Info: fig/Scen2gof.png  used on input line 1221.
 (pdftex.def)             Requested size: 316.17987pt x 291.60669pt.
- [93pdfTeX warning (ext4): destination with the same identifier (name{table.B.2
+ [92pdfTeX warning (ext4): destination with the same identifier (name{table.B.2
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1221 
+l.1225 
        ]
-<fig/Scen2gof2.png, id=1466, 503.63156pt x 464.4853pt>
+<fig/Scen2gof2.png, id=1462, 503.63156pt x 464.4853pt>
 File: fig/Scen2gof2.png Graphic file (type png)
 <use fig/Scen2gof2.png>
-Package pdftex.def Info: fig/Scen2gof2.png  used on input line 1224.
+Package pdftex.def Info: fig/Scen2gof2.png  used on input line 1228.
 (pdftex.def)             Requested size: 316.17987pt x 291.60669pt.
- [94pdfTeX warning (ext4): destination with the same identifier (name{figure.B.
+ [93pdfTeX warning (ext4): destination with the same identifier (name{figure.B.
 5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1228 
-        <./fig/Scen2gof.png>] [95pdfTeX warning (ext4): destination with the sa
+l.1232 
+        <./fig/Scen2gof.png>] [94pdfTeX warning (ext4): destination with the sa
 me identifier (name{figure.B.6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1231 
+l.1235 
         <./fig/Scen2gof2.png>]
 File: fig/cullen_frey_te.png Graphic file (type png)
 <use fig/cullen_frey_te.png>
-Package pdftex.def Info: fig/cullen_frey_te.png  used on input line 1248.
+Package pdftex.def Info: fig/cullen_frey_te.png  used on input line 1252.
 (pdftex.def)             Requested size: 361.35136pt x 248.50049pt.
- [96pdfTeX warning (ext4): destination with the same identifier (name{table.B.3
+ [95pdfTeX warning (ext4): destination with the same identifier (name{table.B.3
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1252 
+l.1256 
        ]
 File: fig/gof_te.png Graphic file (type png)
 <use fig/gof_te.png>
-Package pdftex.def Info: fig/gof_te.png  used on input line 1255.
+Package pdftex.def Info: fig/gof_te.png  used on input line 1259.
 (pdftex.def)             Requested size: 361.35136pt x 248.50049pt.
- [97pdfTeX warning (ext4): destination with the same identifier (name{figure.B.
+ [96pdfTeX warning (ext4): destination with the same identifier (name{figure.B.
 7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1259 
+l.1263 
        ]
-<fig/cullen_frey_te2.png, id=1527, 455.0601pt x 312.9291pt>
+<fig/cullen_frey_te2.png, id=1523, 455.0601pt x 312.9291pt>
 File: fig/cullen_frey_te2.png Graphic file (type png)
 <use fig/cullen_frey_te2.png>
-Package pdftex.def Info: fig/cullen_frey_te2.png  used on input line 1276.
+Package pdftex.def Info: fig/cullen_frey_te2.png  used on input line 1280.
 (pdftex.def)             Requested size: 361.35136pt x 248.50049pt.
- [98pdfTeX warning (ext4): destination with the same identifier (name{figure.B.
+ [97pdfTeX warning (ext4): destination with the same identifier (name{figure.B.
 8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1280 
+l.1284 
        pdfTeX warning (ext4): destination with the same identifier (name{table.
 B.4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1280 
+l.1284 
        ]
-<fig/gof_te2.png, id=1536, 455.0601pt x 312.9291pt>
+<fig/gof_te2.png, id=1532, 455.0601pt x 312.9291pt>
 File: fig/gof_te2.png Graphic file (type png)
 <use fig/gof_te2.png>
-Package pdftex.def Info: fig/gof_te2.png  used on input line 1283.
+Package pdftex.def Info: fig/gof_te2.png  used on input line 1287.
 (pdftex.def)             Requested size: 361.35136pt x 248.50049pt.
- [99pdfTeX warning (ext4): destination with the same identifier (name{figure.B.
+ [98pdfTeX warning (ext4): destination with the same identifier (name{figure.B.
 9}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1287 
+l.1291 
         <./fig/cullen_frey_te2.png>]
-<fig/cullen_frey_te3.png, id=1546, 455.0601pt x 312.9291pt>
+<fig/cullen_frey_te3.png, id=1542, 455.0601pt x 312.9291pt>
 File: fig/cullen_frey_te3.png Graphic file (type png)
 <use fig/cullen_frey_te3.png>
-Package pdftex.def Info: fig/cullen_frey_te3.png  used on input line 1304.
+Package pdftex.def Info: fig/cullen_frey_te3.png  used on input line 1308.
 (pdftex.def)             Requested size: 361.35136pt x 248.50049pt.
- [100pdfTeX warning (ext4): destination with the same identifier (name{figure.B
-.10}) has been already used, duplicate ignored
+ [99pdfTeX warning (ext4): destination with the same identifier (name{figure.B.
+10}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1308 
+l.1312 
        pdfTeX warning (ext4): destination with the same identifier (name{table.
 B.5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1308 
+l.1312 
         <./fig/gof_te2.png>]
-<fig/gof_te3.png, id=1556, 455.0601pt x 312.9291pt>
+<fig/gof_te3.png, id=1552, 455.0601pt x 312.9291pt>
 File: fig/gof_te3.png Graphic file (type png)
 <use fig/gof_te3.png>
-Package pdftex.def Info: fig/gof_te3.png  used on input line 1311.
+Package pdftex.def Info: fig/gof_te3.png  used on input line 1315.
 (pdftex.def)             Requested size: 361.35136pt x 248.50049pt.
- [101pdfTeX warning (ext4): destination with the same identifier (name{figure.B
+ [100pdfTeX warning (ext4): destination with the same identifier (name{figure.B
 .11}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1315 
+l.1319 
         <./fig/cullen_frey_te3.png>]
-<fig/cullen_frey_te4.png, id=1568, 455.0601pt x 312.9291pt>
+<fig/cullen_frey_te4.png, id=1563, 455.0601pt x 312.9291pt>
 File: fig/cullen_frey_te4.png Graphic file (type png)
 <use fig/cullen_frey_te4.png>
-Package pdftex.def Info: fig/cullen_frey_te4.png  used on input line 1332.
+Package pdftex.def Info: fig/cullen_frey_te4.png  used on input line 1336.
 (pdftex.def)             Requested size: 361.35136pt x 248.50049pt.
- [102pdfTeX warning (ext4): destination with the same identifier (name{figure.B
+ [101pdfTeX warning (ext4): destination with the same identifier (name{figure.B
 .12}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1336 
+l.1340 
        pdfTeX warning (ext4): destination with the same identifier (name{table.
 B.6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1336 
+l.1340 
         <./fig/gof_te3.png>]
-<fig/gof_te4.png, id=1578, 455.0601pt x 312.9291pt>
+<fig/gof_te4.png, id=1574, 455.0601pt x 312.9291pt>
 File: fig/gof_te4.png Graphic file (type png)
 <use fig/gof_te4.png>
-Package pdftex.def Info: fig/gof_te4.png  used on input line 1339.
+Package pdftex.def Info: fig/gof_te4.png  used on input line 1343.
 (pdftex.def)             Requested size: 361.35136pt x 248.50049pt.
- [103pdfTeX warning (ext4): destination with the same identifier (name{figure.B
+ [102pdfTeX warning (ext4): destination with the same identifier (name{figure.B
 .13}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1343 
+l.1347 
         <./fig/cullen_frey_te4.png>]
-Overfull \hbox (7.54904pt too wide) in paragraph at lines 1346--1347
+Overfull \hbox (7.54904pt too wide) in paragraph at lines 1350--1351
 []\OT1/cmr/m/n/12 Estimated trophic lev-els (ra-tio-nal num-bers) were cal-cu-l
 ated from the Fish-Base database
  []
 
-[104pdfTeX warning (ext4): destination with the same identifier (name{figure.B.
+[103pdfTeX warning (ext4): destination with the same identifier (name{figure.B.
 14}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1350 
+l.1354 
         <./fig/gof_te4.png>]
-<fig/cullen_frey_l2.png, id=1607, 455.0601pt x 312.9291pt>
+<fig/cullen_frey_l2.png, id=1603, 455.0601pt x 312.9291pt>
 File: fig/cullen_frey_l2.png Graphic file (type png)
 <use fig/cullen_frey_l2.png>
-Package pdftex.def Info: fig/cullen_frey_l2.png  used on input line 1367.
+Package pdftex.def Info: fig/cullen_frey_l2.png  used on input line 1371.
 (pdftex.def)             Requested size: 361.35136pt x 248.50049pt.
- [105pdfTeX warning (ext4): destination with the same identifier (name{table.B.
+ [104pdfTeX warning (ext4): destination with the same identifier (name{table.B.
 7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1371 
+l.1375 
        ]
-<fig/gof_l2.png, id=1626, 455.0601pt x 312.9291pt>
+<fig/gof_l2.png, id=1622, 455.0601pt x 312.9291pt>
 File: fig/gof_l2.png Graphic file (type png)
 <use fig/gof_l2.png>
-Package pdftex.def Info: fig/gof_l2.png  used on input line 1374.
+Package pdftex.def Info: fig/gof_l2.png  used on input line 1378.
 (pdftex.def)             Requested size: 361.35136pt x 248.50049pt.
- [106pdfTeX warning (ext4): destination with the same identifier (name{figure.B
+ [105pdfTeX warning (ext4): destination with the same identifier (name{figure.B
 .15}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1378 
+l.1382 
         <./fig/cullen_frey_l2.png>]
-<fig/cullen_frey_l3.png, id=1637, 455.0601pt x 312.9291pt>
+<fig/cullen_frey_l3.png, id=1633, 455.0601pt x 312.9291pt>
 File: fig/cullen_frey_l3.png Graphic file (type png)
 <use fig/cullen_frey_l3.png>
-Package pdftex.def Info: fig/cullen_frey_l3.png  used on input line 1395.
+Package pdftex.def Info: fig/cullen_frey_l3.png  used on input line 1399.
 (pdftex.def)             Requested size: 361.35136pt x 248.50049pt.
- [107pdfTeX warning (ext4): destination with the same identifier (name{figure.B
+ [106pdfTeX warning (ext4): destination with the same identifier (name{figure.B
 .16}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1399 
+l.1403 
        pdfTeX warning (ext4): destination with the same identifier (name{table.
 B.8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1399 
+l.1403 
         <./fig/gof_l2.png>]
-<fig/gof_l3.png, id=1648, 455.0601pt x 312.9291pt>
+<fig/gof_l3.png, id=1643, 455.0601pt x 312.9291pt>
 File: fig/gof_l3.png Graphic file (type png)
 <use fig/gof_l3.png>
-Package pdftex.def Info: fig/gof_l3.png  used on input line 1402.
+Package pdftex.def Info: fig/gof_l3.png  used on input line 1406.
 (pdftex.def)             Requested size: 361.35136pt x 248.50049pt.
- [108pdfTeX warning (ext4): destination with the same identifier (name{figure.B
+ [107pdfTeX warning (ext4): destination with the same identifier (name{figure.B
 .17}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1406 
+l.1410 
         <./fig/cullen_frey_l3.png>]
-<fig/cullen_frey_l4.png, id=1659, 455.0601pt x 312.9291pt>
+<fig/cullen_frey_l4.png, id=1655, 455.0601pt x 312.9291pt>
 File: fig/cullen_frey_l4.png Graphic file (type png)
 <use fig/cullen_frey_l4.png>
-Package pdftex.def Info: fig/cullen_frey_l4.png  used on input line 1423.
+Package pdftex.def Info: fig/cullen_frey_l4.png  used on input line 1427.
 (pdftex.def)             Requested size: 361.35136pt x 248.50049pt.
- [109pdfTeX warning (ext4): destination with the same identifier (name{figure.B
+ [108pdfTeX warning (ext4): destination with the same identifier (name{figure.B
 .18}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1427 
+l.1431 
        pdfTeX warning (ext4): destination with the same identifier (name{table.
 B.9}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1427 
+l.1431 
         <./fig/gof_l3.png>]
-<fig/gof_l4.png, id=1669, 455.0601pt x 312.9291pt>
+<fig/gof_l4.png, id=1665, 455.0601pt x 312.9291pt>
 File: fig/gof_l4.png Graphic file (type png)
 <use fig/gof_l4.png>
-Package pdftex.def Info: fig/gof_l4.png  used on input line 1430.
+Package pdftex.def Info: fig/gof_l4.png  used on input line 1434.
 (pdftex.def)             Requested size: 361.35136pt x 248.50049pt.
- [110pdfTeX warning (ext4): destination with the same identifier (name{figure.B
+ [109pdfTeX warning (ext4): destination with the same identifier (name{figure.B
 .19}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1434 
+l.1438 
         <./fig/cullen_frey_l4.png>]
-Overfull \hbox (46.03815pt too wide) in paragraph at lines 1440--1441
+Overfull \hbox (46.03815pt too wide) in paragraph at lines 1444--1445
 []\OT1/cmr/m/n/12 In Sce-nario NTl, both $\OML/cmm/m/it/12 ^^W$ \OT1/cmr/m/n/12
  and $\OML/cmm/m/it/12 ^^\[]$ \OT1/cmr/m/n/12 are treated as fixed con-stants. 
 We let $\OML/cmm/m/it/12 ^^U[] \OMS/cmsy/m/n/12 ^^X \OML/cmm/m/it/12 Lognormal\
 OT1/cmr/m/n/12 (\OML/cmm/m/it/12 ^^V[]; ^^[[]\OT1/cmr/m/n/12 )$
  []
 
-[111pdfTeX warning (ext4): destination with the same identifier (name{figure.B.
+[110pdfTeX warning (ext4): destination with the same identifier (name{figure.B.
 20}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1448 \end{equation*}
+l.1452 \end{equation*}
                        <./fig/gof_l4.png>]
-Overfull \hbox (9.30618pt too wide) in paragraph at lines 1450--1451
+Overfull \hbox (9.30618pt too wide) in paragraph at lines 1454--1455
 \OML/cmm/m/it/12 log\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 c\OT1/cmr/m/n/12 )\OML/cm
 m/m/it/12 ; ^^[[]\OT1/cmr/m/n/12 )$. Fi-nally us-ing the same logic as ear-lier
 , we con-clude that $\OML/cmm/m/it/12 ^^M[] \OMS/cmsy/m/n/12 ^^X \OML/cmm/m/it/
 12 Lognormal\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 ^^V[] \OT1/cmr/m/n/12 +
  []
 
-[112] [113] [114]
-<fig/Stein.png, id=1723, 918.43124pt x 349.305pt>
+[111] [112] [113]
+<fig/Stein.png, id=1719, 918.43124pt x 349.305pt>
 File: fig/Stein.png Graphic file (type png)
 <use fig/Stein.png>
-Package pdftex.def Info: fig/Stein.png  used on input line 1522.
+Package pdftex.def Info: fig/Stein.png  used on input line 1526.
 (pdftex.def)             Requested size: 451.6875pt x 171.78987pt.
- [115 <./fig/Stein.png>] [116pdfTeX warning (ext4): destination with the same i
+ [114 <./fig/Stein.png>] [115pdfTeX warning (ext4): destination with the same i
 dentifier (name{table.B.10}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1544 \newpage
-               ] [117]
+l.1548 \newpage
+               ] [116]
 Appendix C.
-[118
+[117
 
 ]
 File: fig/SeaWiFSmhi.png Graphic file (type png)
 <use fig/SeaWiFSmhi.png>
-Package pdftex.def Info: fig/SeaWiFSmhi.png  used on input line 1574.
+Package pdftex.def Info: fig/SeaWiFSmhi.png  used on input line 1578.
 (pdftex.def)             Requested size: 316.17987pt x 299.62494pt.
 
 
@@ -2846,134 +3215,134 @@ Package Fancyhdr Warning: \headheight is too small (18.06749pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[119]
+[118]
 
-LaTeX Warning: Reference `A3:SeaWiFSmhi_eda1' on page 120 undefined on input li
-ne 1579.
+LaTeX Warning: Reference `A3:SeaWiFSmhi_eda1' on page 119 undefined on input li
+ne 1583.
 
 File: fig/seawifs_acf.png Graphic file (type png)
 <use fig/seawifs_acf.png>
-Package pdftex.def Info: fig/seawifs_acf.png  used on input line 1583.
+Package pdftex.def Info: fig/seawifs_acf.png  used on input line 1587.
 (pdftex.def)             Requested size: 316.17987pt x 229.17064pt.
-[120pdfTeX warning (ext4): destination with the same identifier (name{figure.C.
+[119pdfTeX warning (ext4): destination with the same identifier (name{figure.C.
 1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1587 
+l.1591 
        ]
 File: fig/seawifs_pacf.png Graphic file (type png)
 <use fig/seawifs_pacf.png>
-Package pdftex.def Info: fig/seawifs_pacf.png  used on input line 1590.
+Package pdftex.def Info: fig/seawifs_pacf.png  used on input line 1594.
 (pdftex.def)             Requested size: 316.17987pt x 229.17064pt.
 File: fig/seawifs_periodic.png Graphic file (type png)
 <use fig/seawifs_periodic.png>
-Package pdftex.def Info: fig/seawifs_periodic.png  used on input line 1597.
+Package pdftex.def Info: fig/seawifs_periodic.png  used on input line 1601.
 (pdftex.def)             Requested size: 316.17987pt x 229.17064pt.
- [121pdfTeX warning (ext4): destination with the same identifier (name{figure.C
+ [120pdfTeX warning (ext4): destination with the same identifier (name{figure.C
 .2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1601 
+l.1605 
        pdfTeX warning (ext4): destination with the same identifier (name{figure
 .C.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1601 
-       ] [122pdfTeX warning (ext4): destination with the same identifier (name{
+l.1605 
+       ] [121pdfTeX warning (ext4): destination with the same identifier (name{
 figure.C.4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1609 
-       ] [123pdfTeX warning (ext4): destination with the same identifier (name{
+l.1613 
+       ] [122pdfTeX warning (ext4): destination with the same identifier (name{
 table.C.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1630 
+l.1634 
        ]
 File: fig/cullen_frey_te.png Graphic file (type png)
 <use fig/cullen_frey_te.png>
-Package pdftex.def Info: fig/cullen_frey_te.png  used on input line 1647.
+Package pdftex.def Info: fig/cullen_frey_te.png  used on input line 1651.
 (pdftex.def)             Requested size: 361.35136pt x 248.50049pt.
 File: fig/gof_te.png Graphic file (type png)
 <use fig/gof_te.png>
-Package pdftex.def Info: fig/gof_te.png  used on input line 1654.
+Package pdftex.def Info: fig/gof_te.png  used on input line 1658.
 (pdftex.def)             Requested size: 361.35136pt x 248.50049pt.
- [124pdfTeX warning (ext4): destination with the same identifier (name{table.C.
+ [123pdfTeX warning (ext4): destination with the same identifier (name{table.C.
 2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1658 
+l.1662 
        pdfTeX warning (ext4): destination with the same identifier (name{figure
 .C.5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1658 
+l.1662 
        ]
-Overfull \hbox (7.54904pt too wide) in paragraph at lines 1662--1663
+Overfull \hbox (7.54904pt too wide) in paragraph at lines 1666--1667
 []\OT1/cmr/m/n/12 Estimated trophic lev-els (ra-tio-nal num-bers) were cal-cu-l
 ated from the Fish-Base database
  []
 
-[125pdfTeX warning (ext4): destination with the same identifier (name{figure.C.
+[124pdfTeX warning (ext4): destination with the same identifier (name{figure.C.
 6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1667 
+l.1671 
        ]
 File: fig/cullen_frey_l4.png Graphic file (type png)
 <use fig/cullen_frey_l4.png>
-Package pdftex.def Info: fig/cullen_frey_l4.png  used on input line 1684.
+Package pdftex.def Info: fig/cullen_frey_l4.png  used on input line 1688.
 (pdftex.def)             Requested size: 361.35136pt x 248.50049pt.
- [126pdfTeX warning (ext4): destination with the same identifier (name{table.C.
+ [125pdfTeX warning (ext4): destination with the same identifier (name{table.C.
 3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1688 
+l.1692 
        ]
 File: fig/gof_l4.png Graphic file (type png)
 <use fig/gof_l4.png>
-Package pdftex.def Info: fig/gof_l4.png  used on input line 1691.
+Package pdftex.def Info: fig/gof_l4.png  used on input line 1695.
 (pdftex.def)             Requested size: 361.35136pt x 248.50049pt.
- [127pdfTeX warning (ext4): destination with the same identifier (name{figure.C
+ [126pdfTeX warning (ext4): destination with the same identifier (name{figure.C
 .7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1695 
-       ] [128pdfTeX warning (ext4): destination with the same identifier (name{
+l.1699 
+       ] [127pdfTeX warning (ext4): destination with the same identifier (name{
 figure.C.8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1715 \newpage
-               ] [129pdfTeX warning (ext4): destination with the same identifie
+l.1719 \newpage
+               ] [128pdfTeX warning (ext4): destination with the same identifie
 r (name{table.C.4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1715 \newpage
-               ] (./Urbisci_Dissertation.bbl [130] [131
+l.1719 \newpage
+               ] (./Urbisci_Dissertation.bbl [129] [130
 
-] [132] [133] [134]
-[135] [136] [137])
+] [131] [132] [133]
+[134] [135] [136])
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1748.
-[138]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1748.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1752.
+[137]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1752.
  (./Urbisci_Dissertation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1748.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1748.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1752.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1752.
 
 Package rerunfilecheck Info: File `Urbisci_Dissertation.out' has not changed.
 (rerunfilecheck)             Checksum: 5B93D538F3CE32978EF41BAC9A313006;1632.
@@ -2981,16 +3350,13 @@ Package rerunfilecheck Info: File `Urbisci_Dissertation.out' has not changed.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1748.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1752.
  ) 
 Here is how much of TeX's memory you used:
- 8859 strings out of 492649
- 133240 string characters out of 6129622
- 267663 words of memory out of 5000000
- 12133 multiletter control sequences out of 15000+600000
+ 8860 strings out of 492649
+ 133257 string characters out of 6129622
+ 268762 words of memory out of 5000000
+ 12135 multiletter control sequences out of 15000+600000
  17644 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  36i,17n,43p,2230b,606s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3020,10 +3386,10 @@ e/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/
 18/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/201
 8/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2018
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Urbisci_Dissertation.pdf (152 pages, 2104026 bytes).
+Output written on Urbisci_Dissertation.pdf (151 pages, 2103649 bytes).
 PDF statistics:
- 2152 PDF objects out of 2487 (max. 8388607)
- 1878 compressed objects within 19 object streams
- 424 named destinations out of 1000 (max. 500000)
+ 2148 PDF objects out of 2487 (max. 8388607)
+ 1875 compressed objects within 19 object streams
+ 423 named destinations out of 1000 (max. 500000)
  380 words of extra memory for PDF output out of 10000 (max. 10000000)
 
