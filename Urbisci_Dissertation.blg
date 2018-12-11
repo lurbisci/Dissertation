@@ -8,45 +8,45 @@ Warning--I didn't find a database entry for "walther2002ecological"
 Warning--I didn't find a database entry for "san2006latitudinal"
 Warning--I didn't find a database entry for "mcallister1998bayesian"
 Warning--empty journal in mcmcpack
-You've used 101 entries,
+You've used 100 entries,
             1935 wiz_defined-function locations,
-            1058 strings with 21956 characters,
-and the built_in function-call counts, 40365 in all, are:
-= -- 3946
-> -- 1744
-< -- 68
-+ -- 612
-- -- 588
-* -- 3568
-:= -- 7089
-add.period$ -- 300
-call.type$ -- 101
-change.case$ -- 772
-chr.to.int$ -- 101
-cite$ -- 102
-duplicate$ -- 1407
-empty$ -- 2751
-format.name$ -- 743
-if$ -- 7719
+            1054 strings with 21830 characters,
+and the built_in function-call counts, 40049 in all, are:
+= -- 3917
+> -- 1731
+< -- 67
++ -- 608
+- -- 584
+* -- 3545
+:= -- 7032
+add.period$ -- 297
+call.type$ -- 100
+change.case$ -- 766
+chr.to.int$ -- 100
+cite$ -- 101
+duplicate$ -- 1393
+empty$ -- 2728
+format.name$ -- 736
+if$ -- 7657
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 98
-newline$ -- 504
-num.names$ -- 305
-pop$ -- 631
+missing$ -- 96
+newline$ -- 499
+num.names$ -- 302
+pop$ -- 622
 preamble$ -- 1
-purify$ -- 794
+purify$ -- 787
 quote$ -- 0
-skip$ -- 1080
+skip$ -- 1070
 stack$ -- 0
-substring$ -- 2997
-swap$ -- 130
+substring$ -- 2985
+swap$ -- 129
 text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 580
+type$ -- 576
 warning$ -- 1
-while$ -- 339
+while$ -- 337
 width$ -- 0
-write$ -- 1285
+write$ -- 1273
 (There were 5 warnings)

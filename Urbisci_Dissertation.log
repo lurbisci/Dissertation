@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  4 DEC 2018 14:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  11 DEC 2018 09:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2567,13 +2567,8 @@ l.478
 Chapter 3.
 [40
 
-] [41] [42]
-Overfull \hbox (18.94693pt too wide) in paragraph at lines 534--547
- [][] 
- []
-
-[43pdfTeX warning (ext4): destination with the same identifier (name{table.3.1}
-) has been already used, duplicate ignored
+] [41] [42] [43pdfTeX warning (ext4): destination with the same identifier (nam
+e{table.3.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -2591,11 +2586,11 @@ re.3.1}) has been already used, duplicate ignored
                                                   \fi \fi 
 l.562 
        <./fig/SeaWiFSmhi.png>] [46] [47]
-<fig/distassump.png, id=858, 654.2844pt x 569.0058pt>
-File: fig/distassump.png Graphic file (type png)
-<use fig/distassump.png>
-Package pdftex.def Info: fig/distassump.png  used on input line 618.
-(pdftex.def)             Requested size: 406.51599pt x 353.52663pt.
+<fig/distassump_v2.png, id=858, 4148.49875pt x 2370.8575pt>
+File: fig/distassump_v2.png Graphic file (type png)
+<use fig/distassump_v2.png>
+Package pdftex.def Info: fig/distassump_v2.png  used on input line 618.
+(pdftex.def)             Requested size: 451.6875pt x 258.11809pt.
  [48pdfTeX warning (ext4): destination with the same identifier (name{table.3.2
 }) has been already used, duplicate ignored
 
@@ -2608,605 +2603,615 @@ gure.3.2}) has been already used, duplicate ignored
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.625 
-       <./fig/distassump.png>]
-Overfull \hbox (42.79947pt too wide) in paragraph at lines 629--639
- [][] 
- []
-
-[50pdfTeX warning (ext4): destination with the same identifier (name{table.3.3}
-) has been already used, duplicate ignored
+       <./fig/distassump_v2.png>] [50pdfTeX warning (ext4): destination with th
+e same identifier (name{table.3.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.664 
+l.665 
       pdfTeX warning (ext4): destination with the same identifier (name{table.3
 .4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.664 
+l.665 
       ]
-<fig/scen4and7distsim.png, id=903, 825.0825pt x 369.7815pt>
+<fig/scen4and7distsim.png, id=903, 3437.84375pt x 1540.75626pt>
 File: fig/scen4and7distsim.png Graphic file (type png)
 <use fig/scen4and7distsim.png>
-Package pdftex.def Info: fig/scen4and7distsim.png  used on input line 671.
-(pdftex.def)             Requested size: 451.6875pt x 202.43816pt.
+Package pdftex.def Info: fig/scen4and7distsim.png  used on input line 672.
+(pdftex.def)             Requested size: 451.6875pt x 202.42125pt.
  [51]
-<fig/biomass2_hist_box_v3.png, id=917, 569.0058pt x 284.5029pt>
-File: fig/biomass2_hist_box_v3.png Graphic file (type png)
-<use fig/biomass2_hist_box_v3.png>
-Package pdftex.def Info: fig/biomass2_hist_box_v3.png  used on input line 682.
-(pdftex.def)             Requested size: 451.6875pt x 225.84445pt.
+<fig/biomass_dens.png, id=917, 2489.3pt x 1185.42876pt>
+File: fig/biomass_dens.png Graphic file (type png)
+<use fig/biomass_dens.png>
+Package pdftex.def Info: fig/biomass_dens.png  used on input line 683.
+(pdftex.def)             Requested size: 451.6875pt x 215.08633pt.
  [52pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
 3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.686 
-       <./fig/scen4and7distsim.png>] [53pdfTeX warning (ext4): destination with
- the same identifier (name{figure.3.4}) has been already used, duplicate ignore
-d
+l.687 
+       <./fig/scen4and7distsim.png>]
+<fig/biomass2_box.png, id=931, 2370.8575pt x 1185.42876pt>
+File: fig/biomass2_box.png Graphic file (type png)
+<use fig/biomass2_box.png>
+Package pdftex.def Info: fig/biomass2_box.png  used on input line 690.
+(pdftex.def)             Requested size: 451.6875pt x 225.8307pt.
+ [53pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.710 
+l.694 
+       <./fig/biomass_dens.png>] [54pdfTeX warning (ext4): destination with the
+ same identifier (name{figure.3.5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.718 
       pdfTeX warning (ext4): destination with the same identifier (name{table.3
 .5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.710 
-       <./fig/biomass2_hist_box_v3.png>]
-<fig/biomass3_hist_box_v3.png, id=939, 569.0058pt x 284.5029pt>
-File: fig/biomass3_hist_box_v3.png Graphic file (type png)
-<use fig/biomass3_hist_box_v3.png>
-Package pdftex.def Info: fig/biomass3_hist_box_v3.png  used on input line 713.
-(pdftex.def)             Requested size: 451.6875pt x 225.84445pt.
- [54]
-<fig/biomass4_hist_box_v3.png, id=953, 597.432pt x 284.5029pt>
-File: fig/biomass4_hist_box_v3.png Graphic file (type png)
-<use fig/biomass4_hist_box_v3.png>
-Package pdftex.def Info: fig/biomass4_hist_box_v3.png  used on input line 722.
-(pdftex.def)             Requested size: 451.6875pt x 215.10442pt.
- [55pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
-5}) has been already used, duplicate ignored
+l.718 
+       <./fig/biomass2_box.png>]
+<fig/biomass3_box.png, id=951, 2370.8575pt x 1185.42876pt>
+File: fig/biomass3_box.png Graphic file (type png)
+<use fig/biomass3_box.png>
+Package pdftex.def Info: fig/biomass3_box.png  used on input line 721.
+(pdftex.def)             Requested size: 451.6875pt x 225.8307pt.
+ [55]
+<fig/biomass4_box.png, id=964, 2370.8575pt x 1185.42876pt>
+File: fig/biomass4_box.png Graphic file (type png)
+<use fig/biomass4_box.png>
+Package pdftex.def Info: fig/biomass4_box.png  used on input line 730.
+(pdftex.def)             Requested size: 451.6875pt x 225.8307pt.
+ [56pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.726 
-       <./fig/biomass3_hist_box_v3.png>] [56pdfTeX warning (ext4): destination 
-with the same identifier (name{figure.3.6}) has been already used, duplicate ig
-nored
+l.733 \end{figure}
+                   <./fig/biomass3_box.png>] [57pdfTeX warning (ext4): destinat
+ion with the same identifier (name{figure.3.7}) has been already used, duplicat
+e ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.730 
-       <./fig/biomass4_hist_box_v3.png>] [57]
+l.738 
+       <./fig/biomass4_box.png>] [58]
 
-Package natbib Warning: Citation `gregg2003ocean' on page 58 undefined on input
- line 741.
-
-
-Package natbib Warning: Citation `walther2002ecological' on page 58 undefined o
-n input line 741.
+Package natbib Warning: Citation `gregg2003ocean' on page 59 undefined on input
+ line 753.
 
 
-Package natbib Warning: Citation `san2006latitudinal' on page 58 undefined on i
-nput line 741.
+Package natbib Warning: Citation `walther2002ecological' on page 59 undefined o
+n input line 753.
 
-[58] [59]
+
+Package natbib Warning: Citation `san2006latitudinal' on page 59 undefined on i
+nput line 753.
+
+[59] [60] [61]
 Chapter 4.
-[60
+[62
 
 ]
 
-Package natbib Warning: Citation `mcallister1998bayesian' on page 61 undefined 
-on input line 770.
+Package natbib Warning: Citation `mcallister1998bayesian' on page 63 undefined 
+on input line 782.
 
 
-Package natbib Warning: Citation `mcallister1998bayesian' on page 61 undefined 
-on input line 770.
+Package natbib Warning: Citation `mcallister1998bayesian' on page 63 undefined 
+on input line 782.
 
-[61] [62]
-<fig/catch_cpue.png, id=1024, 825.0825pt x 369.7815pt>
+[63] [64]
+<fig/catch_cpue.png, id=1042, 825.0825pt x 369.7815pt>
 File: fig/catch_cpue.png Graphic file (type png)
 <use fig/catch_cpue.png>
-Package pdftex.def Info: fig/catch_cpue.png  used on input line 806.
+Package pdftex.def Info: fig/catch_cpue.png  used on input line 818.
 (pdftex.def)             Requested size: 451.6875pt x 202.43816pt.
- [63pdfTeX warning (ext4): destination with the same identifier (name{table.4.1
+ [65pdfTeX warning (ext4): destination with the same identifier (name{table.4.1
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.810 
-      ] [64pdfTeX warning (ext4): destination with the same identifier (name{fi
+l.822 
+      ] [66pdfTeX warning (ext4): destination with the same identifier (name{fi
 gure.4.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.819 
-       <./fig/catch_cpue.png>] [65pdfTeX warning (ext4): destination with the s
+l.831 
+       <./fig/catch_cpue.png>] [67pdfTeX warning (ext4): destination with the s
 ame identifier (name{table.4.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.847 \end{equation}
-                    ]
-Overfull \hbox (30.82706pt too wide) in paragraph at lines 852--862
- [][] 
- []
-
-[66pdfTeX warning (ext4): destination with the same identifier (name{table.4.3}
-) has been already used, duplicate ignored
+l.856 
+      ] [68pdfTeX warning (ext4): destination with the same identifier (name{ta
+ble.4.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.880 
-      ]
-Overfull \hbox (22.60129pt too wide) detected at line 889
-[]
- []
-
-[67] [68] [69]
-<fig/hist_prior_r.png, id=1132, 650.43pt x 361.35pt>
+l.888 \end{align}
+                 ] [69] [70] [71] [72]
+<fig/hist_prior_r.png, id=1169, 650.43pt x 361.35pt>
 File: fig/hist_prior_r.png Graphic file (type png)
 <use fig/hist_prior_r.png>
-Package pdftex.def Info: fig/hist_prior_r.png  used on input line 935.
+Package pdftex.def Info: fig/hist_prior_r.png  used on input line 958.
 (pdftex.def)             Requested size: 406.51599pt x 225.84871pt.
- [70] [71pdfTeX warning (ext4): destination with the same identifier (name{figu
+ [73] [74pdfTeX warning (ext4): destination with the same identifier (name{figu
 re.4.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.947 
-       <./fig/hist_prior_r.png>]
-<fig/hist_prior_K.png, id=1156, 650.43pt x 361.35pt>
+l.967 \end{equation*}
+                      <./fig/hist_prior_r.png>]
+<fig/hist_prior_K.png, id=1188, 5420.25pt x 3011.25pt>
 File: fig/hist_prior_K.png Graphic file (type png)
 <use fig/hist_prior_K.png>
-Package pdftex.def Info: fig/hist_prior_K.png  used on input line 957.
-(pdftex.def)             Requested size: 406.51599pt x 225.84871pt.
- [72pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
-3}) has been already used, duplicate ignored
+Package pdftex.def Info: fig/hist_prior_K.png  used on input line 980.
+(pdftex.def)             Requested size: 406.51599pt x 225.834pt.
+ [75] [76pdfTeX warning (ext4): destination with the same identifier (name{figu
+re.4.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.964 
-       <./fig/hist_prior_K.png>] [73]
-Overfull \hbox (18.94693pt too wide) in paragraph at lines 990--1003
- [][] 
- []
-
-[74pdfTeX warning (ext4): destination with the same identifier (name{table.4.4}
-) has been already used, duplicate ignored
+l.998 \end{align*}
+                   <./fig/hist_prior_K.png>] [77] [78pdfTeX warning (ext4): des
+tination with the same identifier (name{table.4.4}) has been already used, dupl
+icate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1006 
-       ] [75]
-<fig/post_constrained_sir.png, id=1225, 825.0825pt x 369.7815pt>
-File: fig/post_constrained_sir.png Graphic file (type png)
-<use fig/post_constrained_sir.png>
-Package pdftex.def Info: fig/post_constrained_sir.png  used on input line 1021.
-
-(pdftex.def)             Requested size: 451.6875pt x 202.43816pt.
- [76]
-<fig/post_sir.png, id=1235, 825.0825pt x 369.7815pt>
-File: fig/post_sir.png Graphic file (type png)
-<use fig/post_sir.png>
-Package pdftex.def Info: fig/post_sir.png  used on input line 1028.
-(pdftex.def)             Requested size: 451.6875pt x 202.43816pt.
-<fig/post_ext.png, id=1240, 825.0825pt x 369.7815pt>
-File: fig/post_ext.png Graphic file (type png)
-<use fig/post_ext.png>
-Package pdftex.def Info: fig/post_ext.png  used on input line 1035.
-(pdftex.def)             Requested size: 451.6875pt x 202.43816pt.
- [77pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
-4}) has been already used, duplicate ignored
+l.1030 
+       ]
+<fig/post_carrying.png, id=1250, 3437.84375pt x 1540.75626pt>
+File: fig/post_carrying.png Graphic file (type png)
+<use fig/post_carrying.png>
+Package pdftex.def Info: fig/post_carrying.png  used on input line 1041.
+(pdftex.def)             Requested size: 451.6875pt x 202.42125pt.
+ [79] [80pdfTeX warning (ext4): destination with the same identifier (name{figu
+re.4.4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1039 
-       pdfTeX warning (ext4): destination with the same identifier (name{figure
-.4.5}) has been already used, duplicate ignored
+l.1047 
+        <./fig/post_carrying.png>]
+<fig/post_terminal_bio.png, id=1277, 3437.84375pt x 1540.75626pt>
+File: fig/post_terminal_bio.png Graphic file (type png)
+<use fig/post_terminal_bio.png>
+Package pdftex.def Info: fig/post_terminal_bio.png  used on input line 1051.
+(pdftex.def)             Requested size: 451.6875pt x 202.42125pt.
+ [81pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1039 
-        <./fig/post_constrained_sir.png> <./fig/post_sir.png>] [78pdfTeX warnin
-g (ext4): destination with the same identifier (name{figure.4.6}) has been alre
-ady used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.1043 
-        <./fig/post_ext.png>] [79] [80]
-Appendix A.
-[81
-
-]
-<fig/tree.png, id=1276, 739.563pt x 426.6339pt>
-File: fig/tree.png Graphic file (type png)
-<use fig/tree.png>
-Package pdftex.def Info: fig/tree.png  used on input line 1083.
-(pdftex.def)             Requested size: 451.6875pt x 260.57178pt.
- [82] [83pdfTeX warning (ext4): destination with the same identifier (name{figu
-re.A.1}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.1090 
-        <./fig/tree.png>]
-<fig/cullen_frey_te.png, id=1300, 455.0601pt x 312.9291pt>
-File: fig/cullen_frey_te.png Graphic file (type png)
-<use fig/cullen_frey_te.png>
-Package pdftex.def Info: fig/cullen_frey_te.png  used on input line 1107.
-(pdftex.def)             Requested size: 361.35136pt x 248.50049pt.
-<fig/gof_te.png, id=1305, 455.0601pt x 312.9291pt>
-File: fig/gof_te.png Graphic file (type png)
-<use fig/gof_te.png>
-Package pdftex.def Info: fig/gof_te.png  used on input line 1114.
-(pdftex.def)             Requested size: 361.35136pt x 248.50049pt.
- [84pdfTeX warning (ext4): destination with the same identifier (name{table.A.1
+l.1097 
+        <./fig/post_terminal_bio.png>]
+<fig/post_terminal_bio_k.png, id=1289, 3437.84375pt x 1540.75626pt>
+File: fig/post_terminal_bio_k.png Graphic file (type png)
+<use fig/post_terminal_bio_k.png>
+Package pdftex.def Info: fig/post_terminal_bio_k.png  used on input line 1102.
+(pdftex.def)             Requested size: 451.6875pt x 202.42125pt.
+ [82pdfTeX warning (ext4): destination with the same identifier (name{table.4.5
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1118 
+l.1106 
+       ]
+<fig/post_catchability.png, id=1301, 3437.84375pt x 1540.75626pt>
+File: fig/post_catchability.png Graphic file (type png)
+<use fig/post_catchability.png>
+Package pdftex.def Info: fig/post_catchability.png  used on input line 1111.
+(pdftex.def)             Requested size: 451.6875pt x 202.42125pt.
+ [83pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+6}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1115 
+        <./fig/post_terminal_bio_k.png>] [84pdfTeX warning (ext4): destination 
+with the same identifier (name{figure.4.7}) has been already used, duplicate ig
+nored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1121 
+        <./fig/post_catchability.png>] [85] [86]
+Appendix A.
+[87
+
+]
+<fig/tree.png, id=1339, 739.563pt x 426.6339pt>
+File: fig/tree.png Graphic file (type png)
+<use fig/tree.png>
+Package pdftex.def Info: fig/tree.png  used on input line 1161.
+(pdftex.def)             Requested size: 451.6875pt x 260.57178pt.
+ [88] [89pdfTeX warning (ext4): destination with the same identifier (name{figu
+re.A.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1168 
+        <./fig/tree.png>]
+<fig/cullen_frey_te.png, id=1363, 455.0601pt x 312.9291pt>
+File: fig/cullen_frey_te.png Graphic file (type png)
+<use fig/cullen_frey_te.png>
+Package pdftex.def Info: fig/cullen_frey_te.png  used on input line 1185.
+(pdftex.def)             Requested size: 361.35136pt x 248.50049pt.
+<fig/gof_te.png, id=1368, 455.0601pt x 312.9291pt>
+File: fig/gof_te.png Graphic file (type png)
+<use fig/gof_te.png>
+Package pdftex.def Info: fig/gof_te.png  used on input line 1192.
+(pdftex.def)             Requested size: 361.35136pt x 248.50049pt.
+ [90pdfTeX warning (ext4): destination with the same identifier (name{table.A.1
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1196 
        pdfTeX warning (ext4): destination with the same identifier (name{figure
 .A.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1118 
-        <./fig/cullen_frey_te.png>] [85pdfTeX warning (ext4): destination with 
+l.1196 
+        <./fig/cullen_frey_te.png>] [91pdfTeX warning (ext4): destination with 
 the same identifier (name{figure.A.3}) has been already used, duplicate ignored
 
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1121 
-        <./fig/gof_te.png>] [86]
+l.1199 
+        <./fig/gof_te.png>] [92]
 Appendix B.
-[87
+[93
 
 ]
 File: fig/SeaWiFSmhi.png Graphic file (type png)
 <use fig/SeaWiFSmhi.png>
-Package pdftex.def Info: fig/SeaWiFSmhi.png  used on input line 1148.
+Package pdftex.def Info: fig/SeaWiFSmhi.png  used on input line 1226.
 (pdftex.def)             Requested size: 316.17987pt x 299.62494pt.
 
 
-LaTeX Warning: Reference `A2:SeaWiFSmhi_eda1' on page 88 undefined on input lin
-e 1153.
+LaTeX Warning: Reference `A2:SeaWiFSmhi_eda1' on page 94 undefined on input lin
+e 1231.
 
-[88pdfTeX warning (ext4): destination with the same identifier (name{figure.B.1
+[94pdfTeX warning (ext4): destination with the same identifier (name{figure.B.1
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1154 
+l.1232 
        ]
-<fig/seawifs_acf.png, id=1385, 440.39531pt x 319.1925pt>
+<fig/seawifs_acf.png, id=1448, 440.39531pt x 319.1925pt>
 File: fig/seawifs_acf.png Graphic file (type png)
 <use fig/seawifs_acf.png>
-Package pdftex.def Info: fig/seawifs_acf.png  used on input line 1157.
+Package pdftex.def Info: fig/seawifs_acf.png  used on input line 1235.
 (pdftex.def)             Requested size: 316.17987pt x 229.17064pt.
-<fig/seawifs_pacf.png, id=1392, 440.39531pt x 319.1925pt>
+<fig/seawifs_pacf.png, id=1455, 440.39531pt x 319.1925pt>
 File: fig/seawifs_pacf.png Graphic file (type png)
 <use fig/seawifs_pacf.png>
-Package pdftex.def Info: fig/seawifs_pacf.png  used on input line 1164.
+Package pdftex.def Info: fig/seawifs_pacf.png  used on input line 1242.
 (pdftex.def)             Requested size: 316.17987pt x 229.17064pt.
- [89pdfTeX warning (ext4): destination with the same identifier (name{figure.B.
+ [95pdfTeX warning (ext4): destination with the same identifier (name{figure.B.
 2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1168 
+l.1246 
         <./fig/seawifs_acf.png>]
-<fig/seawifs_periodic.png, id=1406, 440.39531pt x 319.1925pt>
+<fig/seawifs_periodic.png, id=1469, 440.39531pt x 319.1925pt>
 File: fig/seawifs_periodic.png Graphic file (type png)
 <use fig/seawifs_periodic.png>
-Package pdftex.def Info: fig/seawifs_periodic.png  used on input line 1171.
+Package pdftex.def Info: fig/seawifs_periodic.png  used on input line 1249.
 (pdftex.def)             Requested size: 316.17987pt x 229.17064pt.
- [90pdfTeX warning (ext4): destination with the same identifier (name{figure.B.
+ [96pdfTeX warning (ext4): destination with the same identifier (name{figure.B.
 3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1177 
+l.1255 
        pdfTeX warning (ext4): destination with the same identifier (name{figure
 .B.4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1177 
-        <./fig/seawifs_pacf.png> <./fig/seawifs_periodic.png>] [91pdfTeX warnin
+l.1255 
+        <./fig/seawifs_pacf.png> <./fig/seawifs_periodic.png>] [97pdfTeX warnin
 g (ext4): destination with the same identifier (name{table.B.1}) has been alrea
 dy used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1204 
+l.1282 
        ]
-<fig/Scen2gof.png, id=1449, 503.63156pt x 464.4853pt>
+<fig/Scen2gof.png, id=1511, 503.63156pt x 464.4853pt>
 File: fig/Scen2gof.png Graphic file (type png)
 <use fig/Scen2gof.png>
-Package pdftex.def Info: fig/Scen2gof.png  used on input line 1221.
+Package pdftex.def Info: fig/Scen2gof.png  used on input line 1299.
 (pdftex.def)             Requested size: 316.17987pt x 291.60669pt.
- [92pdfTeX warning (ext4): destination with the same identifier (name{table.B.2
+ [98pdfTeX warning (ext4): destination with the same identifier (name{table.B.2
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1225 
+l.1303 
        ]
-<fig/Scen2gof2.png, id=1462, 503.63156pt x 464.4853pt>
+<fig/Scen2gof2.png, id=1524, 503.63156pt x 464.4853pt>
 File: fig/Scen2gof2.png Graphic file (type png)
 <use fig/Scen2gof2.png>
-Package pdftex.def Info: fig/Scen2gof2.png  used on input line 1228.
+Package pdftex.def Info: fig/Scen2gof2.png  used on input line 1306.
 (pdftex.def)             Requested size: 316.17987pt x 291.60669pt.
- [93pdfTeX warning (ext4): destination with the same identifier (name{figure.B.
+ [99pdfTeX warning (ext4): destination with the same identifier (name{figure.B.
 5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1232 
-        <./fig/Scen2gof.png>] [94pdfTeX warning (ext4): destination with the sa
-me identifier (name{figure.B.6}) has been already used, duplicate ignored
+l.1310 
+        <./fig/Scen2gof.png>] [100pdfTeX warning (ext4): destination with the s
+ame identifier (name{figure.B.6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1235 
+l.1313 
         <./fig/Scen2gof2.png>]
 File: fig/cullen_frey_te.png Graphic file (type png)
 <use fig/cullen_frey_te.png>
-Package pdftex.def Info: fig/cullen_frey_te.png  used on input line 1252.
+Package pdftex.def Info: fig/cullen_frey_te.png  used on input line 1330.
 (pdftex.def)             Requested size: 361.35136pt x 248.50049pt.
- [95pdfTeX warning (ext4): destination with the same identifier (name{table.B.3
-}) has been already used, duplicate ignored
+ [101pdfTeX warning (ext4): destination with the same identifier (name{table.B.
+3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1256 
+l.1334 
        ]
 File: fig/gof_te.png Graphic file (type png)
 <use fig/gof_te.png>
-Package pdftex.def Info: fig/gof_te.png  used on input line 1259.
+Package pdftex.def Info: fig/gof_te.png  used on input line 1337.
 (pdftex.def)             Requested size: 361.35136pt x 248.50049pt.
- [96pdfTeX warning (ext4): destination with the same identifier (name{figure.B.
-7}) has been already used, duplicate ignored
+ [102pdfTeX warning (ext4): destination with the same identifier (name{figure.B
+.7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1263 
+l.1341 
        ]
-<fig/cullen_frey_te2.png, id=1523, 455.0601pt x 312.9291pt>
+<fig/cullen_frey_te2.png, id=1586, 455.0601pt x 312.9291pt>
 File: fig/cullen_frey_te2.png Graphic file (type png)
 <use fig/cullen_frey_te2.png>
-Package pdftex.def Info: fig/cullen_frey_te2.png  used on input line 1280.
+Package pdftex.def Info: fig/cullen_frey_te2.png  used on input line 1358.
 (pdftex.def)             Requested size: 361.35136pt x 248.50049pt.
- [97pdfTeX warning (ext4): destination with the same identifier (name{figure.B.
-8}) has been already used, duplicate ignored
+ [103pdfTeX warning (ext4): destination with the same identifier (name{figure.B
+.8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1284 
+l.1362 
        pdfTeX warning (ext4): destination with the same identifier (name{table.
 B.4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1284 
+l.1362 
        ]
-<fig/gof_te2.png, id=1532, 455.0601pt x 312.9291pt>
+<fig/gof_te2.png, id=1595, 455.0601pt x 312.9291pt>
 File: fig/gof_te2.png Graphic file (type png)
 <use fig/gof_te2.png>
-Package pdftex.def Info: fig/gof_te2.png  used on input line 1287.
+Package pdftex.def Info: fig/gof_te2.png  used on input line 1365.
 (pdftex.def)             Requested size: 361.35136pt x 248.50049pt.
- [98pdfTeX warning (ext4): destination with the same identifier (name{figure.B.
-9}) has been already used, duplicate ignored
+ [104pdfTeX warning (ext4): destination with the same identifier (name{figure.B
+.9}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1291 
+l.1369 
         <./fig/cullen_frey_te2.png>]
-<fig/cullen_frey_te3.png, id=1542, 455.0601pt x 312.9291pt>
+<fig/cullen_frey_te3.png, id=1605, 455.0601pt x 312.9291pt>
 File: fig/cullen_frey_te3.png Graphic file (type png)
 <use fig/cullen_frey_te3.png>
-Package pdftex.def Info: fig/cullen_frey_te3.png  used on input line 1308.
+Package pdftex.def Info: fig/cullen_frey_te3.png  used on input line 1386.
 (pdftex.def)             Requested size: 361.35136pt x 248.50049pt.
- [99pdfTeX warning (ext4): destination with the same identifier (name{figure.B.
-10}) has been already used, duplicate ignored
+ [105pdfTeX warning (ext4): destination with the same identifier (name{figure.B
+.10}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1312 
+l.1390 
        pdfTeX warning (ext4): destination with the same identifier (name{table.
 B.5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1312 
+l.1390 
         <./fig/gof_te2.png>]
-<fig/gof_te3.png, id=1552, 455.0601pt x 312.9291pt>
+<fig/gof_te3.png, id=1615, 455.0601pt x 312.9291pt>
 File: fig/gof_te3.png Graphic file (type png)
 <use fig/gof_te3.png>
-Package pdftex.def Info: fig/gof_te3.png  used on input line 1315.
+Package pdftex.def Info: fig/gof_te3.png  used on input line 1393.
 (pdftex.def)             Requested size: 361.35136pt x 248.50049pt.
- [100pdfTeX warning (ext4): destination with the same identifier (name{figure.B
+ [106pdfTeX warning (ext4): destination with the same identifier (name{figure.B
 .11}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1319 
+l.1397 
         <./fig/cullen_frey_te3.png>]
-<fig/cullen_frey_te4.png, id=1563, 455.0601pt x 312.9291pt>
+<fig/cullen_frey_te4.png, id=1625, 455.0601pt x 312.9291pt>
 File: fig/cullen_frey_te4.png Graphic file (type png)
 <use fig/cullen_frey_te4.png>
-Package pdftex.def Info: fig/cullen_frey_te4.png  used on input line 1336.
+Package pdftex.def Info: fig/cullen_frey_te4.png  used on input line 1414.
 (pdftex.def)             Requested size: 361.35136pt x 248.50049pt.
- [101pdfTeX warning (ext4): destination with the same identifier (name{figure.B
+ [107pdfTeX warning (ext4): destination with the same identifier (name{figure.B
 .12}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1340 
+l.1418 
        pdfTeX warning (ext4): destination with the same identifier (name{table.
 B.6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1340 
+l.1418 
         <./fig/gof_te3.png>]
-<fig/gof_te4.png, id=1574, 455.0601pt x 312.9291pt>
+<fig/gof_te4.png, id=1636, 455.0601pt x 312.9291pt>
 File: fig/gof_te4.png Graphic file (type png)
 <use fig/gof_te4.png>
-Package pdftex.def Info: fig/gof_te4.png  used on input line 1343.
+Package pdftex.def Info: fig/gof_te4.png  used on input line 1421.
 (pdftex.def)             Requested size: 361.35136pt x 248.50049pt.
- [102pdfTeX warning (ext4): destination with the same identifier (name{figure.B
+ [108pdfTeX warning (ext4): destination with the same identifier (name{figure.B
 .13}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1347 
+l.1425 
         <./fig/cullen_frey_te4.png>]
-Overfull \hbox (7.54904pt too wide) in paragraph at lines 1350--1351
+Overfull \hbox (7.54904pt too wide) in paragraph at lines 1428--1429
 []\OT1/cmr/m/n/12 Estimated trophic lev-els (ra-tio-nal num-bers) were cal-cu-l
 ated from the Fish-Base database
  []
 
-[103pdfTeX warning (ext4): destination with the same identifier (name{figure.B.
+[109pdfTeX warning (ext4): destination with the same identifier (name{figure.B.
 14}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1354 
+l.1432 
         <./fig/gof_te4.png>]
-<fig/cullen_frey_l2.png, id=1603, 455.0601pt x 312.9291pt>
+<fig/cullen_frey_l2.png, id=1665, 455.0601pt x 312.9291pt>
 File: fig/cullen_frey_l2.png Graphic file (type png)
 <use fig/cullen_frey_l2.png>
-Package pdftex.def Info: fig/cullen_frey_l2.png  used on input line 1371.
+Package pdftex.def Info: fig/cullen_frey_l2.png  used on input line 1449.
 (pdftex.def)             Requested size: 361.35136pt x 248.50049pt.
- [104pdfTeX warning (ext4): destination with the same identifier (name{table.B.
+ [110pdfTeX warning (ext4): destination with the same identifier (name{table.B.
 7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1375 
+l.1453 
        ]
-<fig/gof_l2.png, id=1622, 455.0601pt x 312.9291pt>
+<fig/gof_l2.png, id=1684, 455.0601pt x 312.9291pt>
 File: fig/gof_l2.png Graphic file (type png)
 <use fig/gof_l2.png>
-Package pdftex.def Info: fig/gof_l2.png  used on input line 1378.
+Package pdftex.def Info: fig/gof_l2.png  used on input line 1456.
 (pdftex.def)             Requested size: 361.35136pt x 248.50049pt.
- [105pdfTeX warning (ext4): destination with the same identifier (name{figure.B
+ [111pdfTeX warning (ext4): destination with the same identifier (name{figure.B
 .15}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1382 
+l.1460 
         <./fig/cullen_frey_l2.png>]
-<fig/cullen_frey_l3.png, id=1633, 455.0601pt x 312.9291pt>
+<fig/cullen_frey_l3.png, id=1696, 455.0601pt x 312.9291pt>
 File: fig/cullen_frey_l3.png Graphic file (type png)
 <use fig/cullen_frey_l3.png>
-Package pdftex.def Info: fig/cullen_frey_l3.png  used on input line 1399.
+Package pdftex.def Info: fig/cullen_frey_l3.png  used on input line 1477.
 (pdftex.def)             Requested size: 361.35136pt x 248.50049pt.
- [106pdfTeX warning (ext4): destination with the same identifier (name{figure.B
+ [112pdfTeX warning (ext4): destination with the same identifier (name{figure.B
 .16}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1403 
+l.1481 
        pdfTeX warning (ext4): destination with the same identifier (name{table.
 B.8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1403 
+l.1481 
         <./fig/gof_l2.png>]
-<fig/gof_l3.png, id=1643, 455.0601pt x 312.9291pt>
+<fig/gof_l3.png, id=1706, 455.0601pt x 312.9291pt>
 File: fig/gof_l3.png Graphic file (type png)
 <use fig/gof_l3.png>
-Package pdftex.def Info: fig/gof_l3.png  used on input line 1406.
+Package pdftex.def Info: fig/gof_l3.png  used on input line 1484.
 (pdftex.def)             Requested size: 361.35136pt x 248.50049pt.
- [107pdfTeX warning (ext4): destination with the same identifier (name{figure.B
+ [113pdfTeX warning (ext4): destination with the same identifier (name{figure.B
 .17}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1410 
+l.1488 
         <./fig/cullen_frey_l3.png>]
-<fig/cullen_frey_l4.png, id=1655, 455.0601pt x 312.9291pt>
+<fig/cullen_frey_l4.png, id=1718, 455.0601pt x 312.9291pt>
 File: fig/cullen_frey_l4.png Graphic file (type png)
 <use fig/cullen_frey_l4.png>
-Package pdftex.def Info: fig/cullen_frey_l4.png  used on input line 1427.
+Package pdftex.def Info: fig/cullen_frey_l4.png  used on input line 1505.
 (pdftex.def)             Requested size: 361.35136pt x 248.50049pt.
- [108pdfTeX warning (ext4): destination with the same identifier (name{figure.B
+ [114pdfTeX warning (ext4): destination with the same identifier (name{figure.B
 .18}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1431 
+l.1509 
        pdfTeX warning (ext4): destination with the same identifier (name{table.
 B.9}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1431 
+l.1509 
         <./fig/gof_l3.png>]
-<fig/gof_l4.png, id=1665, 455.0601pt x 312.9291pt>
+<fig/gof_l4.png, id=1728, 455.0601pt x 312.9291pt>
 File: fig/gof_l4.png Graphic file (type png)
 <use fig/gof_l4.png>
-Package pdftex.def Info: fig/gof_l4.png  used on input line 1434.
+Package pdftex.def Info: fig/gof_l4.png  used on input line 1512.
 (pdftex.def)             Requested size: 361.35136pt x 248.50049pt.
- [109pdfTeX warning (ext4): destination with the same identifier (name{figure.B
+ [115pdfTeX warning (ext4): destination with the same identifier (name{figure.B
 .19}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1438 
+l.1516 
         <./fig/cullen_frey_l4.png>]
-Overfull \hbox (46.03815pt too wide) in paragraph at lines 1444--1445
+Overfull \hbox (46.03815pt too wide) in paragraph at lines 1522--1523
 []\OT1/cmr/m/n/12 In Sce-nario NTl, both $\OML/cmm/m/it/12 ^^W$ \OT1/cmr/m/n/12
  and $\OML/cmm/m/it/12 ^^\[]$ \OT1/cmr/m/n/12 are treated as fixed con-stants. 
 We let $\OML/cmm/m/it/12 ^^U[] \OMS/cmsy/m/n/12 ^^X \OML/cmm/m/it/12 Lognormal\
 OT1/cmr/m/n/12 (\OML/cmm/m/it/12 ^^V[]; ^^[[]\OT1/cmr/m/n/12 )$
  []
 
-[110pdfTeX warning (ext4): destination with the same identifier (name{figure.B.
+[116pdfTeX warning (ext4): destination with the same identifier (name{figure.B.
 20}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1452 \end{equation*}
+l.1530 \end{equation*}
                        <./fig/gof_l4.png>]
-Overfull \hbox (9.30618pt too wide) in paragraph at lines 1454--1455
+Overfull \hbox (9.30618pt too wide) in paragraph at lines 1532--1533
 \OML/cmm/m/it/12 log\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 c\OT1/cmr/m/n/12 )\OML/cm
 m/m/it/12 ; ^^[[]\OT1/cmr/m/n/12 )$. Fi-nally us-ing the same logic as ear-lier
 , we con-clude that $\OML/cmm/m/it/12 ^^M[] \OMS/cmsy/m/n/12 ^^X \OML/cmm/m/it/
 12 Lognormal\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 ^^V[] \OT1/cmr/m/n/12 +
  []
 
-[111] [112] [113]
-<fig/Stein.png, id=1719, 918.43124pt x 349.305pt>
+[117] [118] [119]
+<fig/Stein.png, id=1781, 918.43124pt x 349.305pt>
 File: fig/Stein.png Graphic file (type png)
 <use fig/Stein.png>
-Package pdftex.def Info: fig/Stein.png  used on input line 1526.
+Package pdftex.def Info: fig/Stein.png  used on input line 1604.
 (pdftex.def)             Requested size: 451.6875pt x 171.78987pt.
- [114 <./fig/Stein.png>] [115pdfTeX warning (ext4): destination with the same i
+ [120 <./fig/Stein.png>] [121pdfTeX warning (ext4): destination with the same i
 dentifier (name{table.B.10}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1548 \newpage
-               ] [116]
+l.1626 \newpage
+               ] [122]
 Appendix C.
-[117
+[123
 
 ]
 File: fig/SeaWiFSmhi.png Graphic file (type png)
 <use fig/SeaWiFSmhi.png>
-Package pdftex.def Info: fig/SeaWiFSmhi.png  used on input line 1578.
+Package pdftex.def Info: fig/SeaWiFSmhi.png  used on input line 1656.
 (pdftex.def)             Requested size: 316.17987pt x 299.62494pt.
 
 
@@ -3215,134 +3220,134 @@ Package Fancyhdr Warning: \headheight is too small (18.06749pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[118]
+[124]
 
-LaTeX Warning: Reference `A3:SeaWiFSmhi_eda1' on page 119 undefined on input li
-ne 1583.
+LaTeX Warning: Reference `A3:SeaWiFSmhieda1' on page 125 undefined on input lin
+e 1661.
 
 File: fig/seawifs_acf.png Graphic file (type png)
 <use fig/seawifs_acf.png>
-Package pdftex.def Info: fig/seawifs_acf.png  used on input line 1587.
+Package pdftex.def Info: fig/seawifs_acf.png  used on input line 1665.
 (pdftex.def)             Requested size: 316.17987pt x 229.17064pt.
-[119pdfTeX warning (ext4): destination with the same identifier (name{figure.C.
+[125pdfTeX warning (ext4): destination with the same identifier (name{figure.C.
 1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1591 
+l.1669 
        ]
 File: fig/seawifs_pacf.png Graphic file (type png)
 <use fig/seawifs_pacf.png>
-Package pdftex.def Info: fig/seawifs_pacf.png  used on input line 1594.
+Package pdftex.def Info: fig/seawifs_pacf.png  used on input line 1672.
 (pdftex.def)             Requested size: 316.17987pt x 229.17064pt.
 File: fig/seawifs_periodic.png Graphic file (type png)
 <use fig/seawifs_periodic.png>
-Package pdftex.def Info: fig/seawifs_periodic.png  used on input line 1601.
+Package pdftex.def Info: fig/seawifs_periodic.png  used on input line 1679.
 (pdftex.def)             Requested size: 316.17987pt x 229.17064pt.
- [120pdfTeX warning (ext4): destination with the same identifier (name{figure.C
+ [126pdfTeX warning (ext4): destination with the same identifier (name{figure.C
 .2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1605 
+l.1683 
        pdfTeX warning (ext4): destination with the same identifier (name{figure
 .C.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1605 
-       ] [121pdfTeX warning (ext4): destination with the same identifier (name{
+l.1683 
+       ] [127pdfTeX warning (ext4): destination with the same identifier (name{
 figure.C.4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1613 
-       ] [122pdfTeX warning (ext4): destination with the same identifier (name{
+l.1691 
+       ] [128pdfTeX warning (ext4): destination with the same identifier (name{
 table.C.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1634 
+l.1712 
        ]
 File: fig/cullen_frey_te.png Graphic file (type png)
 <use fig/cullen_frey_te.png>
-Package pdftex.def Info: fig/cullen_frey_te.png  used on input line 1651.
+Package pdftex.def Info: fig/cullen_frey_te.png  used on input line 1729.
 (pdftex.def)             Requested size: 361.35136pt x 248.50049pt.
 File: fig/gof_te.png Graphic file (type png)
 <use fig/gof_te.png>
-Package pdftex.def Info: fig/gof_te.png  used on input line 1658.
+Package pdftex.def Info: fig/gof_te.png  used on input line 1736.
 (pdftex.def)             Requested size: 361.35136pt x 248.50049pt.
- [123pdfTeX warning (ext4): destination with the same identifier (name{table.C.
+ [129pdfTeX warning (ext4): destination with the same identifier (name{table.C.
 2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1662 
+l.1740 
        pdfTeX warning (ext4): destination with the same identifier (name{figure
 .C.5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1662 
+l.1740 
        ]
-Overfull \hbox (7.54904pt too wide) in paragraph at lines 1666--1667
+Overfull \hbox (7.54904pt too wide) in paragraph at lines 1744--1745
 []\OT1/cmr/m/n/12 Estimated trophic lev-els (ra-tio-nal num-bers) were cal-cu-l
 ated from the Fish-Base database
  []
 
-[124pdfTeX warning (ext4): destination with the same identifier (name{figure.C.
+[130pdfTeX warning (ext4): destination with the same identifier (name{figure.C.
 6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1671 
+l.1749 
        ]
 File: fig/cullen_frey_l4.png Graphic file (type png)
 <use fig/cullen_frey_l4.png>
-Package pdftex.def Info: fig/cullen_frey_l4.png  used on input line 1688.
+Package pdftex.def Info: fig/cullen_frey_l4.png  used on input line 1766.
 (pdftex.def)             Requested size: 361.35136pt x 248.50049pt.
- [125pdfTeX warning (ext4): destination with the same identifier (name{table.C.
+ [131pdfTeX warning (ext4): destination with the same identifier (name{table.C.
 3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1692 
+l.1770 
        ]
 File: fig/gof_l4.png Graphic file (type png)
 <use fig/gof_l4.png>
-Package pdftex.def Info: fig/gof_l4.png  used on input line 1695.
+Package pdftex.def Info: fig/gof_l4.png  used on input line 1773.
 (pdftex.def)             Requested size: 361.35136pt x 248.50049pt.
- [126pdfTeX warning (ext4): destination with the same identifier (name{figure.C
+ [132pdfTeX warning (ext4): destination with the same identifier (name{figure.C
 .7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1699 
-       ] [127pdfTeX warning (ext4): destination with the same identifier (name{
+l.1777 
+       ] [133pdfTeX warning (ext4): destination with the same identifier (name{
 figure.C.8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1719 \newpage
-               ] [128pdfTeX warning (ext4): destination with the same identifie
+l.1797 \newpage
+               ] [134pdfTeX warning (ext4): destination with the same identifie
 r (name{table.C.4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1719 \newpage
-               ] (./Urbisci_Dissertation.bbl [129] [130
+l.1797 \newpage
+               ] (./Urbisci_Dissertation.bbl [135] [136
 
-] [131] [132] [133]
-[134] [135] [136])
+] [137] [138] [139]
+[140] [141] [142])
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1752.
-[137]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1752.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1830.
+[143]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1830.
  (./Urbisci_Dissertation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1752.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1752.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1830.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1830.
 
 Package rerunfilecheck Info: File `Urbisci_Dissertation.out' has not changed.
 (rerunfilecheck)             Checksum: 5B93D538F3CE32978EF41BAC9A313006;1632.
@@ -3350,13 +3355,13 @@ Package rerunfilecheck Info: File `Urbisci_Dissertation.out' has not changed.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1752.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1830.
  ) 
 Here is how much of TeX's memory you used:
- 8860 strings out of 492649
- 133252 string characters out of 6129622
- 268643 words of memory out of 5000000
- 12135 multiletter control sequences out of 15000+600000
+ 8887 strings out of 492649
+ 133625 string characters out of 6129622
+ 269930 words of memory out of 5000000
+ 12147 multiletter control sequences out of 15000+600000
  17644 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  36i,17n,43p,2230b,606s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3385,11 +3390,12 @@ e/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/
 2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/20
 18/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/201
 8/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2018
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Urbisci_Dissertation.pdf (151 pages, 2104435 bytes).
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2018/
+texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on Urbisci_Dissertation.pdf (157 pages, 3669863 bytes).
 PDF statistics:
- 2148 PDF objects out of 2487 (max. 8388607)
- 1875 compressed objects within 19 object streams
- 423 named destinations out of 1000 (max. 500000)
- 380 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2218 PDF objects out of 2487 (max. 8388607)
+ 1933 compressed objects within 20 object streams
+ 436 named destinations out of 1000 (max. 500000)
+ 390 words of extra memory for PDF output out of 10000 (max. 10000000)
 
