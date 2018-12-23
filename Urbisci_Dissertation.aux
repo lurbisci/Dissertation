@@ -140,6 +140,7 @@
 \@writefile{toc}{\contentsline {chapter}{\numberline {3}Untangling uncertainty in food web models}{40}{chapter.3}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{toc}{\contentsline {section}{\numberline {3.1}Introduction}{40}{section.3.1}}
 \citation{brodziak2011stock,langseth2018stock}
 \citation{lobel1986transport,vermeij1987dispersal,hourigan1987mid}
 \citation{lalli1997biological}
@@ -150,11 +151,16 @@
 \citation{fishbase}
 \citation{fishbase}
 \citation{fishbase}
-\newlabel{base}{{3.1}{43}{Base Equation}{equation.3.0.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.2}Methods}{43}{section.3.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}Base Equation}{43}{subsection.3.2.1}}
+\newlabel{base}{{3.1}{43}{Base Equation}{equation.3.2.1}{}}
 \@writefile{lot}{\contentsline {table}{\numberline {3.1}{\ignorespaces Definition of notation in Eq. (\ref  {base}) and scientific units used}}{43}{table.3.1}}
 \newlabel{description}{{3.1}{43}{Definition of notation in Eq. (\ref {base}) and scientific units used}{table.3.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}Data}{44}{subsection.3.2.2}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces A single 8-day time frame of the SeaWiFS \textit  {Eppley-}VGPM NPP data in January 1998 for the main Hawaiian Islands EEZ. The color scale shows the amount of estimated NPP in total gigatons of Carbon per year per pixel. The pixel size of the SeaWiFS data set is 9 by 9 km. Image created by Erik Fields (Earth Research Institute, ERI).}}{45}{figure.3.1}}
 \newlabel{SeaWiFSmhi}{{3.1}{45}{A single 8-day time frame of the SeaWiFS \textit {Eppley-}VGPM NPP data in January 1998 for the main Hawaiian Islands EEZ. The color scale shows the amount of estimated NPP in total gigatons of Carbon per year per pixel. The pixel size of the SeaWiFS data set is 9 by 9 km. Image created by Erik Fields (Earth Research Institute, ERI)}{figure.3.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.3}Assumptions and General Model}{45}{subsection.3.2.3}}
+\@writefile{toc}{\contentsline {subsubsection}{Assumptions in Model}{45}{section*.6}}
 \citation{lindeman1942trophic,slobodkin1962energy,may1976theoretical,pauly1995primary}
 \citation{schaefer1965potential,ryther1969photosynthesis,sheldon1977structure,baumann1995comment}
 \citation{libralato2008novel,heymans2011ecopath}
@@ -162,11 +168,13 @@
 \citation{Rcite}
 \citation{forecast1,forecast2}
 \citation{fitdistrplus}
-\newlabel{joint}{{3.2}{46}{Assumptions in Model}{equation.3.0.2}{}}
+\newlabel{joint}{{3.2}{46}{Assumptions in Model}{equation.3.2.2}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Random Distributions on Random Variables}{46}{section*.7}}
 \citation{pauly1995primary}
 \citation{pauly1995primary}
 \citation{fitdistrplus}
 \citation{fitdistrplus}
+\@writefile{toc}{\contentsline {subsubsection}{Distributional Assumptions}{47}{section*.8}}
 \citation{Rcite}
 \citation{ggplot}
 \@writefile{lot}{\contentsline {table}{\numberline {3.2}{\ignorespaces Distributional assumption cases are special cases for the components of the joint distribution (i.e., Eq. (\ref  {joint})). We treat $c_1$, $c_2$, $c_3$, $c_4$, and $c_5$ as constants. Lack of subscripts means the parameter has the same value across all distributions.}}{48}{table.3.2}}
@@ -174,16 +182,19 @@
 \citation{pauly1995primary,cury2005trophodynamic,chassot2010global,watson2014primary}
 \@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces Probability distributions for the distributional assumption cases described in Table \ref  {assumcases} where NPP ($\nu $), transfer efficiencies ($\tau _h$ for $h \in \{2, 3, 4\}$), and lifespans ($\lambda _h$ for $h \in \{2, 3, 4\}$) are not fixed values. Column 1 visualizes the distributional assumption placed on NPP. Column 2 breaks down the two distributional assumptions cases placed on transfer efficiencies ($\tau _h$ for $h \in \{2, 3, 4\}$), and column 3 shows the distributional assumptions placed on lifespans ($\lambda _h$ for $h \in \{2, 3, 4\}$). Plot created using R v.3.4.3 \citep  {Rcite} ggplot2 package v.2.2.1 \citep  {ggplot}. }}{49}{figure.3.2}}
 \newlabel{distassump}{{3.2}{49}{Probability distributions for the distributional assumption cases described in Table \ref {assumcases} where NPP ($\nu $), transfer efficiencies ($\tau _h$ for $h \in \{2, 3, 4\}$), and lifespans ($\lambda _h$ for $h \in \{2, 3, 4\}$) are not fixed values. Column 1 visualizes the distributional assumption placed on NPP. Column 2 breaks down the two distributional assumptions cases placed on transfer efficiencies ($\tau _h$ for $h \in \{2, 3, 4\}$), and column 3 shows the distributional assumptions placed on lifespans ($\lambda _h$ for $h \in \{2, 3, 4\}$). Plot created using R v.3.4.3 \cite {Rcite} ggplot2 package v.2.2.1 \cite {ggplot}}{figure.3.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.4}Simulation Scenarios}{49}{subsection.3.2.4}}
 \@writefile{lot}{\contentsline {table}{\numberline {3.3}{\ignorespaces Key of the scenario code names used to identify the various ecological and distributional assumptions.}}{50}{table.3.3}}
 \newlabel{scenariosids}{{3.3}{50}{Key of the scenario code names used to identify the various ecological and distributional assumptions}{table.3.3}{}}
 \@writefile{lot}{\contentsline {table}{\numberline {3.4}{\ignorespaces Scenarios are combinations of the distributional assumption cases described in Table \ref  {assumcases}, where $f^i(x)$ indicates the $i^{th}$ distributional assumption for the variable $x$. Table \ref  {scenariosids} defines the code names for the scenarios. }}{50}{table.3.4}}
 \newlabel{scenarios}{{3.4}{50}{Scenarios are combinations of the distributional assumption cases described in Table \ref {assumcases}, where $f^i(x)$ indicates the $i^{th}$ distributional assumption for the variable $x$. Table \ref {scenariosids} defines the code names for the scenarios}{table.3.4}{}}
 \citation{Rcite}
 \citation{ggplot}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.5}Simulation Details}{51}{subsection.3.2.5}}
 \citation{Rcite}
 \citation{ggplot}
 \@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces Comparison of the densities plots where we used simulations (blue) to the analytically derived probability distributions of $\gamma _h$ (pink line) in Scenarios NTl and nTl at each trophic level. We limited the upper bound of the x-axis to improve visualization. Plot created using R v.3.4.3 \citep  {Rcite} ggplot2 package v.2.2.1 \citep  {ggplot}. }}{52}{figure.3.3}}
 \newlabel{scen1and4distsim}{{3.3}{52}{Comparison of the densities plots where we used simulations (blue) to the analytically derived probability distributions of $\gamma _h$ (pink line) in Scenarios NTl and nTl at each trophic level. We limited the upper bound of the x-axis to improve visualization. Plot created using R v.3.4.3 \cite {Rcite} ggplot2 package v.2.2.1 \cite {ggplot}}{figure.3.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.3}Results}{52}{section.3.3}}
 \citation{Rcite}
 \citation{ggplot}
 \@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces Density plots of the trophic level biomasses ($\gamma _2$, $\gamma _3$, $\gamma _4$, metric tons) for all scenarios except Scenario NTL. The plots have a vertical gray line representing the estimated trophic level biomass from Scenario NTL. Scenarios NTl and nTl show independent draws from analytical distributions, while the remaining scenarios show draws from simulations. We limited the upper bound of the x-axis to improve visualization. Plot created using R v.3.4.3 \citep  {Rcite} ggplot2 package v.2.2.1 \citep  {ggplot}. }}{53}{figure.3.4}}
@@ -200,6 +211,7 @@
 \newlabel{beta3estimated}{{3.6}{56}{Box plots of the trophic level 3 biomass ($\gamma _3$, metric tons) for except Scenario NTL. The plot has a vertical gray line representing the estimated trophic level biomass from Scenario NTL. Scenarios NTl and nTl show independent draws from analytical distributions, while the remaining scenarios show draws from simulations. The median of each distribution is denoted as a solid vertical black line inside each box. Plot created using R v.3.4.3 \cite {Rcite} ggplot2 package v.2.2.1 \cite {ggplot}}{figure.3.6}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3.7}{\ignorespaces Box plots of the trophic level 4 biomass ($\gamma _4$, metric tons) for except Scenario NTL. The plot has a vertical gray line representing the estimated trophic level biomass from Scenario NTL. Scenarios NTl and nTl show independent draws from analytical distributions, while the remaining scenarios show draws from simulations. The median of each distribution is denoted as a solid vertical black line inside each box. Plot created using R v.3.4.3 \citep  {Rcite} ggplot2 package v.2.2.1 \citep  {ggplot}. }}{57}{figure.3.7}}
 \newlabel{beta4estimated}{{3.7}{57}{Box plots of the trophic level 4 biomass ($\gamma _4$, metric tons) for except Scenario NTL. The plot has a vertical gray line representing the estimated trophic level biomass from Scenario NTL. Scenarios NTl and nTl show independent draws from analytical distributions, while the remaining scenarios show draws from simulations. The median of each distribution is denoted as a solid vertical black line inside each box. Plot created using R v.3.4.3 \cite {Rcite} ggplot2 package v.2.2.1 \cite {ggplot}}{figure.3.7}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.4}Discussion}{57}{section.3.4}}
 \citation{gregg2003ocean}
 \citation{walther2002ecological}
 \citation{baird2004energy,barnes2010global,libralato2008novel,san2006latitudinal}
@@ -207,44 +219,56 @@
 \@writefile{toc}{\contentsline {chapter}{\numberline {4}Ecosystem knowledge in Bayesian surplus production models--what can it tell us?}{62}{chapter.4}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}Introduction}{62}{section.4.1}}
 \citation{mcallister1998bayesian}
 \citation{mcallister1998bayesian}
 \citation{langseth2018stock}
 \citation{brodziak2009hawaiian,langseth2018stock}
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}Methods}{64}{section.4.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}Case Study}{64}{subsection.4.2.1}}
 \citation{langseth2018stock}
 \citation{Rcite}
 \citation{ggplot}
 \@writefile{lot}{\contentsline {table}{\numberline {4.1}{\ignorespaces Common, Hawaiian, and Scientific names of the Hawaii Deep7 Bottomfish complex}}{65}{table.4.1}}
 \newlabel{names}{{4.1}{65}{Common, Hawaiian, and Scientific names of the Hawaii Deep7 Bottomfish complex}{table.4.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.2}Data from the Main Hawaiian Islands Deep7 Bottomfish Complex Through 2010 Assessment}{65}{subsection.4.2.2}}
+\@writefile{toc}{\contentsline {subsubsection}{Catch and CPUE Data}{65}{section*.9}}
 \citation{langseth2018stock}
 \citation{schaefer1954some}
 \@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces Time series of total catch and CPUE for the Seven Bottomfish Species in the Deep7 Bottomfish Complex. Plot created using R v.3.4.3 \citep  {Rcite} ggplot2 package v.2.2.1 \citep  {ggplot}. }}{66}{figure.4.1}}
 \newlabel{catchandcpue}{{4.1}{66}{Time series of total catch and CPUE for the Seven Bottomfish Species in the Deep7 Bottomfish Complex. Plot created using R v.3.4.3 \cite {Rcite} ggplot2 package v.2.2.1 \cite {ggplot}}{figure.4.1}{}}
-\newlabel{proportion}{{4.1}{66}{Catch and CPUE Data}{equation.4.0.1}{}}
+\newlabel{proportion}{{4.1}{66}{Catch and CPUE Data}{equation.4.2.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.3}Logistic Surplus Production Models}{66}{subsection.4.2.3}}
 \citation{langseth2018stock}
-\newlabel{production}{{4.2}{67}{Logistic Surplus Production Models}{equation.4.0.2}{}}
+\newlabel{production}{{4.2}{67}{Logistic Surplus Production Models}{equation.4.2.2}{}}
 \@writefile{lot}{\contentsline {table}{\numberline {4.2}{\ignorespaces Definition of notation in Eq. (\ref  {production}) and scientific units used}}{67}{table.4.2}}
 \newlabel{production_table}{{4.2}{67}{Definition of notation in Eq. (\ref {production}) and scientific units used}{table.4.2}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Catch per Unit Effort (CPUE)}{67}{section*.10}}
 \citation{hilborn1992quantitative}
-\newlabel{cpue}{{4.3}{68}{Catch per Unit Effort (CPUE)}{equation.4.0.3}{}}
+\newlabel{cpue}{{4.3}{68}{Catch per Unit Effort (CPUE)}{equation.4.2.3}{}}
 \@writefile{lot}{\contentsline {table}{\numberline {4.3}{\ignorespaces Definition of notation in Eq. (\ref  {cpue}) and scientific units used}}{68}{table.4.3}}
 \newlabel{cpue_table}{{4.3}{68}{Definition of notation in Eq. (\ref {cpue}) and scientific units used}{table.4.3}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Catchability}{68}{section*.11}}
 \citation{hilborn1992quantitative}
 \citation{hilborn1992quantitative}
-\newlabel{catchability_a}{{4.4}{69}{Catchability}{equation.4.0.4}{}}
-\newlabel{catchability_b}{{4.5}{69}{Catchability}{equation.4.0.5}{}}
-\newlabel{regression}{{4.7}{70}{Regression methods}{equation.4.0.7}{}}
-\newlabel{randomvar}{{4.8}{70}{Optimization for $r$ and $K_i$}{equation.4.0.8}{}}
+\newlabel{catchability_a}{{4.4}{69}{Catchability}{equation.4.2.4}{}}
+\newlabel{catchability_b}{{4.5}{69}{Catchability}{equation.4.2.5}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Regression methods}{69}{section*.12}}
+\newlabel{regression}{{4.7}{70}{Regression methods}{equation.4.2.7}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Optimization for $r$ and $K_i$ }{70}{section*.13}}
+\newlabel{randomvar}{{4.8}{70}{Optimization for $r$ and $K_i$}{equation.4.2.8}{}}
 \citation{shanno1970conditioning,byrd1995limited}
-\newlabel{ln_likelihood}{{4.9}{71}{Optimization for $r$ and $K_i$}{equation.4.0.9}{}}
-\newlabel{ln_loglikelihood}{{4.10}{71}{Optimization for $r$ and $K_i$}{equation.4.0.10}{}}
+\newlabel{ln_likelihood}{{4.9}{71}{Optimization for $r$ and $K_i$}{equation.4.2.9}{}}
+\newlabel{ln_loglikelihood}{{4.10}{71}{Optimization for $r$ and $K_i$}{equation.4.2.10}{}}
 \citation{mcallister1997bayesian,givens2012computational}
 \citation{mcallister1997bayesian}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.4}Bayesian model}{72}{subsection.4.2.4}}
 \citation{langseth2018stock}
 \citation{langseth2018stock}
 \citation{langseth2018stock}
 \citation{Rcite}
 \citation{ggplot}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.5}Prior Information}{73}{subsection.4.2.5}}
 \@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces Histogram of random values that come from the prior distribution on the intrinsic growth rate $r$. Plot created using R v.3.4.3 \citep  {Rcite} ggplot2 package v.2.2.1 \citep  {ggplot}. }}{74}{figure.4.2}}
 \newlabel{priorr}{{4.2}{74}{Histogram of random values that come from the prior distribution on the intrinsic growth rate $r$. Plot created using R v.3.4.3 \cite {Rcite} ggplot2 package v.2.2.1 \cite {ggplot}}{figure.4.2}{}}
 \citation{Rcite}
@@ -252,6 +276,8 @@
 \citation{fishbase}
 \@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces Histogram of random values that come from the prior distribution on the carrying capacity $K_i$ for species $i=1,\dots  ,6$. We adjusted the far right bin width due to rare events. The original range extends out further. Plot created using R v.3.4.3 \citep  {Rcite} ggplot2 package v.2.2.1 \citep  {ggplot}.}}{76}{figure.4.3}}
 \newlabel{priorK}{{4.3}{76}{Histogram of random values that come from the prior distribution on the carrying capacity $K_i$ for species $i=1,\dots ,6$. We adjusted the far right bin width due to rare events. The original range extends out further. Plot created using R v.3.4.3 \cite {Rcite} ggplot2 package v.2.2.1 \cite {ggplot}}{figure.4.3}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Bayesian Surplus Production Model}{76}{section*.14}}
+\@writefile{toc}{\contentsline {subsubsection}{Bayesian Surplus Production Model with Environmental Link}{77}{section*.15}}
 \citation{Rcite}
 \citation{forecast1,forecast2}
 \citation{strathmann1967estimating,pauly1995primary,chassot2010global}
@@ -259,11 +285,12 @@
 \citation{fishbase}
 \citation{fishbase}
 \citation{fitdistrplus}
-\newlabel{c3:base}{{4.11}{78}{Bayesian Surplus Production Model with Environmental Link}{equation.4.0.11}{}}
+\newlabel{c3:base}{{4.11}{78}{Bayesian Surplus Production Model with Environmental Link}{equation.4.2.11}{}}
 \@writefile{lot}{\contentsline {table}{\numberline {4.4}{\ignorespaces Definition of notation in Eq. (\ref  {c3:base}) and scientific units used}}{78}{table.4.4}}
 \newlabel{c3:description}{{4.4}{78}{Definition of notation in Eq. (\ref {c3:base}) and scientific units used}{table.4.4}{}}
 \citation{Rcite}
 \citation{ggplot}
+\@writefile{toc}{\contentsline {section}{\numberline {4.3}Results}{79}{section.4.3}}
 \@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces Density plot of the posterior distribution for the carrying capacities ($K_i$) for the six species at trophic level 4. The vertical red line represents the carrying capacity predicted from the surplus production model with no prior information on it. Plot created using R v.3.4.3 \citep  {Rcite} ggplot2 package v.2.2.1 \citep  {ggplot}.}}{80}{figure.4.4}}
 \newlabel{post_carrying}{{4.4}{80}{Density plot of the posterior distribution for the carrying capacities ($K_i$) for the six species at trophic level 4. The vertical red line represents the carrying capacity predicted from the surplus production model with no prior information on it. Plot created using R v.3.4.3 \cite {Rcite} ggplot2 package v.2.2.1 \cite {ggplot}}{figure.4.4}{}}
 \citation{Rcite}
@@ -272,8 +299,8 @@
 \newlabel{post_terminal}{{4.5}{81}{Density plot of the predicted biomass values ($B_{2015}$) in the terminal year (i.e., year 2015) from the posterior distribution for the six species at trophic level 4. These values were calculated from both Bayesian model that included and did not include the ecological constraint within the SIR algorithm. The vertical red line represents the biomass predicted in year 2015 from the surplus production model with no prior information on it. Plot created using R v.3.4.3 \cite {Rcite} ggplot2 package v.2.2.1 \cite {ggplot}}{figure.4.5}{}}
 \citation{Rcite}
 \citation{ggplot}
-\@writefile{lot}{\contentsline {table}{\numberline {4.5}{\ignorespaces Summary statistics of biomass in 2015 $B_{2015}$ in millions of pounds}}{82}{table.4.5}}
-\newlabel{summary_term_bio}{{4.5}{82}{Summary statistics of biomass in 2015 $B_{2015}$ in millions of pounds}{table.4.5}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.5}{\ignorespaces Summary statistics of biomass in 2015 $(B_{2015})$ in millions of pounds}}{82}{table.4.5}}
+\newlabel{summary_term_bio}{{4.5}{82}{Summary statistics of biomass in 2015 $(B_{2015})$ in millions of pounds}{table.4.5}{}}
 \citation{Rcite}
 \citation{ggplot}
 \@writefile{lof}{\contentsline {figure}{\numberline {4.6}{\ignorespaces Density plot of the posterior distribution of the depletion estimate or the predicted biomass values in the terminal year (i.e., year 2015) divided by the carrying capacities $B_{2015}/K_i$ for the six species at trophic level 4. The vertical red line represents the biomass in year 2015 divided by the carrying capacity predicted from the surplus production model with no prior information on it. Plot created using R v.3.4.3 \citep  {Rcite} ggplot2 package v.2.2.1 \citep  {ggplot}.}}{83}{figure.4.6}}
@@ -281,6 +308,8 @@
 \citation{hastings2017marine}
 \@writefile{lof}{\contentsline {figure}{\numberline {4.7}{\ignorespaces Density plot of the two sets of catchability coefficients (i.e., one for prior to October 2002 ($\setbox \z@ \hbox {\frozen@everymath \@emptytoks \mathsurround \z@ $\textstyle q_{i,t<2002}$}\mathaccent "0362{q_{i,t<2002}}$) and one for after October 2002 ($\setbox \z@ \hbox {\frozen@everymath \@emptytoks \mathsurround \z@ $\textstyle q_{i,t>=2002}$}\mathaccent "0362{q_{i,t>=2002}}$)) from each Bayesian model for each of the six species at trophic level 4. Plot created using R v.3.4.3 \citep  {Rcite} ggplot2 package v.2.2.1 \citep  {ggplot}.}}{84}{figure.4.7}}
 \newlabel{post_catchability}{{4.7}{84}{Density plot of the two sets of catchability coefficients (i.e., one for prior to October 2002 ($\widehat {q_{i,t<2002}}$) and one for after October 2002 ($\widehat {q_{i,t>=2002}}$)) from each Bayesian model for each of the six species at trophic level 4. Plot created using R v.3.4.3 \cite {Rcite} ggplot2 package v.2.2.1 \cite {ggplot}}{figure.4.7}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.4}Discussion}{85}{section.4.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.1}Limitations of Model}{86}{subsection.4.4.1}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {A}Appendix for Chapter 2: Tangled is the web we weave}{87}{appendix.A}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
@@ -322,7 +351,7 @@
 \@writefile{lot}{\addvspace {10\p@ }}
 \newlabel{appendix:b}{{B}{93}{Appendix for Chapter 3: Untangling uncertainty in food web models}{appendix.B}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {B.0.1}SeaWiFS}{93}{subsection.B.0.1}}
-\@writefile{toc}{\contentsline {subsubsection}{Time Series Analysis}{93}{section*.35}}
+\@writefile{toc}{\contentsline {subsubsection}{Time Series Analysis}{93}{section*.16}}
 \@writefile{lof}{\contentsline {figure}{\numberline {B.1}{\ignorespaces A single 8-day time frame of the SeaWiFS \textit  {Eppley-}VGPM NPP data in January 1998 for the main Hawaiian Islands EEZ. The color scale shows the amount of estimated NPP in total gigatons of Carbon per year per pixel. The pixel size of the SeaWiFS data set is 9 by 9 km.}}{94}{figure.B.1}}
 \newlabel{A2:SeaWiFSmhi}{{B.1}{94}{A single 8-day time frame of the SeaWiFS \textit {Eppley-}VGPM NPP data in January 1998 for the main Hawaiian Islands EEZ. The color scale shows the amount of estimated NPP in total gigatons of Carbon per year per pixel. The pixel size of the SeaWiFS data set is 9 by 9 km}{figure.B.1}{}}
 \citation{Rcite}
@@ -344,7 +373,7 @@
 \newlabel{sarima}{{B.1}{97}{Time Series Analysis}{equation.B.0.1}{}}
 \@writefile{lot}{\contentsline {table}{\numberline {B.1}{\ignorespaces Seasonal ARIMA parameter estimates for Eq. \ref  {sarima} and their respective standard error calculated using R v.3.4.3 \citep  {Rcite} forecast package v8.2 and function auto.arima() \citep  {forecast1, forecast2} }}{97}{table.B.1}}
 \newlabel{sarima_parameters}{{B.1}{97}{Seasonal ARIMA parameter estimates for Eq. \ref {sarima} and their respective standard error calculated using R v.3.4.3 \cite {Rcite} forecast package v8.2 and function auto.arima() \cite {forecast1, forecast2}}{table.B.1}{}}
-\@writefile{toc}{\contentsline {subsubsection}{Simulation Setting}{97}{section*.36}}
+\@writefile{toc}{\contentsline {subsubsection}{Simulation Setting}{97}{section*.17}}
 \citation{Rcite}
 \citation{fitdistrplus}
 \@writefile{lot}{\contentsline {table}{\numberline {B.2}{\ignorespaces Goodness-of-fit criteria for SeaWiFS NPP data}}{98}{table.B.2}}
@@ -399,10 +428,10 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {B.14}{\ignorespaces Density plots of the fitted distributions to the histogram of the empirical distribution using the marine transfer efficiency data for trophic level 4 (Case 3), a CDF plot of both the empirical distribution and the fitted distributions (Beta and Gamma), Q-Q plots, and P-P plots. Plot created using R v.3.4.3 \citep  {Rcite} fitdistrplus package v.$1.0-9$ \citep  {fitdistrplus}. }}{109}{figure.B.14}}
 \newlabel{gof_te4}{{B.14}{109}{Density plots of the fitted distributions to the histogram of the empirical distribution using the marine transfer efficiency data for trophic level 4 (Case 3), a CDF plot of both the empirical distribution and the fitted distributions (Beta and Gamma), Q-Q plots, and P-P plots. Plot created using R v.3.4.3 \cite {Rcite} fitdistrplus package v.$1.0-9$ \cite {fitdistrplus}}{figure.B.14}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {B.0.3}FishBase}{109}{subsection.B.0.3}}
-\@writefile{toc}{\contentsline {subsubsection}{Trophic Level}{109}{section*.37}}
+\@writefile{toc}{\contentsline {subsubsection}{Trophic Level}{109}{section*.18}}
 \citation{Rcite}
 \citation{fitdistrplus}
-\@writefile{toc}{\contentsline {subsubsection}{Maximum Expected Lifespan}{110}{section*.38}}
+\@writefile{toc}{\contentsline {subsubsection}{Maximum Expected Lifespan}{110}{section*.19}}
 \@writefile{lot}{\contentsline {table}{\numberline {B.7}{\ignorespaces Goodness-of-fit criteria for maximum expected lifespan data at trophic level 2}}{110}{table.B.7}}
 \newlabel{l2_aic}{{B.7}{110}{Goodness-of-fit criteria for maximum expected lifespan data at trophic level 2}{table.B.7}{}}
 \citation{Rcite}
@@ -465,7 +494,7 @@
 \newlabel{appendix:c}{{C}{123}{Appendix for Chapter 4: Ecosystem knowledge in Bayesian surplus production models--what can it tell us?}{appendix.C}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {C.1}Data}{123}{section.C.1}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {C.1.1}SeaWiFS}{123}{subsection.C.1.1}}
-\@writefile{toc}{\contentsline {subsubsection}{Time Series Analysis}{123}{section*.39}}
+\@writefile{toc}{\contentsline {subsubsection}{Time Series Analysis}{123}{section*.20}}
 \citation{Rcite}
 \citation{forecast1,forecast2}
 \@writefile{lof}{\contentsline {figure}{\numberline {C.1}{\ignorespaces A single 8-day time frame of the SeaWiFS \textit  {Eppley-}VGPM NPP data in January 1998 for the main Hawaiian Islands EEZ. The color scale shows the amount of estimated NPP in total gigatons of Carbon per year per pixel. The pixel size of the SeaWiFS data set is 9 by 9 km.}}{125}{figure.C.1}}
@@ -500,10 +529,10 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {C.6}{\ignorespaces Density plots of the fitted distributions to the histogram of the empirical distribution using the marine transfer efficiency data (Case 2), a CDF plot of both the empirical distribution and the fitted distributions (Beta and Gamma), Q-Q plots, and P-P plots. Plot created using R v.3.4.3 \citep  {Rcite} fitdistrplus package v.$1.0-9$ \citep  {fitdistrplus}. }}{130}{figure.C.6}}
 \newlabel{gof_te_a3}{{C.6}{130}{Density plots of the fitted distributions to the histogram of the empirical distribution using the marine transfer efficiency data (Case 2), a CDF plot of both the empirical distribution and the fitted distributions (Beta and Gamma), Q-Q plots, and P-P plots. Plot created using R v.3.4.3 \cite {Rcite} fitdistrplus package v.$1.0-9$ \cite {fitdistrplus}}{figure.C.6}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {C.1.3}FishBase}{130}{subsection.C.1.3}}
-\@writefile{toc}{\contentsline {subsubsection}{Trophic Level}{130}{section*.40}}
+\@writefile{toc}{\contentsline {subsubsection}{Trophic Level}{130}{section*.21}}
 \citation{Rcite}
 \citation{fitdistrplus}
-\@writefile{toc}{\contentsline {subsubsection}{Maximum Expected Lifespan}{131}{section*.41}}
+\@writefile{toc}{\contentsline {subsubsection}{Maximum Expected Lifespan}{131}{section*.22}}
 \@writefile{lot}{\contentsline {table}{\numberline {C.3}{\ignorespaces Goodness-of-fit criteria for maximum expected lifespan data at trophic level 4}}{131}{table.C.3}}
 \newlabel{l4_aic_a3}{{C.3}{131}{Goodness-of-fit criteria for maximum expected lifespan data at trophic level 4}{table.C.3}{}}
 \citation{Rcite}

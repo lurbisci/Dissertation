@@ -500,7 +500,7 @@ In the absence of specific data for a broader array of systems, instead of using
 \chapter{Untangling uncertainty in food web models}
 %---  Introduction -------------------------
 
-\section*{Introduction}
+\section{Introduction}
 Many managed fisheries constitute data-limited cases \cite{farmer2016stock} where there is insufficient information to evaluate population health and the sustainability of fishing practices with a full stock assessment. One common approach to overcome data limitations has been to aggregate multiple species together into stock complexes and create a single aggregate population dynamic model for the group \cite{cope2011approach}. Typically, similar species, or the species that are targeted together by the same fleets, are aggregated into a common model. However, this approach is based on strong assumptions which can compromise the validity or interpretability of the model results. 
 
 \vspace{5mm}
@@ -520,8 +520,8 @@ A problem in incorporating ecological concepts into statistical models of applie
 Applying this technique on a data-limited fishery gives insight into the rigor of information we can expect to obtain when ecological concepts are incorporated into fisheries models and from there, how this information can be applied in fisheries assessments. The past few assessments of the main Hawaiian Islands Deep7 Bottomfish Complex groundfish fishery used an aggregate surplus production model for the complex. However there is a concern that life history traits may differ amongst the targeted species, which could ultimately affect the vulnerability to fishing pressure \cite{brodziak2011stock, langseth2018stock}. We used the main Hawaiian Islands (MHI) as the setting for our simulations to not only gain insight on the fishery and region, but to also minimize assumptions in our model construction, particularly those related to the movement of migratory species and larval dispersal. We needed to select a marine ecosystem that was as close to a naturally closed system as possible. Hawaii does not lie directly in the path of any current system, and the local wind and current patterns create a system of cyclonic eddies. Due to these properties, prior studies concluded that there is an oceanic barrier to larval dispersal \cite{lobel1986transport, vermeij1987dispersal, hourigan1987mid}. Therefore, we considered the MHI a naturally enclosed marine ecosystem due to the containment of larval drift.
 
 
-\section*{Methods}
-\subsection*{Base Equation}
+\section{Methods}
+\subsection{Base Equation}
 Both \citet{lalli1997biological} and \citet{libralato2008novel} outlined that production at each trophic level ($h$) can be estimated from net primary production  (NPP, denoted $\nu$) multiplied by the trophic transfer efficiencies ($\tau_h$). In line with extant research on this topic (see \citealt{cury2005trophodynamic, libralato2008novel, chassot2010global, trebilco2013ecosystem, watson2014primary}) we define the transfer efficiency ($\tau_h$) as the fraction of production passing from trophic level $h-1$ to $h$, where $h$ is the higher trophic level in the food web. In many cases net primary production is represented in metric tons C/year and is multiplied by 9 to convert from organic carbon (metric tons C) to wet weight (metric tons) \cite{strathmann1967estimating, pauly1995primary, chassot2010global}. We include the lifespan term $\lambda_h$ to convert from the weight of individuals produced in a year to the overall standing stock in Eq. (\ref{base}) as we are interested in solving for trophic level biomass ($\gamma_h$) instead of production. See Table \ref{description} for defined variables and parameters definitions within Eq. (\ref{base}).
 
 \begin{equation} \label{base}
@@ -537,7 +537,8 @@ Both \citet{lalli1997biological} and \citet{libralato2008novel} outlined that pr
    \hline
    $h$ & Trophic level in MHI, where $h = 2,3,4$  & \\
    $\gamma_h$ &  Trophic level biomass at trophic level $h$ & metric tons  \\
-   $\nu$ & NPP & metric tons C/year \\
+   $\nu$ & Net primary production (NPP) & metric tons C/year \\
+   %9 & Carbon to wet weight conversion ratio & metric tons/ metric tons C  \\
    9 & Carbon to wet weight conversion ratio &  \\
    $\tau_{h}$ & Transfer efficiency between trophic level $h-1$ and $h$ &   \\  
    $\lambda_h$ & Lifespan of a species found at trophic level $h$ & years \\
@@ -546,7 +547,7 @@ Both \citet{lalli1997biological} and \citet{libralato2008novel} outlined that pr
 \label{description}
 \end{table}
 
-\subsection*{Data}
+\subsection{Data}
 We built Eq. (\ref{base}) for our case study of the MHI using the following data sources: We used the 8-day time series Sea-viewing Wide Field-of-view Sensor (SeaWiFS) chlorophyll \textit{a} data from 1997 to 2010 that was transformed using the \textit{Eppley-}Vertically Generalized Production Model (VGPM) to estimate NPP from chlorophyll \textit{a} from the Ocean Productivity group at Oregon State University (\url{http://www.science.oregonstate.edu/ocean.productivity/}) (Fig. \ref{SeaWiFSmhi}) \cite{behrenfeld1997photosynthetic}. Estimated trophic levels (rational numbers) were calculated from the FishBase database (\url{http://www.fishbase.org/}) of \citet{fishbase} for each species and truncated to assign species into integer-valued trophic levels. Truncated trophic levels range in the MHI from $h=1,\dots,4$ with $h=1$ representing phytoplankton, $h=2$ primary consumers, $h=3$ secondary consumers, and $h=4$ tertiary consumers. In this ecosystem, the maximum trophic level is 4. However, this value can vary in other ecosystems depending on the species composition. The \citet{fishbase} FishBase data set was also used to estimate the lifespan ($\lambda_h$) across all species at trophic level $h$. In this database \citet{fishbase} defines the term lifespan as ``the maximum expected age, on average, for a species, cohort, stock, or a population in the absence of fishing. Smaller than maximum age although may be used in this sense."
 
 \begin{figure}[H]
@@ -556,8 +557,8 @@ We built Eq. (\ref{base}) for our case study of the MHI using the following data
     \label{SeaWiFSmhi}
 \end{figure}
 
-\subsection*{Assumptions and General Model}
-\subsubsection*{Assumptions in Model}
+\subsection{Assumptions and General Model}
+\subsubsection{Assumptions in Model}
 In Eq. (\ref{joint}), we present the decomposition of the joint distribution for the general ecological model. Here we assume that the random variables NPP $(\nu)$, transfer efficiencies $(\tau_2, \tau_3,$ and $\tau_4)$, and lifespans $(\lambda_2, \lambda_3,$ and $\lambda_4)$ are independent. This assumption is ecologically reasonable, because the amount of energy going into the system does not depend upon the transfer of energy or an organism's lifespan. Additionally, we assume that the distribution of transfer efficiency at trophic level $h$, ($\tau_h$), is independent of transfer efficiency at the previous trophic level ($\tau_{h-1}$). Throughout this paper, we therefore assume the joint distribution for $\nu, \tau_2, \tau_3, \tau_4, \lambda_2, \lambda_3,$ and $\lambda_4$ can be broken down as:
 
 \begin{equation} \label{joint}
@@ -566,10 +567,10 @@ f(\nu, \tau_2, \tau_3, \tau_4, \lambda_2, \lambda_3, \lambda_4) =  f(\nu)f(\tau_
 
 Since the trophic level biomass, $\gamma_h$, for trophic levels $h \in \{ 2,3,4\}$ in Eq. (\ref{base}) is a deterministic function of the random variables from Eq. (\ref{joint}), given the distributional assumptions detailed both above and in Table \ref{assumcases}, it is possible  in some cases to find the distribution of $\gamma_h$ for $h \in \{2, 3, 4\}$. Our assumptions in Eq. (\ref{joint}) implies that we are assuming if trophic level $h_x$ does not equal to trophic level $h_y$, the lifespan ($\lambda_{h_{x}}$) is independent of trophic level biomass ($\gamma_{h_{y}}$) for $h_x, h_y \in \{2, 3, 4\}$.
 
-\subsubsection*{Random Distributions on Random Variables}
+\subsubsection{Random Distributions on Random Variables}
 Variation in ecosystem-based models is a contested area of research in fisheries science. Many studies use a default 10\% transfer efficiency for $\tau_h$ for each $h \in \{2, 3, 4\}$ (i.e., $\tau_h = 0.10 \hspace{2mm} \forall \hspace{2mm} h \in \{2, 3, 4\}$), thereby assuming this is constant across all trophic levels \cite{lindeman1942trophic, slobodkin1962energy, may1976theoretical, pauly1995primary}. However, other researchers have estimated that the true transfer efficiency may be higher than 10\% \cite{schaefer1965potential, ryther1969photosynthesis,sheldon1977structure, baumann1995comment}, may vary depending on the size and type of ecosystem \cite{libralato2008novel, heymans2011ecopath}, and decrease with increasing trophic levels \cite{may1983ecology, barnes2010global}. As the current study is applied to a data-limited case, we are unsure of the values of NPP ($\nu$), transfer efficiency $(\tau_h)$, and lifespans ($\lambda_h$) for $h \in \{2, 3, 4\}$ in the model. Therefore, we choose to study sensitivities of biomass ($\gamma_h$) to each of the three components.
 
-\subsubsection*{Distributional Assumptions}
+\subsubsection{Distributional Assumptions}
 Several distributional and conditional assumptions we placed on the distributions of the random variables NPP ($\nu$), transfer efficiencies $(\tau_h)$, and lifespans ($\lambda_h$) for $h \in \{2, 3, 4\}$ are described in Table \ref{assumcases} and visualized in Fig. \ref{distassump} as special cases of our general model Eq. (\ref{joint}). In Case 1 of $f(\nu)$, a value of $c_1 = 87339861.7$ metric tons C/ year was estimated by fitting a time series seasonal autoregressive integrated moving average model (SARIMA model) to the SeaWiFS data using R v.3.4.3 \cite{Rcite} forecast package v8.2 and function auto.arima() \cite{forecast1, forecast2}. Case 2 of $f(\nu)$ was approximated based on goodness-of-fit tests fitted to the SeaWiFS data \cite{fitdistrplus} (Fig. \ref{distassump}, column 1). 
 
 \vspace{5mm}
@@ -620,7 +621,7 @@ In Case 1 for $f(\lambda_2)$, $f(\lambda_3)$, and $f(\lambda_4)$, the values of 
     \label{distassump}
 \end{figure}
 
-\subsection*{Simulation Scenarios}
+\subsection{Simulation Scenarios}
 We combine distributional assumptions on the components of Eq. (\ref{joint}) corresponding to NPP $f(\nu)$, transfer efficiencies $f(\tau_h)$, and lifespans $f(\lambda_h)$ for $h \in \{2, 3, 4\}$ from Table \ref{assumcases} to create different scenarios that represent various ecological assumptions (See Table \ref{scenariosids} for the explanation of scenario code names and Table \ref{scenarios} for description of scenarios). In Table \ref{scenarios}, we interpret each cell as the $i^{th}$ distributional case outlined in Table \ref{assumcases} for the $x^{th}$ variable. For example, we would interpret $f^1(\nu)$ as the distributional assumption under the column Case 1 for $f(\nu)$ in Table \ref{assumcases}. The transfer efficiencies ($\tau_2, \tau_3, \tau_4$) and maximum expected lifespans ($\lambda_2, \lambda_3, \lambda_4$) are independent of each other in all cases. We construct different scenarios to not only incorporate uncertainty in the NPP (denoted by superscript ``2" in Table \ref{assumcases}, $f^2(\nu)$) and lifespans ($f^2(\lambda_h)$ for $h \in \{2, 3, 4\}$), but also to encompass contrasting values for the transfer efficiency. The three areas focused on in this manuscript are: constant transfer efficiencies ($f^1(\tau_h)$ for $h \in \{2, 3, 4\}$), non-constant but independent transfer efficiencies ($f^2(\tau_h)$ for $h \in \{2, 3, 4\}$), and the constriction on transfer efficiencies distributions at successive trophic levels ($f^3(\tau_h)$ for $h \in \{2, 3, 4\}$). Scenario NTL (i.e., fixed NPP ($\nu$), fixed transfer efficiencies ($\tau_h$), and fixed lifespans ($\lambda_h$)) is a simplistic model intended to be used as a comparison to other relatively similar simple equations \cite{pauly1995primary, cury2005trophodynamic, chassot2010global, watson2014primary}. 
 
 \begin{table}[H]
@@ -628,7 +629,7 @@ We combine distributional assumptions on the components of Eq. (\ref{joint}) cor
 \caption{Key of the scenario code names used to identify the various ecological and distributional assumptions.}
 \begin{tabular}{|c|cc|cc|cc|}
   \hline Types of Transfer  & \multicolumn{2}{c|}{NPP ($\nu$)} & \multicolumn{2}{c|}{Transfer efficiency ($\tau_h$)}  &  \multicolumn{2}{c|}{Lifespan ($\lambda_h$)}  \\ 
-  Efficiency Variation & Fixed & Random & Fixed & Random & Fixed & Random  \\
+   Efficiency Variation & Fixed & Random & Fixed & Random & Fixed & Random  \\
     \hline
   Fixed 10\% & N & n & T &   & L & l \\
   Allowed to vary & \textit{N} & \textit{n} & & \textit{t} & \textit{L} & \textit{l} \\
@@ -660,7 +661,7 @@ We combine distributional assumptions on the components of Eq. (\ref{joint}) cor
 \label{scenarios}
 \end{table}
 
-\subsection*{Simulation Details}
+\subsection{Simulation Details}
 We were able to find equations for the distribution of $\gamma_h$ for $h \in \{2, 3, 4\}$ based on the transformation of parameters in Eq. (\ref{joint}) for Scenarios NTl and nTl. For details see Appendix \ref{appendix:b}. Given the current distributional assumptions placed on NPP ($f(\nu)$), transfer efficiencies ($f(\tau_h)$), and lifespans ($f(\lambda_h)$ for $h \in \{2, 3, 4\}$), we used simulations for the other six scenarios. Scenario NTL is a deterministic equation and therefore does not need simulation. We ran one million simulations for the other scenarios. 
 
 \vspace{5mm}
@@ -675,7 +676,7 @@ In order to support simulation as a reasonable option, we examine the densities 
 \end{figure}
 
 
-\section*{Results}
+\section{Results}
 At the primary consumer level ($h=2$), all scenarios exhibit skewed distributions of trophic level biomass ($\gamma_2$) (Fig. \ref{betaestimated}).  When the transfer efficiency is treated as a random variable in Scenarios \textit{NtL}, \textit{Ntl}, \textit{ntl}, \textbf{NtL}, \textbf{Ntl}, and \textbf{ntl}, both the dispersion and interquartile ranges increase. Out of all of the scenarios, Scenarios NTl, nTl, \textit{NtL}, and \textbf{NtL} have the smallest coefficients of variation (CV) while Scenarios \textbf{Ntl} and \textbf{ntl} have the largest CV (Table \ref{cv}). The medians of the scenarios that represent the constricting distribution of transfer efficiencies as we move up the food web (i.e., \textbf{NtL}, \textbf{Ntl}, and \textbf{ntl}) are higher than Scenario NTL's trophic level biomass estimate (Fig. \ref{beta2estimated}).   
 
 \begin{figure}[H]
@@ -733,7 +734,7 @@ At the tertiary consumer level ($h=4$), most of the same distributional and disp
 \end{figure}
 
 
-\section*{Discussion}
+\section{Discussion}
 Even though we placed different distributional assumptions on each of the scenarios, some common visual and mathematical patterns emerge in Fig. \ref{beta2estimated}, \ref{beta3estimated}, and \ref{beta4estimated} and in Table \ref{cv}. The level of variability differed depending on the distributional assumptions. The simulations demonstrate that we can cluster the scenarios into 3 groups: fixed transfer efficiency (i.e., NTl and nTl), random transfer efficiency (i.e., \textit{NtL}, \textit{Ntl}, and \textit{ntl}), and decreasing transfer efficiency (i.e., \textbf{NtL}, \textbf{Ntl}, and \textbf{ntl}). These communal patterns indicate that the distributional assumptions placed on the transfer efficiency affects the distribution of trophic level biomasses more than the assumptions placed on NPP and maximum expected lifespan. Therefore by ignoring the variability in transfer efficiency, researchers risk drawing incorrect conclusions about biomass. 
 
 \vspace{5mm} 
@@ -770,7 +771,7 @@ The results of our simulations gives insight into the rigor of information we ob
 \chapter{Ecosystem knowledge in Bayesian surplus production models--what can it tell us?}
 %---  Introduction -------------------------
 
-\section*{Introduction}
+\section{Introduction}
 Ecosystem models make use of different types of data than traditional stock assessment models and have the ability to describe a wide range of environmental states. While many ecosystem models do not provide the kind of results applicable to fisheries management, they may be available to provide new information to data-limited systems such as the biomass available at an ecosystem-level. For example in Chapter 3: Untangling uncertainty in food web models, the trophic pyramid food web model I developed cannot tell the commercial fishing operations exactly how much fish to catch, but the model can tell fisheries management what's a realistic carrying capacity for the ecosystem, which may be useful in determining catch limits at a larger scale. Other existing ecosystem models are complex and require similar data types that are used in traditional stock assessment models. Often, the data demands of these ecosystem models far exceed those of stock assessment models. We theorize that in some situations combining the simpler ecosystem models that use alternative data types with data-limited stock assessments may improve assessment reliability. 
 
 \vspace{5mm}
@@ -786,8 +787,8 @@ Bayesian methods incorporate additional information in the form of prior distrib
 In this study, we investigated the feasibility of incorporating ecosystem knowledge into existing single-species models, specifically for data-limited fisheries. We created two Bayesian models: a classic Bayesian surplus production model and a Bayesian surplus production model that includes ecological information. We then used a trophic pyramid food web model to estimate the distribution of trophic level biomasses. Finally, within a Bayesian framework, we linked that information with multiple single-species models’ carrying capacities. By combining these approaches, we determined if the indirect use of ecological information can help constrain the selection process for the carrying capacity of the ecosystem.  
 
 
-\section*{Methods}
-\subsection*{Case Study}
+\section{Methods}
+\subsection{Case Study}
 We selected a data-limited fishery in the main Hawaiian Islands (MHI) for our case study. The Hawaii bottomfish complex uses traditional deep handline capture methods for commercial and recreational harvest of the thirteen species of snappers, jacks, and groupers inhabiting the Hawaiian Archipelago. These species occupy different ecological niches, including both shallow- and deep-water habitats. A subset of the Hawaii bottomfish complex have similar life history traits and distributions (Table \ref{names}). These species have been clustered together into their own complex called the Hawaii Deep7 Bottomfish and have been the focus of fisheries management for the past few assessments (see \citealt{langseth2018stock}). However, limited information is known about their life history traits. Scientists assessing this fishery are concerned that life history traits (e.g., intrinsic growth rate, carrying capacity, etc.) vary drastically amongst the Deep7 Bottomfish complex, which could detrimentally impact the legitimacy of the projected biomass for one or all of the bottomfish species. Nonetheless, the last few published stock assessments used a single production model to determine the impacts of fishing for all seven species in the Hawaii Deep7 Bottomfish complex  \cite{brodziak2009hawaiian,langseth2018stock}. 
 
 \begin{table}[H]
@@ -809,8 +810,8 @@ Snapper & Gindai & \textit{Pristipomoides zonatus} \\
 \label{names}
 \end{table}
 
-\subsection*{Data from the Main Hawaiian Islands Deep7 Bottomfish Complex Through 2010 Assessment}
-\subsubsection*{Catch and CPUE Data}
+\subsection{Data from the Main Hawaiian Islands Deep7 Bottomfish Complex Through 2010 Assessment}
+\subsubsection{Catch and CPUE Data}
 We utilized fishery catch and standardized catch-per-unit-effort (CPUE) indices data from the stock assessment on the Main Hawaiian Islands Deep7 Bottomfish Complex Through 2010 \cite{langseth2018stock} in our analysis. The assessment reported species-specific total reported and unreported catch from 1949-2016 and aggregated CPUE data from 1948-2015. To keep a consistent time line, we only used catch and CPUE data that fell between 1949-2015 (Fig. \ref{catchandcpue}).
 
 \begin{figure}[H]
@@ -826,7 +827,7 @@ In order to obtain species-specific estimates of CPUE per year ($CPUE_{i,t}$) fr
 CPUE_{i,t} = \frac{C_{i,t}}{\sum_{i=1}^{n}C_{i,t}}*CPUE_t^*
 \end{equation}
 
-\subsection*{Logistic Surplus Production Models}
+\subsection{Logistic Surplus Production Models}
 We fitted logistic (Schaefer) surplus production models with relative abundance indices as our biomass dynamics models (Eq. \ref{production}) \cite{schaefer1954some}. In Eq. \ref{production}, for species $i$ where $i=1,\dots,n$ a population's biomass in year $t$ ($B_{i,t}$) is dependent on the previous year's biomass ($B_{i,t-1}$), the species' intrinsic growth rate ($r_i$), the population's carrying capacity ($K_i$), and the previous year's fishery catch ($C_{i,t-1}$). To clarify, $B_{i,t}$ represents a matrix with dimension $i\times t$, whereas $K_i$ is a vector with dimension $i$. We assume that $r_i=r_j \hspace{2mm} \forall \hspace{2mm} i,j$. All $r_i$ are identical. Thus for the sake of brevity, we will refer to it simply as $r$. However, each value of $K_i$ is unique for species $i$. We also assume independence across years. In year zero (i.e., 1949), we set the estimated biomass equal to the virgin unfished biomass $K_i$. The two parameters that require estimation in Eq. (\ref{production}) are $r$, where $r$ is defined between 0 and 1 and $K_i$, where $K_i > 0$. See Table \ref{production_table} for defined variables and parameters definitions within Eq. (\ref{production}).
 
 \begin{equation} \label{production}
@@ -851,7 +852,7 @@ B_{i,t} = B_{i,t-1} + r*B_{i,t-1} \left(1- \frac{B_{i,t-1}}{K_i} \right)-C_{i,t-
 \label{production_table}
 \end{table}
 
-\subsubsection*{Catch per Unit Effort (CPUE)}
+\subsubsection{Catch per Unit Effort (CPUE)}
 We use \citet{langseth2018stock} definition of catch per unit effort (CPUE, $CPUE_{i,t}$) and effort ($E_t$). CPUE ($CPUE_{i,t}$) is defined as the total weight in pounds for species $i$ in year $t$ caught across all records within a fishing event divided up the unit of effort in year $t$ (Eq. \ref{cpue}). Effort ($E_t$) is defined as the number of days fishing prior to October 2002 ($E_{t<2002}$) and the number of hours fishing since October 2002 ($E_{t>=2002} $). Catch is recorded daily. Both catch and effort are aggregated to obtain yearly estimates. Effort is assumed to be the same for all species $i$. We assume independence across years. Table \ref{cpue_table} describes notation and units for Eq. \ref{cpue}.
 
 \begin{equation}  \label{cpue}
@@ -878,7 +879,7 @@ E_{t>=2002} & t>= \hspace{2mm} \text{October} \hspace{1mm} 2002
 \label{cpue_table}
 \end{table}
 
-\subsubsection*{Catchability}
+\subsubsection{Catchability}
 Catchability is defined as the fish caught per fish available per unit of effort and per time unit. The catchability coefficient is defined as $q_{i}$ for species $i$.  We use \citet{hilborn1992quantitative} assumption that the catchability coefficient $q_{i}$ is time invariant. We estimate $q_{i}$ (i.e., $\widehat{q_{i}} $) in terms of $CPUE_{i,t}$ and $B_{i,t}$ in Eq. \ref{catchability_a}, where data is available on the total catch per species $i$ in year $t$ ($C_{i,t}$) and the observed relative abundance indices ($CPUE_{i,t}$) for species $i$ in year $t$ for years $1949-2015$. Since we have two measures of effort, we have two estimates of catchability: one for prior to October 2002 ($\widehat{q_{i,t<2002}}$) and one for after October 2002 ($\widehat{q_{i,t>=2002}}$). We assume independence across years and let the total number of years in each time frame of the data set be represented as $m_{t<2002}$ and $m_{t>=2002}$. 
 
 \begin{align} \label{catchability_a}
@@ -887,7 +888,7 @@ Catchability is defined as the fish caught per fish available per unit of effort
 &\widehat{q_{i,t>=2002}} = e^{\frac{\sum_{t=2002}^{2015} ln(\widehat{q_{i}})}{m_{t>=2002}}}  
 \end{align}
 
-\subsubsection*{Regression methods}
+\subsubsection{Regression methods}
 Using the relationship between Eq. \ref{production} and \ref{catchability_b}, we can substitute the predicted biomass $B_{i,t}$ in Eq. \ref{production} with $B_{i,t<2002}=\frac{CPUE_{i,t}}{\widehat{q_{i},t<2002}} $ and $B_{i,t>=2002}=\frac{CPUE_{i,t}}{\widehat{q_{i,t>=2002}}} $. We outline the theory below discussed in \citet{hilborn1992quantitative}. For the sake of brevity, we will not distinguish between the two estimates of the catchability coefficient in the following equations in this section and instead will just write $\widehat{q_i}$ to denote the estimate of $q_i$.
 
 \begin{align*}
@@ -906,7 +907,7 @@ Thus in the linear equation (Eq. \ref{regression}), $\frac{CPUE_{i,t}}{CPUE_{i,t
 \frac{CPUE_{i,t}}{CPUE_{i,t-1} } -1 = r -\frac{r}{\widehat{q_i}*K_i}*CPUE_{i,t-1}  - \widehat{q_i}*E_{t-1} 
 \end{equation}
 
-\subsubsection*{Optimization for $r$ and $K_i$ } 
+\subsubsection{Optimization for $r$ and $K_i$ } 
 We re-arrange the terms in Eq. \ref{regression} and treat the quantity defined in Eq. \ref{randomvar} as a random variable $w_{i,t}$. 
 
 \begin{equation} \label{randomvar}
@@ -935,7 +936,7 @@ The optimal values of $r$ and $K_i$ for species $i$ minimizes the log likelihood
 These surplus production models work only if fishing catch ($C_{i,t}$) is causing the change in the biomass index value ($B_{i,t}$). When this is the case, then there is enough information in the model to estimate $r$ and $K_i$. If the change in catch per unit effort ($CPUE_{i,t}$) is proportional to abundance, then the model has no information to estimate $r$ and $K_i$, because the changes in abundance are being dominated by the recruitment variability. The trend will  be captured in the model as random noise. 
 
 
-\subsection*{Bayesian model}
+\subsection{Bayesian model}
 We set up two Bayesian frameworks in our analysis: a classic Bayesian surplus production model and a Bayesian surplus production model that incorporates ecological information. The Bayesian surplus production models were applied on the individual populations and not the aggregated fishery complex. The posterior distribution for both cases are as follows:
  
 \begin{align*}
@@ -949,7 +950,7 @@ The posterior distribution $\pi(\theta_i|w_{i,t})$ is proportional to the prior 
 
 In both of the Bayesian frameworks, we ran 10,000 Monte Carlo simulations per species with the sampling/importance resampling algorithm (SIR) algorithm. Monte Carlo simulations with the SIR algorithm are a simple and versatile method for drawing a sample approximately from a target distribution \cite{mcallister1997bayesian, givens2012computational}. We based our approach off of the methods described in \citet{mcallister1997bayesian}. Samples from the posterior distribution of the production model parameters were simulated in order to make inferences.
 
-\subsection*{Prior Information}
+\subsection{Prior Information}
 We place prior information from \citet{langseth2018stock} on the intrinsic growth rate ($r$) and carrying capacity ($K_i$) for species $i$ where $i=1,\dots,n$. In \citet{langseth2018stock}, the intrinsic growth rate ($r$) and carrying capacity ($K^*$) parameters are found to follow Lognormal distributions with mean values (0.11 and 27.55) and standard deviation (0.028 and 9.69) for $r$ and $K^*$ respectively.
 We used the mean and variance equations of a Lognormal distribution to calculate the  values of the parameters for the Lognormal distribution. We assume $r$ and $K_i$ for species $i$ where $i=1,\dots,n$ are independent. While the prior information from \citet{langseth2018stock} for the intrinsic growth rate ($r$) could be applied to individual production models, the prior distribution for the carrying capacity ($K^*$) needed to be adjusted since it represents the carrying capacity estimate for the sum of the seven groundfish species. Figure \ref{priorr} visualizes the distribution of random draws from the prior distribution on the intrinsic growth rate $r$.
 
@@ -982,7 +983,7 @@ K^* & \sim Lognormal(\mu_{K^*}, \sigma_{K^*}^2) \\
     \label{priorK}
 \end{figure}
 
-\subsubsection*{Bayesian Surplus Production Model}
+\subsubsection{Bayesian Surplus Production Model}
 Before fitting individual logistic (Schaefer) surplus production models, we clustered the bottomfish species by trophic level. We used the Fishbase database (\url{http://www.fishbase.org/}) of \citet{fishbase} to obtain information on trophic level. Out of the seven species, only Kalekale (\textit{Pristipomoides sieboldii}) occupies the third trophic level, with the remaining six occupying trophic level four. Therefore, we focused only the six species that occupied trophic level four since our main interest in this study was to test if the carrying capacity parameter could be constrained by ecological data. 
 
 \vspace{5mm}
@@ -997,7 +998,9 @@ K^*  \sim & Lognormal(\mu_K = 3.26, \sigma_K^2 = 0.17)  \\
 & 4380878.5, 402170.4, 126423.5)
 \end{align*}
 
-\subsubsection*{Bayesian Surplus Production Model with Environmental Link}
+
+
+\subsubsection{Bayesian Surplus Production Model with Environmental Link}
 The second set of Bayesian surplus models also estimates the relative abundance of the six species found at trophic level four, but in addition includes ecosystem-based information intended to limit the upper bounds of the carrying capacity. We applied an ecosystem-based constraint that the sum of the production model's carrying capacity (i.e., $K_n = \sum_{i=1}^{n} K_i$) cannot exceed the estimated trophic level biomass. In other words, the individual population's carrying capacity is limited by the ecological carrying capacity.
 
 \vspace{5mm}
@@ -1017,7 +1020,8 @@ We used a previously developed trophic pyramid food web model as presented in Ch
    \hline
    $h$ & Trophic level in MHI, where $h = 2,3,4$  & \\
    $\gamma_h$ &  Trophic level biomass at trophic level $h$ & millions of lbs  \\
-   $\nu$ & NPP & millions of lbs C/year \\
+   $\nu$ & Net primary production (NPP)  & millions of lbs C/year \\
+    %9 & Carbon to wet weight conversion ratio &  millions of lbs/ millions of lbs C\\
    9 & Carbon to wet weight conversion ratio & \\
    $\tau_{h}$ & Transfer efficiency between trophic level $h-1$ and $h$ &   \\  
    $\lambda_h$ & Lifespan of a species found at trophic level $h$ & years \\
@@ -1033,7 +1037,7 @@ We assume that the random variables NPP $(\nu)$, transfer efficiencies $(\tau_2,
 To create the environmental link in the simulations, we included a constraint within the SIR algorithm that the sum of the carrying capacities for the six species must not exceed the trophic level four biomass ($\sum_{i=1}^{6} K_i \le \gamma_4$). We performed this by randomly drawing a $\gamma_4$ and comparing it to the sum of the random draws from the carrying capacities from the individual production models.
 
 
-\section*{Results}
+\section{Results}
 We can break down our methods and thus our results into 3 parts that build in complexity: a surplus production model without prior information, a Bayesian surplus production model with the prior for the carrying capacity broken out for each of the six species at trophic level four, and then Bayesian surplus production model with ecological information. The results of the simulations indicate that the use of priors and then specifically, trophic level information, can improve our understanding of carrying capacity ($K_i$) for species that occupy the higher trophic levels (Fig. \ref{post_carrying}). For some species i.e., Lehi and Gindai), the surplus production model without prior information gave  different estimates of carrying capacity that the two Bayesian models(Fig. \ref{post_carrying}. This would indicate that the use of priors informed the model. In addition, the density plot shows a slight shift left in distribution for the Bayesian model that incorporated ecological information (Fig. \ref{post_carrying}, which means the inclusion of ecological information did constricted the posterior distribution of carrying capacity $K_i$.
 
 \begin{figure}[H]
@@ -1045,7 +1049,6 @@ We can break down our methods and thus our results into 3 parts that build in co
 
 The simulations also demonstrate that the use of priors and once again specifically, trophic level information, can provide us with more certain estimates of biomass in the terminal year (i.e., 2015) ($B_{2015}$) for the six species that occupy the higher trophic levels(Fig. \ref{post_terminal} and Table \ref{summary_term_bio}). The surplus production model without prior information would give very low and almost unrealistic estimates of biomass for some species (i.e.,  Opakapaka, Lehi, and Onaga) (Fig. \ref{post_terminal}). Then for Gindai, the surplus production model without prior information gave an estimate of biomass that was much higher than the two Bayesian models (Fig. \ref{post_terminal}). Both Bayesian models had bimodial distributions for most species (i.e., Hapuupuu, Ehu, Onaga, and Gindai) (Fig. \ref{post_terminal}), but for all species the Bayesian surplus production model with the ecological information constrained the posterior distribution (Fig. \ref{post_terminal} and Table \ref{summary_term_bio}). Thus the Bayesian surplus production model with the constrained SIR algorithm resulted in a more constricted posterior distribution of the biomass predicted in the terminal year (i.e., 2015) in comparison to the Bayesian surplus production model without the constraint (Fig. \ref{post_terminal} and Table \ref{summary_term_bio}). 
 
-
 \begin{figure}[H]
      \centering
        \includegraphics[width=\textwidth]{fig/post_terminal_bio}
@@ -1055,7 +1058,7 @@ The simulations also demonstrate that the use of priors and once again specifica
 
 \begin{table}[H]
 \centering
-\caption{Summary statistics of biomass in 2015 $B_{2015}$ in millions of pounds}
+\caption{Summary statistics of biomass in 2015 $(B_{2015})$ in millions of pounds}
 \begin{tabular}{llcccc}
   \hline 
  Species & Ecological  &  1st Quartile &  Median   & 3rd Quartile  &  Maximum \\
@@ -1116,7 +1119,7 @@ We also looked at the two estimates of the catchability coefficient to see if th
 While the published stock assessment for the Hawaii Deep7 Bottomfish complex used a single production model for the aggregated seven species, we created individual production models for six out of the seven species while relying on a set of underlying assumptions. By making a simple assumption that abundance was proportional to the total catch, we were able to obtain individual estimates of CPUE and thus create individual production models. We set up a method for determining the prior distribution on the carrying capacity for the individual species in the complex through the use of hyperpriors. Thus for six species at trophic level four, we were able to obtain species-specific prior distributions for the carrying capacity $K_i$. The results of the simulations show five out of the six species at trophic level four have similar distributions for biomass (Fig. \ref{post_terminal}). However, the abundance of Opakapaka is drastically different from the others. 
 
 
-\section*{Discussion}
+\section{Discussion}
  One of the Deep7 Bottomfish species, Opakapaka, makes up the majority of the catch composition (Fig. \ref{catchandcpue}). In addition, based upon the assumptions in our model our results suggests that Opakapaka has a drastically different distribution of abundance in relation to the other five species found at trophic level four. While the catch rates may be set at a level that is sustainable for Opakapaka, there is a chance that the ``weaker” stocks (e.g., Hapuupuu, Ehu, Onaga, Lehi, and Gindai) in this complex could be overfished and driven to unsustainably low levels \cite{hastings2017marine}. 
 
 \vspace{5mm}
@@ -1131,7 +1134,7 @@ The way we split up the aggregated data has potential application in fisheries. 
  
 The inclusion of ecological information in the Bayesian production models did help constrain the single-species model selection process. The presence of ecological information truncated off some of the largest estimated carrying capacity and terminal biomass values (Fig. \ref{post_terminal}). This finding  supports what many ecologists and fisheries scientists believe. In theory, ecological knowledge would inform fisheries models and help ground truth the recommended sustainable removals by removing the unrealistic estimates. Our results found that incorporating ecosystem knowledge into fisheries models can help constrain the model selection process.
  
-\subsection*{Limitations of Model}
+\subsection{Limitations of Model}
 We also placed an assumption about the starting biomass in the production model. Even though the locals have fished the Hawaiian bottomfish for hundreds of years, we assume unfished/virgin biomass in the start of the commercial fishery in year 1949. We are assuming that before modern technology, the effect of small-scale and artisanal fishing did not impact the populations enough to move it away from its natural unfished state. 
 
 \vspace{5mm}
