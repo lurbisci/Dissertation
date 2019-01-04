@@ -171,6 +171,12 @@ Givens, G.~H. and Hoeting, J.~A. (2012).
 \newblock {\em Computational statistics}, volume 710.
 \newblock John Wiley \& Sons.
 
+\bibitem[Gregg et~al., 2003]{gregg2003ocean}
+Gregg, W.~W., Conkright, M.~E., Ginoux, P., O'Reilly, J.~E., and Casey, N.~W.
+  (2003).
+\newblock Ocean primary production and climate: Global decadal changes.
+\newblock {\em Geophysical Research Letters}, 30(15).
+
 \bibitem[Hairston, 1993]{hairston1993causeeffect}
 Hairston, N.~G. (1993).
 \newblock Cause-effect relationships in energy flow, trophic structure, and
@@ -314,6 +320,12 @@ May, R.~M. (1983).
 \newblock Ecology: The structure of food webs.
 \newblock {\em Nature}, 301(5901):566--568.
 
+\bibitem[McAllister and Kirkwood, 1998]{mcallister1998bayesian}
+McAllister, M. and Kirkwood, G. (1998).
+\newblock Bayesian stock assessment: a review and example application using the
+  logistic model.
+\newblock {\em ICES Journal of Marine Science}, 55(6):1031--1060.
+
 \bibitem[McAllister and Ianelli, 1997]{mcallister1997bayesian}
 McAllister, M.~K. and Ianelli, J.~N. (1997).
 \newblock Bayesian stock assessment using catch-age data and the
@@ -405,12 +417,18 @@ Ryther, J.~H. et~al. (1969).
   world ocean.
 \newblock {\em Science (Washington)}, 166:72--76.
 
-\bibitem[San~Martin et~al., 2006]{sanmartin2006latitudinal}
-San~Martin, E., Harris, R.~P., and Irigoien, X. (2006).
+\bibitem[San~Martin et~al., 2006a]{sanmartin2006latitudinal}
+San~Martin, E., Harris, R.~P., and Irigoien, X. (2006a).
 \newblock Latitudinal variation in plankton size spectra in the {Atlantic}
   {Ocean}.
 \newblock {\em Deep Sea Research Part {II}: Topical Studies in Oceanography},
   53(14):1560--1572.
+
+\bibitem[San~Martin et~al., 2006b]{san2006latitudinal}
+San~Martin, E., Harris, R.~P., and Irigoien, X. (2006b).
+\newblock Latitudinal variation in plankton size spectra in the atlantic ocean.
+\newblock {\em Deep Sea Research Part II: Topical Studies in Oceanography},
+  53(14-16):1560--1572.
 
 \bibitem[Schaefer, 1954]{schaefer1954some}
 Schaefer, M.~B. (1954).
@@ -543,6 +561,12 @@ von Elert, E., Martin-Creuzburg, D., and Le~Coz, J.~R. (2003).
   and a freshwater herbivore ({Daphnia galeata}).
 \newblock {\em Proceedings of the Royal Society B: Biological Sciences},
   270(1520):1209--1214.
+
+\bibitem[Walther et~al., 2002]{walther2002ecological}
+Walther, G.-R., Post, E., Convey, P., Menzel, A., Parmesan, C., Beebee, T.~J.,
+  Fromentin, J.-M., Hoegh-Guldberg, O., and Bairlein, F. (2002).
+\newblock Ecological responses to recent climate change.
+\newblock {\em Nature}, 416(6879):389.
 
 \bibitem[Ware, 2000]{ware2000aquatic}
 Ware, D.~M. (2000).

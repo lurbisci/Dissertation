@@ -35,9 +35,9 @@
 \contentsline {section}{\numberline {4.1}Introduction}{62}{section.4.1}
 \contentsline {section}{\numberline {4.2}Methods}{64}{section.4.2}
 \contentsline {subsection}{\numberline {4.2.1}Case Study}{64}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Data from the Main Hawaiian Islands Deep7 Bottomfish Complex Through 2010 Assessment}{65}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.2}Data from the Main Hawaiian Islands Deep7 Bottomfish Complex 2018 Assessment}{65}{subsection.4.2.2}
 \contentsline {subsubsection}{Catch and CPUE Data}{65}{section*.9}
-\contentsline {subsection}{\numberline {4.2.3}Logistic Surplus Production Models}{66}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.3}Logistic Surplus Production Models}{67}{subsection.4.2.3}
 \contentsline {subsubsection}{Catch per Unit Effort (CPUE)}{67}{section*.10}
 \contentsline {subsubsection}{Catchability}{68}{section*.11}
 \contentsline {subsubsection}{Regression methods}{69}{section*.12}
@@ -45,37 +45,37 @@
 \contentsline {subsection}{\numberline {4.2.4}Bayesian model}{72}{subsection.4.2.4}
 \contentsline {subsection}{\numberline {4.2.5}Prior Information}{73}{subsection.4.2.5}
 \contentsline {subsubsection}{Bayesian Surplus Production Model}{76}{section*.14}
-\contentsline {subsubsection}{Bayesian Surplus Production Model with Environmental Link}{77}{section*.15}
+\contentsline {subsubsection}{Bayesian Surplus Production Model with Environmental Link}{76}{section*.15}
 \contentsline {section}{\numberline {4.3}Results}{79}{section.4.3}
 \contentsline {section}{\numberline {4.4}Discussion}{85}{section.4.4}
 \contentsline {subsection}{\numberline {4.4.1}Limitations of Model}{86}{subsection.4.4.1}
-\contentsline {chapter}{\numberline {A}Appendix for Chapter 2: Tangled is the web we weave}{87}{appendix.A}
-\contentsline {section}{\numberline {A.1}Decision trees}{87}{section.A.1}
-\contentsline {section}{\numberline {A.2}Fitting approximate distributions}{89}{section.A.2}
-\contentsline {section}{\numberline {A.3}SeaWiFS}{91}{section.A.3}
-\contentsline {section}{\numberline {A.4}R packages and versions}{92}{section.A.4}
-\contentsline {chapter}{\numberline {B}Appendix for Chapter 3: Untangling uncertainty in food web models}{93}{appendix.B}
-\contentsline {subsection}{\numberline {B.0.1}SeaWiFS}{93}{subsection.B.0.1}
-\contentsline {subsubsection}{Time Series Analysis}{93}{section*.16}
-\contentsline {subsubsection}{Simulation Setting}{97}{section*.17}
-\contentsline {subsection}{\numberline {B.0.2}Transfer Efficiency}{100}{subsection.B.0.2}
-\contentsline {subsection}{\numberline {B.0.3}FishBase}{109}{subsection.B.0.3}
-\contentsline {subsubsection}{Trophic Level}{109}{section*.18}
-\contentsline {subsubsection}{Maximum Expected Lifespan}{110}{section*.19}
-\contentsline {section}{\numberline {B.1}Marginal Distributions}{116}{section.B.1}
-\contentsline {subsection}{\numberline {B.1.1}Deriving Equations for Scenario NTl}{116}{subsection.B.1.1}
-\contentsline {subsection}{\numberline {B.1.2}Deriving Equations for Scenario nTl}{117}{subsection.B.1.2}
-\contentsline {subsection}{\numberline {B.1.3}Attempting to Derive Equations for Scenario \textit {NtL}}{118}{subsection.B.1.3}
-\contentsline {subsection}{\numberline {B.1.4}Attempting to Derive Equations for Scenario \textit {Ntl}}{119}{subsection.B.1.4}
-\contentsline {section}{\numberline {B.2}Table of Distributions}{120}{section.B.2}
-\contentsline {section}{\numberline {B.3}R packages and versions}{122}{section.B.3}
-\contentsline {chapter}{\numberline {C}Appendix for Chapter 4: Ecosystem knowledge in Bayesian surplus production models--what can it tell us?}{123}{appendix.C}
-\contentsline {section}{\numberline {C.1}Data}{123}{section.C.1}
-\contentsline {subsection}{\numberline {C.1.1}SeaWiFS}{123}{subsection.C.1.1}
-\contentsline {subsubsection}{Time Series Analysis}{123}{section*.20}
-\contentsline {subsection}{\numberline {C.1.2}Transfer Efficiency}{128}{subsection.C.1.2}
-\contentsline {subsection}{\numberline {C.1.3}FishBase}{130}{subsection.C.1.3}
-\contentsline {subsubsection}{Trophic Level}{130}{section*.21}
-\contentsline {subsubsection}{Maximum Expected Lifespan}{131}{section*.22}
+\contentsline {chapter}{\numberline {A}Appendix for Chapter 2: Tangled is the web we weave}{88}{appendix.A}
+\contentsline {section}{\numberline {A.1}Decision trees}{88}{section.A.1}
+\contentsline {section}{\numberline {A.2}Fitting approximate distributions}{90}{section.A.2}
+\contentsline {section}{\numberline {A.3}SeaWiFS}{92}{section.A.3}
+\contentsline {section}{\numberline {A.4}R packages and versions}{93}{section.A.4}
+\contentsline {chapter}{\numberline {B}Appendix for Chapter 3: Untangling uncertainty in food web models}{94}{appendix.B}
+\contentsline {subsection}{\numberline {B.0.1}SeaWiFS}{94}{subsection.B.0.1}
+\contentsline {subsubsection}{Time Series Analysis}{94}{section*.16}
+\contentsline {subsubsection}{Simulation Setting}{98}{section*.17}
+\contentsline {subsection}{\numberline {B.0.2}Transfer Efficiency}{101}{subsection.B.0.2}
+\contentsline {subsection}{\numberline {B.0.3}FishBase}{110}{subsection.B.0.3}
+\contentsline {subsubsection}{Trophic Level}{110}{section*.18}
+\contentsline {subsubsection}{Maximum Expected Lifespan}{111}{section*.19}
+\contentsline {section}{\numberline {B.1}Marginal Distributions}{117}{section.B.1}
+\contentsline {subsection}{\numberline {B.1.1}Deriving Equations for Scenario NTl}{117}{subsection.B.1.1}
+\contentsline {subsection}{\numberline {B.1.2}Deriving Equations for Scenario nTl}{118}{subsection.B.1.2}
+\contentsline {subsection}{\numberline {B.1.3}Attempting to Derive Equations for Scenario \textit {NtL}}{119}{subsection.B.1.3}
+\contentsline {subsection}{\numberline {B.1.4}Attempting to Derive Equations for Scenario \textit {Ntl}}{120}{subsection.B.1.4}
+\contentsline {section}{\numberline {B.2}Table of Distributions}{121}{section.B.2}
+\contentsline {section}{\numberline {B.3}R packages and versions}{123}{section.B.3}
+\contentsline {chapter}{\numberline {C}Appendix for Chapter 4: Ecosystem knowledge in Bayesian surplus production models--what can it tell us?}{124}{appendix.C}
+\contentsline {section}{\numberline {C.1}Data}{124}{section.C.1}
+\contentsline {subsection}{\numberline {C.1.1}SeaWiFS}{124}{subsection.C.1.1}
+\contentsline {subsubsection}{Time Series Analysis}{124}{section*.20}
+\contentsline {subsection}{\numberline {C.1.2}Transfer Efficiency}{129}{subsection.C.1.2}
+\contentsline {subsection}{\numberline {C.1.3}FishBase}{131}{subsection.C.1.3}
+\contentsline {subsubsection}{Trophic Level}{131}{section*.21}
+\contentsline {subsubsection}{Maximum Expected Lifespan}{132}{section*.22}
 \contentsline {section}{\numberline {C.2}Table of Distributions}{133}{section.C.2}
 \contentsline {section}{\numberline {C.3}R packages and versions}{135}{section.C.3}
